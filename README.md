@@ -76,3 +76,10 @@ Does something, probably
 You can access the changelog [here](/CHANGELOG.md).
 ## Contributors
 You can see everyone else who contributed to the module [here](CONTRIBUTORS.md)
+
+## Sources
+**Note** some of the character art will be placed with AI generated art as that is currently the only copyright free art I have access to. I will happily replace it with real human art when it materializes, but till then : S
+- Legitimate Jack
+  - AI generated :(
+- Tiger Painting
+  - FA Free Map Making Packs https://www.forgotten-adventures.net/live-gallery/
