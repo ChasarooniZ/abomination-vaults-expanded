@@ -2,17 +2,17 @@
   "id": "abomination-vaults-expanded",
   "title": "Abomination Vaults: Expanded",
   "description": "Adds the Abomination Vaults Expanded content to foundry",
-  "version": "#{VERSION}#",
-  "library": "false",
+  "version": "0.1.0",
   "compatibility": {
-    "minimum": 12,
-    "verified": 12
+    "minimum": "12",
+    "verified": "12"
   },
   "authors": [
     {
       "name": "chasarooniZ",
       "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "discord": "discordID#0001",
+      "flags": {}
     }
   ],
   "relationships": {
@@ -41,7 +41,8 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "languages/en.json",
+      "flags": {}
     }
   ],
   "packs": [
@@ -50,59 +51,68 @@
       "label": "Abomination Vaults: Expanded - Journals",
       "path": "packs/abomination-vaults-expanded-journals",
       "type": "JournalEntry",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "abomination-vaults-expanded-actors",
       "label": "Abomination Vaults: Expanded - Actors",
       "path": "packs/abomination-vaults-expanded-actors",
       "type": "Actor",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "abomination-vaults-expanded-macros",
       "label": "Abomination Vaults: Expanded - Macros",
       "path": "packs/abomination-vaults-expanded-macros",
       "type": "Macro",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "abomination-vaults-expanded-items",
       "label": "Abomination Vaults: Expanded - Items",
       "path": "packs/abomination-vaults-expanded-items",
       "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "abomination-vaults-expanded",
+      "label": "Abomination Vaults: Expanded",
+      "path": "packs/abomination-vaults-expanded",
+      "type": "Adventure",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "pf2e",
-      "flags": {}
+      "system": "pf2e"
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
+  "url": "https://github.com/ChasarooniZ/abomination-vaults-expanded",
+  "manifest": "https://github.com/ChasarooniZ/abomination-vaults-expanded/releases/latest/download/module.json",
+  "download": "https://github.com/ChasarooniZ/abomination-vaults-expanded/releases/download/0.1.0/module.zip",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
     {
       "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4",
+      "loop": false,
+      "flags": {}
     }
   ]
 }
