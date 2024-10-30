@@ -1,10 +1,9 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "abomination-vaults-expanded",
+  "title": "Abomination Vaults: Expanded",
+  "description": "Adds the Abomination Vaults Expanded content to foundry",
   "version": "#{VERSION}#",
   "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 12,
     "verified": 12
@@ -17,14 +16,23 @@
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "pf2e-abomination-vaults",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
   },
   "esmodules": [
     "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
   ],
   "styles": [
     "styles/module.css"
@@ -34,6 +42,56 @@
       "lang": "en",
       "name": "English",
       "path": "languages/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "abomination-vaults-expanded-journals",
+      "label": "Abomination Vaults: Expanded - Journals",
+      "path": "packs/abomination-vaults-expanded-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "abomination-vaults-expanded-actors",
+      "label": "Abomination Vaults: Expanded - Actors",
+      "path": "packs/abomination-vaults-expanded-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "abomination-vaults-expanded-macros",
+      "label": "Abomination Vaults: Expanded - Macros",
+      "path": "packs/abomination-vaults-expanded-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "abomination-vaults-expanded-items",
+      "label": "Abomination Vaults: Expanded - Items",
+      "path": "packs/abomination-vaults-expanded-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
     }
   ],
   "url": "#{URL}#",
