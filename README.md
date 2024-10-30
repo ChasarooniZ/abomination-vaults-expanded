@@ -8,6 +8,12 @@
 <!--- replace <your-module-name> with the `name` in your manifest -->
 <!--- ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2F<your-module-name>&colorB=4aa94a) -->
 
+# Abomination Vaults Expanded
+
+This is an adapation of the expansion written by **Taylor Hodgskiss** for abomination vaults.
+
+[Please support them here by buying the pdf](https://www.drivethrurpg.com/en/product/418672/the-abomination-vaults-expanded)
+
 
 # How to use this Template to create a versioned Release
 
