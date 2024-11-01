@@ -47,59 +47,15 @@
   ],
   "packs": [
     {
-      "name": "abomination-vaults-expanded-journals",
-      "label": "Abomination Vaults: Expanded - Journals",
-      "path": "packs/abomination-vaults-expanded-journals",
-      "type": "JournalEntry",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "abomination-vaults-expanded-actors",
-      "label": "Abomination Vaults: Expanded - Actors",
-      "path": "packs/abomination-vaults-expanded-actors",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "abomination-vaults-expanded-macros",
-      "label": "Abomination Vaults: Expanded - Macros",
-      "path": "packs/abomination-vaults-expanded-macros",
-      "type": "Macro",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "abomination-vaults-expanded-items",
-      "label": "Abomination Vaults: Expanded - Items",
-      "path": "packs/abomination-vaults-expanded-items",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "abomination-vaults-expanded",
       "label": "Abomination Vaults: Expanded",
       "path": "packs/abomination-vaults-expanded",
       "type": "Adventure",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     }
   ],
   "url": "https://github.com/ChasarooniZ/abomination-vaults-expanded",
