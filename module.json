@@ -2,7 +2,7 @@
   "id": "abomination-vaults-expanded",
   "title": "Abomination Vaults: Expanded",
   "description": "Adds the Abomination Vaults Expanded content to foundry",
-  "version": "#VERSION",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -58,9 +58,9 @@
       }
     }
   ],
-  "url": "https://github.com/ChasarooniZ/abomination-vaults-expanded",
-  "manifest": "https://github.com/ChasarooniZ/abomination-vaults-expanded/releases/latest/download/module.json",
-  "download": "https://github.com/ChasarooniZ/abomination-vaults-expanded/releases/download/0.1.0/module.zip",
+   "download": "#{DOWNLOAD}#",
+  "manifest": "#{MANIFEST}#",
+  "url": "#{URL}#",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
