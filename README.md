@@ -27,5 +27,5 @@ You can see everyone else who contributed to the module [here](CONTRIBUTORS.md)
   - AI generated :(
 - Tiger Painting
   - FA Free Map Making Packs https://www.forgotten-adventures.net/live-gallery/
-- Mirror
+- Mirrors
   - FA Free Map Making Packs https://www.forgotten-adventures.net/live-gallery/
