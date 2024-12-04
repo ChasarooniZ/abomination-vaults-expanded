@@ -29,3 +29,8 @@ You can see everyone else who contributed to the module [here](CONTRIBUTORS.md)
   - FA Free Map Making Packs https://www.forgotten-adventures.net/live-gallery/
 - Mirrors
   - FA Free Map Making Packs https://www.forgotten-adventures.net/live-gallery/
+## Permissions
+[License](LICENSE)
+
+Permission
+![Permission](ave%20proof.jpg)
