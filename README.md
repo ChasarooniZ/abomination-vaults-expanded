@@ -32,5 +32,4 @@ You can see everyone else who contributed to the module [here](CONTRIBUTORS.md)
 ## Permissions
 [License](LICENSE)
 
-Permission
-![Permission](ave%20proof.jpg)
+[Permission](ave%20proof.jpg)
