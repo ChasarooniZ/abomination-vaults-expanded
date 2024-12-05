@@ -1,3 +1,9 @@
+## 0.1.7
+- Added
+  - Basic List of Sidequest (add more quests)
+  - Aesphena's Tomb
+  - Zarmavdian's Ritual
+  - History of the Roseguard
 ## 0.1.6
 - Added
   - Changes to floor 7
