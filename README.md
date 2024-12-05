@@ -5,7 +5,7 @@
 
 # Abomination Vaults Expanded
 
-This is an adapation of the expansion written by **Taylor Hodgskiss** for abomination vaults.
+This is an adaptation of the expansion written by **Taylor Hodgskiss** for abomination vaults.
 
 [Please support them here by buying the pdf](https://www.drivethrurpg.com/en/product/418672/the-abomination-vaults-expanded)
 
@@ -29,6 +29,8 @@ You can see everyone else who contributed to the module [here](CONTRIBUTORS.md)
   - FA Free Map Making Packs https://www.forgotten-adventures.net/live-gallery/
 - Mirrors
   - FA Free Map Making Packs https://www.forgotten-adventures.net/live-gallery/
+- Cheery Man Whistle
+  - Made by me (Chasarooni) can be used under [CC-BY](https://creativecommons.org/licenses/by/4.0/)
 ## Permissions
 [License](LICENSE)
 
