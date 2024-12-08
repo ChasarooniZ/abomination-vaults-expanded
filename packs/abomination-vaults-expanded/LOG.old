@@ -1,15 +1,8 @@
-2024/12/04-17:06:52.108028 ffff97fff160 Recovering log #153
-2024/12/04-17:06:52.112885 ffff97fff160 Delete type=3 #150
-2024/12/04-17:06:52.113025 ffff97fff160 Delete type=0 #153
-2024/12/05-06:17:52.296143 fffd76be6160 Level-0 table #160: started
-2024/12/05-06:17:52.305144 fffd76be6160 Level-0 table #160: 610812 bytes OK
-2024/12/05-06:17:52.306894 fffd76be6160 Delete type=0 #158
-2024/12/05-06:17:52.312672 fffd76be6160 Manual compaction at level-0 from '!adventures!WF3IiFzVvRwfZnF7' @ 72057594037927935 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at (end)
-2024/12/05-06:17:52.312720 fffd76be6160 Manual compaction at level-1 from '!adventures!WF3IiFzVvRwfZnF7' @ 72057594037927935 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at '!adventures!WF3IiFzVvRwfZnF7' @ 6 : 1
-2024/12/05-06:17:52.312725 fffd76be6160 Compacting 1@1 + 1@2 files
-2024/12/05-06:17:52.319174 fffd76be6160 Generated table #161@1: 1 keys, 208763 bytes
-2024/12/05-06:17:52.319187 fffd76be6160 Compacted 1@1 + 1@2 files => 208763 bytes
-2024/12/05-06:17:52.320723 fffd76be6160 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/12/05-06:17:52.320806 fffd76be6160 Delete type=2 #156
-2024/12/05-06:17:52.321032 fffd76be6160 Delete type=2 #160
-2024/12/05-06:17:52.321203 fffd76be6160 Manual compaction at level-1 from '!adventures!WF3IiFzVvRwfZnF7' @ 6 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at (end)
+2024/12/06-18:51:09.313882 ffffa5323160 Recovering log #169
+2024/12/06-18:51:09.320815 ffffa5323160 Delete type=3 #167
+2024/12/06-18:51:09.320839 ffffa5323160 Delete type=0 #169
+2024/12/07-03:55:14.551951 fffd76be6160 Level-0 table #175: started
+2024/12/07-03:55:14.551972 fffd76be6160 Level-0 table #175: 0 bytes OK
+2024/12/07-03:55:14.553606 fffd76be6160 Delete type=0 #173
+2024/12/07-03:55:14.555411 fffd76be6160 Manual compaction at level-0 from '!adventures!WF3IiFzVvRwfZnF7' @ 72057594037927935 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at (end)
+2024/12/07-03:55:14.555449 fffd76be6160 Manual compaction at level-1 from '!adventures!WF3IiFzVvRwfZnF7' @ 72057594037927935 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at (end)
