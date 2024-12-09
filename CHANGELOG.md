@@ -1,3 +1,16 @@
+## 0.2.1
+- `Added`
+  - `Changes to the Vaults`
+    - Floor 8
+    - Floor 9
+- `Updated`
+  - Fixed icon for `Effect: The Huntress' Blessing` (@Tyreal2012)
+  - Updated encounter tables for the **Red Holiday** to better show the nested table contents
+## 0.2.0
+- `Added`
+  - Demontide for Otari
+  - The Red Holiday
+    - Cheery Man Whistle sfx added :)
 ## 0.1.7
 - Added
   - Basic List of Sidequest (add more quests)
