@@ -1,3 +1,5 @@
+## 0.4.0
+- `Random Encounters` added
 ## 0.3.0
 - `Changes to the Vaults` is complete!
 - Added some cool animation macro stuff for final Belcorra Fight
