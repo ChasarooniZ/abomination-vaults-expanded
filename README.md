@@ -42,6 +42,8 @@ You can see everyone else who contributed to the module [here](CONTRIBUTORS.md)
   - AI generated :(
 - Dr Zacchaues Quagmire
   - AI generated :(
+- Cryde & Crede
+  - AI generated :(
 - Tiger Painting
   - FA Free Map Making Packs https://www.forgotten-adventures.net/live-gallery/
 - Mirrors
