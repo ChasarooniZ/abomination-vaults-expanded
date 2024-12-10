@@ -9,10 +9,26 @@ This is an adaptation of the expansion written by **Taylor Hodgskiss** for abomi
 
 [Please support them here by buying the pdf](https://www.drivethrurpg.com/en/product/418672/the-abomination-vaults-expanded)
 
+***Note** There may be some changes in wording etc. I did end up doing a small amount of editorializing, but overall it is largely the same*
+
 
 ## Table of Contents
 - [Changelog](#changelog)
 - [Contributors](#contributors)
+- [Sources](#Sources)
+
+
+
+
+## Cool Stuff
+
+https://github.com/user-attachments/assets/b47445d6-a06f-46aa-bf53-c7e1914fff9b
+
+
+
+https://github.com/user-attachments/assets/060b16fb-4e48-4c3e-9fec-720cc2687b72
+
+
 
 ## Changelog
 You can access the changelog [here](/CHANGELOG.md).
