@@ -1,3 +1,7 @@
+## 0.6.0
+  - `Otari NPCs` added
+  - `List of Sidequests` updated with some links to mentioned quests
+  - `Changes to the Vaults` added the section with changes to Ysondkhelir
 ## 0.5.0
 - `The Consortium Conspiracy` added
 ## 0.4.0
