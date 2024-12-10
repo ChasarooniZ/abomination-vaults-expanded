@@ -21,6 +21,7 @@ You can see everyone else who contributed to the module [here](CONTRIBUTORS.md)
 
 ## Sources
 **Note** some of the character art will be placed with AI generated art as that is currently the only copyright free art I have access to. I will happily replace it with real human art when it materializes, but till then : S
+### Pictures
 - Legitimate Jack
   - AI generated :(
 - Dr Zacchaues Quagmire
@@ -29,8 +30,12 @@ You can see everyone else who contributed to the module [here](CONTRIBUTORS.md)
   - FA Free Map Making Packs https://www.forgotten-adventures.net/live-gallery/
 - Mirrors
   - FA Free Map Making Packs https://www.forgotten-adventures.net/live-gallery/
+ 
+### SFX
 - Cheery Man Whistle
   - Made by me (Chasarooni) can be used under [CC-BY](https://creativecommons.org/licenses/by/4.0/)
+- belcorras-grasp-wave
+  - [Whoosh Dark](https://pixabay.com/sound-effects/whoosh-dark-45461/) by sfx4animation used under [pixabay license](https://pixabay.com/service/license-summary/), then cleaned up, bass boost, pitch shifted down, then spookified (reverse + reverb + reverse)
 ## Permissions
 [License](LICENSE)
 
