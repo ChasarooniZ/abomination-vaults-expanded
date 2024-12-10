@@ -1,3 +1,6 @@
+## 0.3.0
+- `Changes to the Vaults` is complete!
+- Added some cool animation macro stuff for final Belcorra Fight
 ## 0.2.1
 - `Added`
   - `Changes to the Vaults`
