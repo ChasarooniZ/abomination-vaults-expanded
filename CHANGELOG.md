@@ -1,3 +1,5 @@
+## 0.5.0
+- `The Consortium Conspiracy` added
 ## 0.4.0
 - `Random Encounters` added
 ## 0.3.0
