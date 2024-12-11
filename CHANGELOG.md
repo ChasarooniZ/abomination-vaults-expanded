@@ -1,3 +1,6 @@
+## 0.7.0
+  - `Founder's Day Festival` added
+  - Fixed link to `Effect: Belcorra's Vulnerability` (@Oshy)
 ## 0.6.0
   - `Otari NPCs` added
   - `List of Sidequests` updated with some links to mentioned quests
