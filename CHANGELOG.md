@@ -1,3 +1,9 @@
+## 0.9.0
+  - `Added`
+    - Integrating the BEginner Box and Troubles in Otari
+  - `Changes`
+    - Fixed portrait in `Otari NPCs`
+    - Added some more links to `Otari NPCs`
 ## 0.8.0
   - `Added`
     - The Great Absalom Spellbook Obtainment Experiment
