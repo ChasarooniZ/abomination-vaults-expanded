@@ -1,10 +1,8 @@
-## 0.9.0
+## 0.8.0
   - `Added`
     - The Great Absalom Spellbook Obtainment Experiment
   - `Changes`
-    - Fixed some of the links to point to their actual page
-## 0.8.0
-  - `Changes`
+    - Fixed some of the links to point to their actual page, as opposed to just the Journal
     - Fixed some spelling in `Otari NPCs`
     - Linked sidequests in `List of Side Quests`
 ## 0.7.0
