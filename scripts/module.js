@@ -9,7 +9,8 @@ Hooks.once('ready', async function () {
         const id = info?.document?.id;
         const text = getJournalEntryContent(id);
         if (text) {
-            $(html[2]).append($(TextEditor.enrichHTML(text)))
+            const content = await TextEditor.enrichHTML(text);
+            $(html[2]).append($(content))
         }
     });
 });
