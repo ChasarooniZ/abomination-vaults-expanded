@@ -118,7 +118,7 @@ function getJournalEntryContent(journalPageId) {
             journal.page = "I51. Ravirex's Grief"; break;
 
         //J
-        case "56ulq98tpQQP3Jup": //J16
+        case "IRSNx7dn1ps2j7R3": //J16
             journal.page = "J16. The Veiled Master"; break;
         case "a9b40LjI7QwLgirk": //J20
             journal.page = "J20. Belcorra's Changes"; break;
