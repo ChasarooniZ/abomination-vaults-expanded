@@ -14,6 +14,7 @@ Hooks.once('init', async function () {
 Hooks.once('ready', async function () {
     Hooks.on('renderJournalPageSheet', async function (_journalEntryPage, html, info) {
         if (!game.settings.get(MODULE_ID, "insert-journal")) return;
+        if(info?.document?.parent?.name.startsWith("AV:E")) return;
         const id = info?.document?.id;
         const text = getJournalEntryContent(id);
         if (text) {
@@ -40,7 +41,7 @@ function getJournalEntryContent(journalPageId) {
             journal.page = "B06. Tiger Painting"; break;
         case "CLm67CNpT0gNtor0": //B8
             journal.page = "B08. Extra Traps"; break;
-        case "surluLUD8HprMYIw": //B9
+        case "KSCa8Wx2rSKuzHC1": //B9
             journal.page = "B09. Loyal Dog"; break;
         case "38sQJNsnOb2GTdn5": //B12
             journal.page = "B12. His Other Pet"; break;
