@@ -1,6 +1,11 @@
+## 1.0.0
+- `Added`
+  - Add option to show Abomination Vaults: Expanded journals inside the official Journals
+- `Changes`
+  - Fixed issue with some of the journal links
 ## 0.9.0
   - `Added`
-    - Integrating the BEginner Box and Troubles in Otari
+    - `Integrating the Beginner Box and Troubles in Otari`
   - `Changes`
     - Fixed portrait in `Otari NPCs`
     - Added some more links to `Otari NPCs`
