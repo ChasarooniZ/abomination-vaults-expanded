@@ -1,7 +1,14 @@
 import { CHANGES_JOURNAL_ID, NAMES_TO_ID } from "./const.js";
 
 Hooks.once('init', async function () {
-
+    game.settings.register(MODULE_ID, "insert-journal", {
+        name: game.i18n.localize(`${MODULE_ID}.module-settings.insert-journal.name`),
+        hint: game.i18n.localize(`${MODULE_ID}.module-settings.insert-journal.hint`),
+        scope: "world",
+        config: true,
+        default: true,
+        type: Boolean,
+      });
 });
 
 Hooks.once('ready', async function () {

@@ -1,3 +1,11 @@
 {
-    "MODULE.hello": "hello"
+  "I18N.LANGUAGE": "English",
+  "abomination-vaults-expanded": {
+    "module-settings": {
+      "insert-journal": {
+        "name": "Insert AV:E Journals into Official Journals",
+        "hint": "Inserts relevant parts of the AV:E Journals into the Official Abomination Vaults Journals from the Premium Module"
+      }
+    }
+  }
 }

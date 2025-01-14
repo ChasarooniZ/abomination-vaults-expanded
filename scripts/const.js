@@ -1,3 +1,4 @@
+export const MODULE_ID = 'abomination-vaults-expanded'
 export const CHANGES_JOURNAL_ID = 'UTWz996e1nM1OkQ6';
 export const NAMES_TO_ID = {
     //Changes to the Vaults
