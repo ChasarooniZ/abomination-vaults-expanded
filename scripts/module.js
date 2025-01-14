@@ -137,7 +137,8 @@ function getJournalContent(page, options = { heading: "", journalID: CHANGES_JOU
     if (!journalPage) return null;
     let content = journalPage?.text?.content;
     if (options.heading) content = splitTextAtHeader(options.heading, content);
-    return `<hr><b>AV:E: ${journalPage.link}</b><br>${content}`
+    content = removeUUIDPart(content);
+    return `<hr><em><strong>Abomination Vaults: Expanded -</strong> ${journalPage.link}</em><hr>${content}`
 }
 
 function splitTextAtHeader(headerName, htmlText) {
@@ -169,4 +170,12 @@ function splitTextAtHeader(headerName, htmlText) {
 
     // Return the substring from the header to the next header or end of text
     return htmlText.slice(headerIndex, endIndex);
+}
+
+function removeUUIDPart(inputString) {
+    // Regular expression to match the pattern
+    const regex = /<p><strong>Modifies<\/strong> @UUID\[.*?\]{.*?}<\/p>/;
+
+    // Replace the matched pattern with an empty string
+    return inputString.replace(regex, '');
 }
