@@ -1,4 +1,4 @@
-import { CHANGES_JOURNAL_ID, NAMES_TO_ID } from "./const.js";
+import { CHANGES_JOURNAL_ID, MODULE_ID, NAMES_TO_ID } from "./const.js";
 
 Hooks.once('init', async function () {
     game.settings.register(MODULE_ID, "insert-journal", {
@@ -8,11 +8,12 @@ Hooks.once('init', async function () {
         config: true,
         default: true,
         type: Boolean,
-      });
+    });
 });
 
 Hooks.once('ready', async function () {
     Hooks.on('renderJournalPageSheet', async function (_journalEntryPage, html, info) {
+        if (!game.settings.get(MODULE_ID, "insert-journal")) return;
         const id = info?.document?.id;
         const text = getJournalEntryContent(id);
         if (text) {
