@@ -8,7 +8,9 @@ Hooks.once('ready', async function () {
     Hooks.on('renderJournalPageSheet', async function (_journalEntryPage, html, info) {
         const id = info?.document?.id;
         const text = getJournalEntryContent(id);
-        $(html[2]).append($(text))
+        if (text) {
+            $(html[2]).append($(TextEditor.enrichHTML(text)))
+        }
     });
 });
 
@@ -130,7 +132,7 @@ function getJournalEntryContent(journalPageId) {
 }
 
 function getJournalContent(page, options = { heading: "", journalID: CHANGES_JOURNAL_ID }) {
-    const journalPage = game.journal.get(page)?.pages?.get(options.journalID);
+    const journalPage = game.journal.get(options.journalID)?.pages?.get(page);
     if (!journalPage) return null;
     let content = journalPage?.text?.content;
     if (options.heading) content = splitTextAtHeader(options.heading, content);
