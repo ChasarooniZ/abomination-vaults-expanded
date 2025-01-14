@@ -1,3 +1,5 @@
+## 1.0.1
+- Fixed issue with module settings not working
 ## 1.0.0
 - `Added`
   - Add option to show Abomination Vaults: Expanded journals inside the official Journals
