@@ -60,3 +60,7 @@ You can see everyone else who contributed to the module [here](CONTRIBUTORS.md)
 [License](LICENSE)
 
 [Permission](ave%20proof.jpg)
+
+## Support The Project
+- Original Author - https://www.drivethrurpg.com/en/product/418672/the-abomination-vaults-expanded
+- Module Adapter (Me) - https://ko-fi.com/chasarooni
