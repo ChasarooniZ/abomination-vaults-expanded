@@ -13,6 +13,12 @@ This is an adaptation of the expansion written by **Taylor Hodgskiss** for abomi
 
 ***Note** There may be some changes in wording etc. I did end up doing a small amount of editorializing, but overall it is largely the same*
 
+## How Do I set this up?
+- Install the module
+- Import the Adventure
+- Import any other relavant Adventures (IE Abomination Vaults, Beginner Box, etc.)
+- Profit
+
 
 ## Table of Contents
 - [Changelog](#changelog)
