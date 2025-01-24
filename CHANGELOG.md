@@ -1,3 +1,6 @@
+## 1.0.3
+- Fixed notes on Volluk's spell changes to better reflect the benefit (Thanks to @Šuky for calling it out)
+
 ## 1.0.2
 
 - Ignore AV:E Journals when rendering journal insert
