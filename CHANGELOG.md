@@ -1,3 +1,8 @@
+## 1.0.6
+- Added `Ring of Transposition` (my interpretation of the item used to seal Otari and Aesphena's Engagement)
+- Added appropriate links to `Otari's Doom` & `Aesphena's Wrath`
+- Updated description of Aesphena's Tomb to properly include a reference to the ring
+
 ## 1.0.5
 - Added link to Beginner Box's changes to the main List
 - Fixed Missing Link in D12 (@MrPeach774)
