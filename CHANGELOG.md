@@ -1,7 +1,10 @@
-## 1.0.4
+## 1.0.5
 - Added link to Beginner Box's changes to the main List
 - Fixed Missing Link in D12 (@MrPeach774)
 - Fixed typo in D14 (@MrPeach774)
+
+## 1.0.4
+- Fixed notes on Magiloy's Mushrooms sidequest in order to make it clear where the section that describes the changes is (@eternus)
 
 ## 1.0.3
 - Fixed notes on Volluk's spell changes to better reflect the benefit (Thanks to @Šuky for calling it out)
