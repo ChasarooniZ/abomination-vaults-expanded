@@ -1,17 +1,30 @@
+## 1.0.8
+
+- Fixed issue where pages were inserting pages that weren't the correct page
+
+## 1.0.7
+
+- Fixed some spelling errors
+- Added Art for the Roseguard _AI :(_
+
 ## 1.0.6
+
 - Added `Ring of Transposition` (my interpretation of the item used to seal Otari and Aesphena's Engagement)
 - Added appropriate links to `Otari's Doom` & `Aesphena's Wrath`
 - Updated description of Aesphena's Tomb to properly include a reference to the ring
 
 ## 1.0.5
+
 - Added link to Beginner Box's changes to the main List
 - Fixed Missing Link in D12 (@MrPeach774)
 - Fixed typo in D14 (@MrPeach774)
 
 ## 1.0.4
+
 - Fixed notes on Magiloy's Mushrooms sidequest in order to make it clear where the section that describes the changes is (@eternus)
 
 ## 1.0.3
+
 - Fixed notes on Volluk's spell changes to better reflect the benefit (Thanks to @Šuky for calling it out)
 
 ## 1.0.2
