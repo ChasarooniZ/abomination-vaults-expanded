@@ -1,5 +1,10 @@
 ## 1.0.8
 
+- Fixed rules for `Cloak of the Huntress (Awakened)`
+
+
+## 1.0.8
+
 - Fixed issue where AV:E Pages linking to original AV pages were showing on pages they shouldn't
 
 ## 1.0.7
