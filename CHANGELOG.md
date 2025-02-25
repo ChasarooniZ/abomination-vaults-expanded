@@ -1,3 +1,8 @@
+## 1.0.10
+
+- Updated some more links in `Changes to the Vaults`
+
+
 ## 1.0.9
 
 - Fixed rules for `Cloak of the Huntress (Awakened)`
