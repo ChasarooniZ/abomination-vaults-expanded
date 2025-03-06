@@ -1,3 +1,7 @@
+## 1.0.11
+
+- Updated link to `Caliddo's Hitlist` in `Changes to the Vaults` `Floor E` (🐛@Eternus)
+
 ## 1.0.10
 
 - Updated some more links in `Changes to the Vaults`
