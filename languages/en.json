@@ -6,6 +6,116 @@
         "name": "Insert AV:E Journals into Official Journals",
         "hint": "Inserts relevant parts of the AV:E Journals into the Official Abomination Vaults Journals from the Premium Module"
       }
+    },
+    "journals": {
+      "abomination-vaults-expanded": {
+        "title": "Abomination Vaults: Expanded",
+        "summary-and-contents": {
+          "header": "Summary and Contents",
+          "body": "<p>Support the original author <a href=\"https://www.drivethrurpg.com/en/product/418672/the-abomination-vaults-expanded\" title=\"Drive Thru RPG\">here</a>!</p>\n<hr>\n<p><strong>Editor's Note.</strong> As specified below, these are simply a collection of ideas. I <span style=\"text-decoration:underline\"><span style=\"text-decoration: underline;\">Strongly</span></span> recommend you pick and choose the elements you like and feel free to change things up (also you can support me <a href=\"https://ko-fi.com/chasarooni\">here</a>, <em>but if you had to just pick one support the OG author</em>)<br><em>Also feel free to report any issues </em><a href=\"https://github.com/ChasarooniZ/abomination-vaults-expanded/issues\" title=\"Report issues to me!\"><em>here</em></a></p>\n<hr>\n<p>The Abomination Vaults is an excellent adventure, but like all adventures it is meant to be built upon. Any playthrough will be different, just as every group is different. Every GM will do things a little differently. This is how I did things.</p>\n<p>I have collated most of the changes and additional content I included in my Abomination Vaults game because I know I would have liked to have a resource like this to draw ideas from when I was starting out. In the document, I will explain why I made these changes. You might disagree. That’s fine! Like all such resources, you should take whatever you think will work for your game, and ignore the rest. I hope you can find some of my ideas helpful.</p>\n<p>Here is what this document contains:</p>\n<h3>The Roseguard @UUID[JournalEntry.ZPTalN8eYZyKYfz0]{ }</h3>\n<ul>\n    <li>\n        <p>Expanded histories of the Roseguard, from their individual careers before they banded together to their ultimate sad fate following the defeat of Belcorra</p>\n    </li>\n    <li>\n        <p>Roseguard artifacts necessary for descending to the 5th level are now more powerful, take more effort to acquire, and grow in ability throughout the adventure</p>\n    </li>\n    <li>\n        <p>The Roseguard remain relevant to the end, and their aid can be enlisted in the final battle against Belcorra by completing a difficult combat/ritual</p>\n    </li>\n</ul>\n<h3>Otari NPCs @UUID[JournalEntry.8BpPfc3CFGBW8HMj]{ }</h3>\n<ul>\n    <li>\n        <p>Otari NPCs have more fleshed-out personalities, motivations, and goals</p>\n    </li>\n    <li>\n        <p>Most NPCs have at least one side quest, which is often non-violent in nature to provide a breather from the Vaults; some of these side quests tie into the Troubles in Otari adventure</p>\n    </li>\n    <li>\n        <p>Added some new characters, mostly for good reasons</p>\n    </li>\n</ul>\n<h3>Changes to the Vaults @UUID[JournalEntry.UTWz996e1nM1OkQ6]{ }</h3>\n<ul>\n    <li>\n        <p>Added some traps and puzzles, just for fun</p>\n    </li>\n    <li>\n        <p>Expanded the role of the arena into an active coliseum in which the PCs can challenge foes singly or as a party for rewards (see Red Holiday below)</p>\n    </li>\n    <li>\n        <p>Several scripted encounters with Caliddo Haruvex in the upper levels</p>\n    </li>\n    <li>\n        <p>Urevian is now a Disney villain</p>\n    </li>\n    <li>\n        <p>The lift down from the seventh level breaks after use, trapping party in the eighth level</p>\n    </li>\n    <li>\n        <p>Rectified a baffling and inexcusable absence of flumphs in the Darklands</p>\n    </li>\n    <li>\n        <p>Implied involvement of the alghollthus in the background of this adventure</p>\n    </li>\n    <li>\n        <p>And more!</p>\n    </li>\n</ul>\n<h3>Random Encounter System @UUID[JournalEntry.NrNp6wwO5NKtMfLW]{ }</h3>\n<ul>\n    <li>\n        <p>A simple system for running a limited number of random encounters within the vaults, including a table of encounters custom-made for this adventure</p>\n    </li>\n</ul>\n<h3>The Founder's Day Festival @UUID[JournalEntry.6rvn0K6ZQ1LOX6tI]{ }</h3>\n<ul>\n    <li>\n        <p>Designed to introduce players to Otari NPCs, tell the tale of the Roseguard, and foreshadow events later on, such as Dorianna’s curse and the influence of the Kortos Consortium</p>\n    </li>\n    <li>\n        <p>Includes rules for a wide variety of games, events, and challenges</p>\n    </li>\n    <li>\n        <p>A theatrical production, which the PCs may be part of</p>\n    </li>\n    <li>\n        <p>Mayoral election speeches, and the important introduction of Carman Rajani</p>\n    </li>\n    <li>\n        <p>A harrow reading from Wrin</p>\n    </li>\n    <li>\n        <p>Festival ends with the activation of the Gauntlight and the @UUID[JournalEntry.3T1M395V6J75OsEp.JournalEntryPage.bwT6PloCsffN9m73]{Deadtide for Otari} event!</p>\n    </li>\n</ul>\n<h3>The Letters of Dr. Zacchaeus Quagmire III <em>@UUID[JournalEntry.L6vpoyYJbZZmlcrb]{ }</em></h3>\n<ul>\n    <li>\n        <p>A simple treasure hunt through the levels of the vaults, initiated by the ‘treasure map’ found as loot in the beginner box adventure</p>\n    </li>\n    <li>\n        <p>Provides some clues and hints to the players about what is coming up next – if they can find the letters!</p>\n    </li>\n</ul>\n<h3>The Great Absalom Spellbook Obtainment Expedition<em>@UUID[JournalEntry.XMPVD9YgBV9Smizi]{ }</em></h3>\n<ul>\n    <li>\n        <p>A short side-quest to Absalom to retrieve <em>Thresholds of Truth</em></p>\n    </li>\n    <li>\n        <p>Emphasis on non-combat solutions</p>\n    </li>\n    <li>\n        <p>Guidelines and suggestions for running skill challenges and stealth/heist encounters</p>\n    </li>\n    <li>\n        <p>Why it’s important for the PCs to go to Absalom at least once during this adventure</p>\n    </li>\n</ul>\n<h3>The Red Holiday @UUID[JournalEntry.VovCxhuAyfCR9THZ]{ }</h3>\n<ul>\n    <li>\n        <p>A system for running arena combat, singly or as a party, at the Red Holiday</p>\n    </li>\n    <li>\n        <p>Several tables of level-appropriate encounters and rewards</p>\n    </li>\n    <li>\n        <p>@Actor[4q9EP8Kio0Li5tlZ]{Cheery Man}, mysterious and insane announcer/organizer of the Red Holiday, follows the party’s progress on the upper levels and can be battled as the grand finale</p>\n    </li>\n</ul>\n<h3>Demontide for Otari @UUID[JournalEntry.1pJDsDbuD4cMiU7S]{ }</h3>\n<ul>\n    <li>\n        <p>A new event following the resolution of the Urevian story, in which Belcorra retaliates with an attack on Otari, reiterating the threat she poses and her growing power</p>\n    </li>\n    <li>\n        <p>Includes dream sequence fake-out</p>\n    </li>\n    <li>\n        <p>Kill beloved NPCs</p>\n    </li>\n    <li>\n        <p>Raise the stakes</p>\n    </li>\n</ul>\n<h3>The Consortium Conspiracy @UUID[JournalEntry.2hfULzZn5NL03aDy]{ }</h3>\n<ul>\n    <li>\n        <p>Introducing Credence and Cryde, sinister agents of the Kortos Consortium</p>\n    </li>\n    <li>\n        <p>PCs have several opportunities to put a stop to their nefarious activities, lest the Kortos Consortium take over Otari!</p>\n    </li>\n    <li>\n        <p>Emphasis on investigation, skill encounters, and other non-combat scenarios</p>\n    </li>\n</ul>\n<h3>Integrating the Beginner Box and Troubles in Otari @UUID[JournalEntry.2UVt7ZZqpIhTUQMo]{ }</h3>\n<ul>\n    <li>\n        <p>Advice on smoothly integrating this content into your Abomination Vaults adventure</p>\n    </li>\n    <li>\n        <p>Suggestions for handling leveling</p>\n    </li>\n</ul>\n<h3>List of Sidequests @UUID[JournalEntry.U9xg2M50ySiflh6O]{ }</h3>\n<ul>\n    <li>\n        <p>A checklist of sidequests outside the vaults, with recommended levels and rewards</p>\n    </li>\n</ul>"
+        },
+        "licensing": {
+          "header": "Licensing"
+        }
+      },
+      "example": {
+        "title": "",
+        "item": {
+          "header": "",
+          "body": ""
+        }
+      },
+      "av-e-changes-to-the-vaults": {
+        "title": "AV:E - Changes to the Vaults",
+        "foreward": {
+          "header": "",
+          "body": ""
+        },
+        "a-gauntlight-ruins": {
+          "header": "",
+          "body": ""
+        },
+        "b-servant-quarters": {
+          "header": "",
+          "body": ""
+        },
+        "b02-magic-mirror": {
+          "header": "",
+          "body": ""
+        },
+        "b08-extra-traps": {
+          "header": "",
+          "body": ""
+        },
+        "b09-loyal-dog": {
+          "header": "",
+          "body": ""
+        },
+        "b12-his-other-pet": {
+          "header": "",
+          "body": ""
+        },
+        "b22-clockwork-hunter": {
+          "header": "",
+          "body": ""
+        },
+        "c-library": {
+          "header": "",
+          "body": ""
+        },
+        "c11-volluks-short-appearance": {
+          "header": "",
+          "body": ""
+        },
+        "c36-descriptions-of-natural-phenomena": {
+          "header": "",
+          "body": ""
+        },
+        "d-belcorras-retreat": {
+          "header": "",
+          "body": ""
+        },
+        "d4-empty-wine-bottle": {
+          "header": "",
+          "body": ""
+        },
+        "d8-locks-&-volluk-changes": {
+          "header": "",
+          "body": ""
+        },
+        "d12-the-barrier": {
+          "header": "",
+          "body": ""
+        },
+        "d14-jaul-and-moral-decisions": {
+          "header": "",
+          "body": ""
+        },
+        "d18-otari-info": {
+          "header": "",
+          "body": ""
+        },
+        "the-theft-jr": {
+          "header": "",
+          "body": ""
+        },
+        "e-arena": {
+          "header": "",
+          "body": ""
+        },
+        "e16-shrinking-trap": {
+          "header": "",
+          "body": ""
+        },
+        "e23-under-the-mattress": {
+          "header": "",
+          "body": ""
+        },
+        "e26-the-cheery-man-&-the-red-holiday": {
+          "header": "",
+          "body": ""
+        }
+      }
     }
   }
 }
