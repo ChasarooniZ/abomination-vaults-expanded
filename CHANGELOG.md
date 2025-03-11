@@ -1,3 +1,11 @@
+## 1.1.0
+
+- Moved Journals to localization files, so they can be more easily updated, but also to support localizing them
+ - Misc spelling fix for journals
+- Added a stat block for powered up `Belcorra Haruvex`
+- Added **Dynamic Token Effects** for `Effect: Belcorra's Vulnerability`
+- Added stat blocks for `Aesphena's Wrath`
+
 ## 1.0.11
 
 - Updated link to `Caliddo's Hitlist` in `Changes to the Vaults` `Floor E` (🐛@Eternus)
@@ -6,11 +14,9 @@
 
 - Updated some more links in `Changes to the Vaults`
 
-
 ## 1.0.9
 
 - Fixed rules for `Cloak of the Huntress (Awakened)`
-
 
 ## 1.0.8
 

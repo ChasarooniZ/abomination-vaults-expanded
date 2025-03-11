@@ -193,16 +193,16 @@ function getJournalEntryContent(journalPageUUID) {
   return content;
 }
 
-function getJournalContent(
+async function getJournalContent(
   page,
   options = { heading: "", journalID: CHANGES_JOURNAL_ID }
 ) {
   const journalPage = game.journal.get(options.journalID)?.pages?.get(page);
   if (!journalPage) return null;
-  let content = journalPage?.text?.content;
+  let content = await TextEditor.enrichHTML(journalPage?.text?.content);
   if (options.heading) content = splitTextAtHeader(options.heading, content);
   content = removeUUIDPart(content);
-  return `<hr><em><strong>Abomination Vaults: Expanded -</strong> ${journalPage.link}</em><hr>${content}`;
+  return await TextEditor.enrichHTML(`<hr><em><strong>Abomination Vaults: Expanded -</strong> ${journalPage.link}</em><hr>${content}`);
 }
 
 function splitTextAtHeader(headerName, htmlText) {
