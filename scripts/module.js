@@ -21,7 +21,7 @@ Hooks.once("ready", async function () {
     async function (_journalEntryPage, html, info) {
       if (!game.settings.get(MODULE_ID, "insert-journal")) return;
       const uuid = info?.document?.uuid;
-      const text = getJournalEntryContent(uuid);
+      const text = await getJournalEntryContent(uuid);
       if (text) {
         const content = await TextEditor.enrichHTML(text);
         $(html[2]).append($(content));
@@ -30,7 +30,7 @@ Hooks.once("ready", async function () {
   );
 });
 
-function getJournalEntryContent(journalPageUUID) {
+async function getJournalEntryContent(journalPageUUID) {
   let journal = {};
   switch (journalPageUUID) {
     //A
@@ -65,18 +65,13 @@ function getJournalEntryContent(journalPageUUID) {
     case "JournalEntry.3T1M395V6J75OsEp.JournalEntryPage.b75DStTT45gWbHHu": //C
       journal.page = "C: Library";
       break;
-    case "JournalEntry.KeWKr2yd8dbppeS5.JournalEntryPage.sVpphDD0gtGtIlFh": //C8
     case "JournalEntry.KeWKr2yd8dbppeS5.JournalEntryPage.F229BVFENz1ZjmG1": //C1
+    case "JournalEntry.KeWKr2yd8dbppeS5.JournalEntryPage.sVpphDD0gtGtIlFh": //C8
     case "JournalEntry.KeWKr2yd8dbppeS5.JournalEntryPage.wAoRY1yKOiu1ocVU": //C34
-      journal = {
-        page: "C: Library",
-        options: { heading: "SACRIFICE AT MIDNIGHT" },
-      };
-      break;
     case "JournalEntry.KeWKr2yd8dbppeS5.JournalEntryPage.8X4xF40k06MW0X7q": //C35
       journal = {
         page: "C: Library",
-        options: { heading: "CALIDDO'S ENTRANCE" },
+        options: { heading: "SACRIFICE AT MIDNIGHT" },
       };
       break;
 
@@ -186,6 +181,8 @@ function getJournalEntryContent(journalPageUUID) {
       journal = null;
   }
   if (!journal) return;
+  if (journal?.options && !journal?.options?.journalID)
+    journal.options.journalID = CHANGES_JOURNAL_ID;
 
   const content = journal?.options
     ? getJournalContent(NAMES_TO_ID[journal?.page], journal?.options)
@@ -202,7 +199,9 @@ async function getJournalContent(
   let content = await TextEditor.enrichHTML(journalPage?.text?.content);
   if (options.heading) content = splitTextAtHeader(options.heading, content);
   content = removeUUIDPart(content);
-  return await TextEditor.enrichHTML(`<hr><em><strong>Abomination Vaults: Expanded -</strong> ${journalPage.link}</em><hr>${content}`);
+  return await TextEditor.enrichHTML(
+    `<hr><em><strong>Abomination Vaults: Expanded -</strong> ${journalPage.link}</em><hr>${content}`
+  );
 }
 
 function splitTextAtHeader(headerName, htmlText) {

@@ -1,7 +1,11 @@
+## 1.1.1
+
+- Fixed issue with `Insert AV:E into Official Journals` not working after the last update
+
 ## 1.1.0
 
 - Moved Journals to localization files, so they can be more easily updated, but also to support localizing them
- - Misc spelling fix for journals
+- Misc spelling fix for journals
 - Added a stat block for powered up `Belcorra Haruvex`
 - Added **Dynamic Token Effects** for `Effect: Belcorra's Vulnerability`
 - Added stat blocks for `Aesphena's Wrath`
