@@ -1,3 +1,9 @@
+## 1.2.0
+
+- Updated the `Belcorra's Grasp` animation
+  - It now goes the full length of the room when `clicked` and only to the stone barriers when `right clicked`
+  - In addition it will now need to run a setup process to place invisible drawings to prevent the animation from leaking over outside of the "sector"
+
 ## 1.1.1
 
 - Fixed issue with `Insert AV:E into Official Journals` not working after the last update

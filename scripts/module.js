@@ -1,3 +1,4 @@
+import { belcorrasGrasp } from "./animations/belcorrasGrasp.js";
 import { CHANGES_JOURNAL_ID, MODULE_ID, NAMES_TO_ID } from "./const.js";
 
 Hooks.once("init", async function () {
@@ -28,6 +29,11 @@ Hooks.once("ready", async function () {
       }
     }
   );
+  game.ave = {
+    animations: {
+      belcorrasGrasp: belcorrasGrasp,
+    },
+  };
 });
 
 async function getJournalEntryContent(journalPageUUID) {
