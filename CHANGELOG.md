@@ -1,3 +1,8 @@
+## 1.2.1
+
+- Fixed instances where `Aesephna`'s name was incorrectly spelled (🐛 @MrPeach774)
+  - (curse you paizo writing names my brain can't wrap itself around )
+
 ## 1.2.0
 
 - Updated the `Belcorra's Grasp` animation
