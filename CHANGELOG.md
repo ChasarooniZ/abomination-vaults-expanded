@@ -1,3 +1,6 @@
+# 2.0.0
+- Updated to v13
+
 ## 1.2.1
 
 - Fixed instances where `Aesephna`'s name was incorrectly spelled (🐛 @MrPeach774)
