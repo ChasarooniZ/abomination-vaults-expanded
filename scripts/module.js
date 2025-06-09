@@ -18,14 +18,20 @@ Hooks.once("init", async function () {
 
 Hooks.once("ready", async function () {
   Hooks.on(
-    "renderJournalPageSheet",
+    "renderJournalEntryPageSheet",
     async function (_journalEntryPage, html, info) {
       if (!game.settings.get(MODULE_ID, "insert-journal")) return;
       const uuid = info?.document?.uuid;
       const text = await getJournalEntryContent(uuid);
       if (text) {
-        const content = await TextEditor.enrichHTML(text);
-        $(html[2]).append($(content));
+        const content = await foundry.applications.ux.TextEditor.enrichHTML(
+          text
+        );
+        $(document)
+          .find(`#JournalSheetPF2e-JournalEntry-${info.document.parent.id}`)
+          .find(".journal-page-content")
+          .append($(content));
+        //$(html[2]).append($(content));
       }
     }
   );
@@ -202,10 +208,12 @@ async function getJournalContent(
 ) {
   const journalPage = game.journal.get(options.journalID)?.pages?.get(page);
   if (!journalPage) return null;
-  let content = await TextEditor.enrichHTML(journalPage?.text?.content);
+  let content = await foundry.applications.ux.TextEditor.enrichHTML(
+    journalPage?.text?.content
+  );
   if (options.heading) content = splitTextAtHeader(options.heading, content);
   content = removeUUIDPart(content);
-  return await TextEditor.enrichHTML(
+  return await foundry.applications.ux.TextEditor.enrichHTML(
     `<hr><em><strong>Abomination Vaults: Expanded -</strong> ${journalPage.link}</em><hr>${content}`
   );
 }

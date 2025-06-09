@@ -1,4 +1,9 @@
+# 2.0.1
+
+- Fixed issue with inserting `AV:E` content into the official `Abomination Vaults` journals
+
 # 2.0.0
+
 - Updated to v13
 
 ## 1.2.1

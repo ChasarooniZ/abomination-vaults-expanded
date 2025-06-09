@@ -11,7 +11,7 @@ This is an adaptation of the expansion written by **Taylor Hodgskiss** for abomi
 
 [Please support them here by buying the pdf](https://www.drivethrurpg.com/en/product/418672/the-abomination-vaults-expanded)
 
-**\*Note** There may be some changes in wording etc. I did end up doing a small amount of editorializing, but overall it is largely the same\*
+***Note** There may be some changes in wording etc. I did end up doing a small amount of editorializing, but overall it is largely the same*
 
 ## How Do I set this up?
 
