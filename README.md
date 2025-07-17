@@ -1,8 +1,10 @@
+[![module_banner](https://github.com/ChasarooniZ/pf2e-usage-updater/assets/79132112/3b2a4f8c-7ba1-4647-b073-d8ecac9d93a6)](https://chasarooniz.github.io/)
 ![](https://img.shields.io/badge/Foundry-v13-informational)
 ![All Downloads](https://img.shields.io/github/downloads/ChasarooniZ/abomination-vaults-expanded/total?color=5e0000&label=All%20Downloads)
 ![Latest Release Download Count](https://img.shields.io/github/downloads/ChasarooniZ/abomination-vaults-expanded/latest/module.zip)
-
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fabomination-vaults-expanded&colorB=4aa94a)
+
+[![gitlocalized ](https://gitlocalize.com/repo/10291/whole_project/badge.svg)](https://gitlocalize.com/repo/10291?utm_source=badge)
 [![](https://img.shields.io/badge/ko--fi-donate-%23FF5E5B?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/chasarooni)
 
 # Abomination Vaults Expanded
