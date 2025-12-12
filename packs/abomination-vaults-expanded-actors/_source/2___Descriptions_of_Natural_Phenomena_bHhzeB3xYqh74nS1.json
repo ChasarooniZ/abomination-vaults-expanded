@@ -1,0 +1,629 @@
+{
+	"prototypeToken": {
+		"displayName": 20,
+		"displayBars": 50,
+		"flags": {
+			"barbrawl": {
+				"resourceBars": {}
+			},
+			"tagger": {},
+			"monks-combat-marker": {
+				"token-highlight-scale": 1.9,
+				"token-combat-animation": "",
+				"token-highlight": ""
+			},
+			"perceptive": {
+				"canbeSpottedFlag": false,
+				"RevealwhenSpottedFlag": false,
+				"PPDCFlag": -1,
+				"APDCFlag": null,
+				"SpottingRangeFlag": -1,
+				"SpottingMessageFlag": "",
+				"resetSpottedbyMoveFlag": false,
+				"StealthEffectsFlag": "",
+				"OverrideWorldSEffectsFlag": false,
+				"MATTTriggerTileFlag": "",
+				"MATTTriggerConditionsFlag": {
+					"NewlySpotted": "never"
+				}
+			},
+			"Rideable": {
+				"issetRideableFlag": true,
+				"MountonEnterFlag": false,
+				"AutoMountBlackListFlag": "",
+				"AutoMountWhiteListFlag": "",
+				"MaxRiderFlag": null,
+				"CustomRidingheightFlag": null,
+				"UseRidingHeightFlag": true,
+				"RidersScaleFlag": 1,
+				"RiderPositioningFlag": "RowPlacement",
+				"RiderOffsetFlag": [
+					0,
+					0
+				],
+				"RiderRotOffsetFlag": 0,
+				"TokenFormFlag": "TokenFormCircle",
+				"InsideMovementFlag": false,
+				"SpawnRidersFlag": "",
+				"MountingEffectsFlag": "",
+				"WorldMEffectOverrideFlag": false,
+				"SelfApplyEffectsFlag": false,
+				"forMountEffectsFlag": "",
+				"canbeGrappledFlag": true,
+				"CanbePilotedFlag": false,
+				"CheckPilotedCollisionFlag": false,
+				"PilotedbyDefaultFlag": false
+			},
+			"pf2e-rpg-numbers": {
+				"rotationOffset": 0,
+				"fireEmblemImg": "",
+				"personaImg": "",
+				"critOffsetX": 0,
+				"critOffsetY": 0,
+				"critScale": 100,
+				"critRotation": 0,
+				"critSFX": ""
+			}
+		},
+		"prependAdjective": true,
+		"height": 1,
+		"width": 1,
+		"actorLink": true,
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"name": "2 - Descriptions of Natural Phenomena",
+		"appendNumber": false,
+		"texture": {
+			"src": "icons/sundries/books/book-worn-red.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"hexagonalShape": 0,
+		"lockRotation": false,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"bar1": {
+			"attribute": null
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": false,
+			"colors": {
+				"ring": null,
+				"background": null
+			},
+			"effects": 0,
+			"subject": {
+				"scale": 1,
+				"texture": null
+			}
+		},
+		"randomImg": false
+	},
+	"folder": "YRJl4WFZ0bqxPILs",
+	"name": "2 - Descriptions of Natural Phenomena",
+	"type": "loot",
+	"ownership": {
+		"default": 1,
+		"J3oConv1eQRLao6j": 3
+	},
+	"effects": [],
+	"system": {
+		"attributes": {},
+		"details": {
+			"description": "",
+			"level": {
+				"value": 0
+			}
+		},
+		"lootSheetType": "Loot",
+		"hiddenWhenEmpty": false,
+		"_migration": {
+			"version": 0.933,
+			"previous": null
+		}
+	},
+	"_id": "bHhzeB3xYqh74nS1",
+	"img": "icons/sundries/books/book-worn-red.webp",
+	"items": [
+		{
+			"name": "Descriptions of Natural Phenomena",
+			"type": "backpack",
+			"effects": [],
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>Written by <em>Jan Dreli Kolai the Sage</em></p>"
+				},
+				"rules": [],
+				"slug": "descriptions-of-natural-phenomena",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.932,
+						"foundry": "12.331",
+						"system": "6.5.0"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 0,
+					"heldOrStowed": 0.1,
+					"capacity": 0,
+					"ignored": 0
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null
+				},
+				"containerId": null,
+				"size": "sm",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "Unusual Container",
+						"img": "icons/sundries/books/book-worn-red.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"collapsed": false,
+				"stowing": false,
+				"usage": {
+					"value": "worn"
+				}
+			},
+			"img": "icons/sundries/books/book-worn-red.webp",
+			"folder": "2hqBWtVwXNTt9ujP",
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false,
+					"ReplacementItemFlag": ""
+				},
+				"scene-packer": {
+					"sourceId": "Item.jzthAs4ptsVii4RH",
+					"hash": "1045bd07d8691265373595a1500ce4ee893ab473"
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.NVu3j8kxOfsfDIpc",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": 1730281260046,
+				"modifiedTime": 1730281260046,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"sort": 100000,
+			"_id": "uJRtDvSn4D01ycm6",
+			"_key": "!actors.items!bHhzeB3xYqh74nS1.uJRtDvSn4D01ycm6"
+		},
+		{
+			"name": "Second Letter of Dr. Zaccheus Quagmire III",
+			"type": "treasure",
+			"effects": [],
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p class=\"message\" style=\"font-size:20px\">Dearest Charlotte and Theodora,</p><p class=\"message\" style=\"font-size:20px\">Congratulations on dealing with those pesky ghouls. Did you meet the friendly one? The ghost in this room is a bit off her rocker, so to speak, but she’ll leave you well enough alone if you pretend to sit and do some work. Why, I stayed here for a day or two, though indeed there is always a chance of a disturbance. That temple just north of here really is something, though the priests are touchy.</p><p class=\"message\" style=\"font-size:20px\"><br />But my, what a library! I expect you’ll want to stay and have a look around, Theodora. You may want to pay particular attention to the movements of the ghost in this very room, in fact.</p><p class=\"message\" style=\"font-size:20px\"><br />Now I would hate to deprive you of the joy of discovery, but be aware that our multitudinous friend below rather enjoys poison, to which he seems to be immune. And oh, ho ho! That staircase! Marvelous. It’s rare to see true class like that in tombs and temples these days. But do be extremely cautious there. Remember what I have told you: there is no dishonor in fleeing from something you are not prepared to face just yet. Just like you, Charlotte, with that river drake when you were only ten! Poor creature. It should have fled.</p><p class=\"message\" style=\"font-size:20px\"><br />I left something helpful in a bottle of a particularly good Jalmeray dry white. I’m afraid I cannot comment on the vintage. Even I am not quite that old! That ghost is looking over my shoulder as I write. I don’t think she’s paying attention, though. Poor soul.</p><p class=\"message\" style=\"font-size:20px\"><br />Ever onward!</p><p class=\"message\" style=\"font-size:20px\"><br />Your Scholarly Uncle,</p><p class=\"message\" style=\"font-size:20px\">Dr. Zacchaeus Quagmire III</p>"
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.932,
+						"foundry": "12.331",
+						"system": "6.5.0"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 0
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": "uJRtDvSn4D01ycm6",
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "Unusual Treasure",
+						"img": "icons/sundries/documents/paper-plain-white.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"stackGroup": null
+			},
+			"img": "icons/sundries/documents/paper-plain-white.webp",
+			"folder": "G7kV1hCCK6CFH5wa",
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false
+				},
+				"scene-packer": {
+					"sourceId": "Item.yjTy4CAKip6LQgYQ",
+					"hash": "818c77df7b26f687eab434099cc675d9ecc7d583"
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.QPGYlpZaIrE3qrB9",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": 1730281263182,
+				"modifiedTime": 1730281263182,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"sort": 200000,
+			"_id": "B6S1yLDD5ql9n4Lz",
+			"_key": "!actors.items!bHhzeB3xYqh74nS1.B6S1yLDD5ql9n4Lz"
+		},
+		{
+			"img": "icons/commodities/gems/gem-rough-oval-purple.webp",
+			"name": "Fear Gem",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (concentrate)</p><hr /><p>Dark smoke seems to writhe within this obsidian gem. When you activate the gem, make a melee Strike. If you hit and deal damage, the target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical hit.</p>\n<p>If you have the @UUID[Compendium.pf2e.feats-srd.Item.lkcM4V3VDAtjlR9P]{Intimidating Strike} feat, increase the frightened condition value caused by the Strike to @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3} on a critical hit.</p>"
+				},
+				"rules": [],
+				"slug": "fear-gem",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"consumable",
+						"emotion",
+						"fear",
+						"magical",
+						"mental",
+						"talisman"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder GM Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 4
+				},
+				"quantity": 4,
+				"baseItem": null,
+				"bulk": {
+					"value": 0
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"gp": 20
+					}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": "uJRtDvSn4D01ycm6",
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "icons/commodities/gems/gem-rough-oval-purple.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "talisman",
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"autoDestroy": true
+				},
+				"damage": null,
+				"usage": {
+					"value": "affixed-to-weapon"
+				},
+				"stackGroup": null,
+				"spell": null
+			},
+			"type": "consumable",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.ZAtwiAPkk1zwCf82",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": 1730281305115,
+				"modifiedTime": 1730281309619,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"hash": "819ef9d7d1371e6402e3ca4120835f0f582fca37"
+				}
+			},
+			"_id": "jUbD4jCHlQuPcalg",
+			"_key": "!actors.items!bHhzeB3xYqh74nS1.jUbD4jCHlQuPcalg"
+		},
+		{
+			"img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/antidote.webp",
+			"name": "Antidote (Moderate)",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>An antidote protects you against toxins. Upon drinking an antidote, you gain a +3 item bonus to Fortitude saving throws against poisons for 6 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]{Effect: Antidote}</p>"
+				},
+				"rules": [],
+				"slug": "antidote-moderate",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"alchemical",
+						"consumable",
+						"elixir",
+						"healing"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder GM Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 6
+				},
+				"quantity": 3,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"gp": 35
+					}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": "uJRtDvSn4D01ycm6",
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/antidote.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "elixir",
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"autoDestroy": true
+				},
+				"damage": null,
+				"usage": {
+					"value": "held-in-one-hand"
+				},
+				"stackGroup": null,
+				"spell": null
+			},
+			"type": "consumable",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.AJ1dC7EtTIfBey0M",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": 1730281307325,
+				"modifiedTime": 1730281311058,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"hash": "29f099b4aed4421cfeb383cbcaa8ff0a74a36b31"
+				}
+			},
+			"_id": "xnLfBJMSBmu0KB9a",
+			"_key": "!actors.items!bHhzeB3xYqh74nS1.xnLfBJMSBmu0KB9a"
+		}
+	],
+	"sort": 0,
+	"flags": {
+		"scene-packer": {
+			"hash": "c1ee6c726090eeb05f0dcd7aba5b55c422a9aaa4"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730281251647,
+		"modifiedTime": 1730281340956,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_key": "!actors!bHhzeB3xYqh74nS1"
+}

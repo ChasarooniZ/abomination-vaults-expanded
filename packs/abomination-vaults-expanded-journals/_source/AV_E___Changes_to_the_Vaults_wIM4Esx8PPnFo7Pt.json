@@ -1,0 +1,402 @@
+{
+	"folder": null,
+	"name": "AV:E - Changes to the Vaults",
+	"pages": [
+		{
+			"name": "Foreword",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<section class=\"compartment\"><article class=\"full\"><p><span style=\"text-decoration:underline\">Everyone who runs this adventure will make changes to the encounters and content to match their group</span>, <strong>As it should be</strong>. This section is not about minor tweaks to enemies or random loot tailored to my group. (For example, it omits the fact that I gave the mitflits mud bombs and Australian accents.)</p><p>It contains substantial content alterations that I believe improve the adventure, including the following:</p></article></section><ul><li><p>The addition of some traps and puzzles (according to my personal taste)</p></li><li><p>Changes to the character, background, and motivations of several NPCs</p></li><li><p>Several additional encounters intended to make the vaults feel more reactive and cohesive</p></li><li><p>Alterations and additions relating to the <strong>Roseguard</strong></p></li></ul><p>In addition to what is listed below, I also added the t<strong>reasure hunt</strong> <strong>with the letters</strong>, the <strong>coliseum of the Red Holiday,</strong> and a <strong>system of random encounters</strong>. All of these are listed in more detail elsewhere in this document.</p>",
+				"markdown": ""
+			},
+			"_id": "OmLsmbwPtNMw7csF",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 200000,
+			"ownership": {
+				"default": -1
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"_key": "!journal.pages!wIM4Esx8PPnFo7Pt.OmLsmbwPtNMw7csF"
+		},
+		{
+			"name": "A: Gauntlight Ruins",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>The only alteration of significance I made on the first level is the addition of a character who should appear in the woods even before the party reaches the vaults.</p><section class=\"npc\"><article><h2>Legitimate Jack</h2><p class=\"stats\">CN male goblin merchant 4, Indifferent.<br />Perception DC 19, Will DC 19.</p><p><strong>Legitimate Jack</strong> is a traveling goblin merchant who is always accompanied by a wood giant named @UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.LmTb8BIb6dRMA2Gm]{Jodi}. Legitimate Jack wears a battered top hat and a blue bow tie. Jodi carries a huge cabinet of merch on her back, and also acts as his security. Legitimate Jack is friendly, flattering, and fast-talking. His merchandise is a mixture of cheap junk that he tries to pawn off as valuable or magical, and actual magic items that are misleading, broken, or defective. Nevertheless, some of it might actually come in handy.</p></article><figure><img src=\"modules/abomination-vaults-expanded/assets/characters/legitimate_jack.avatar.webp\" width=\"240\" /><figcaption>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.eXTCpxlFp5TQvHWA]{Legitimate Jack}</figcaption></figure></section><h3>Start List of Items</h3><ul><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.TW0Tzxddq6njufDt]{Amulet of Flame Detection}</p></li><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.EGQVEqH3i1oeD3sW]{Spacious Pouch (Type I)}</p></li><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.OpoChqbFTMknlslN]{Bagpipes of Invisibility}</p></li><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.evmumCPP6j0JAaEe]{Cloak of Billowing}</p></li><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.y8h1xw1ASHOvPhZR]{Healing Potion (Lesser)}</p></li><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.FDr2wB09XeJYnZ7f]{Fool's Dust}</p></li><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.bDRko0u9NizhcVg2]{Ring of Danger Sense}</p></li><li><p>@UUID[Compendium.pf2e.equipment-srd.UfoaNXFA7AWZiXxI]{Shiver}</p></li><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.Ctb1eVhtX1ASQ1ku]{Trapfinding Chicken}</p></li><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.nMuxjwimfxxZgN1F]{Tree Phrasebook}</p><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.TjRxpiXtnYE3X15m]{Sovereign Sanitation Solution}</p></li></ul><p>No prices are listed because Jack will always try to squeeze as much out of the players as he thinks they are willing to pay.</p><h3>On Their Way</h3><p>Legitimate Jack and Jodi are on their way to <strong>Otari’s Founder’s Day Festival</strong> in search of customers. Jack is saddened to hear that he missed it, but he is an opportunist and will try to push his wares on the PCs, inventing things from his stock that they are sure to like.</p><p>His favorite saying is:</p><p>A desk with a chair sits in the middle of this room, while three empty picture frames hang on the walls.</p><p class=\" box-text narrative\">“Everyone’s a customer…if you’re selling what they’re looking for!”</p><p>After the first time the PCs meet him, he will stick around in the area. He will do some trade with @JournalEntry[Character Biographies#Wrin Sivinxi]{Wrin}, and may even express a desire to follow her example and settle down his business somewhere. He’s already got an idea for a shop name: <strong>Legitimate Jack’s Un-Fraudulent Merchandise</strong></p><h3>What is his Purpose?</h3><p>What, besides comedy, is Jack’s purpose?</p><ul><li><p>For one thing, he is the source of the dragon egg that resulted in the dragon beneath the town in <strong>The Menace Under Otari</strong>.</p><ul><li><p>He might brag about how he pawned off that shiny rock to those gullible kobold rubes.</p></li></ul></li><li><p>For another, he can bring news about how the <strong>Fogfen</strong> and surrounding area are becoming treacherous with those spooky <strong>swamplights</strong> that try to lead travelers astray. He can give clues about @UUID[Compendium.pf2e.pathfinder-monster-core.KgJq51AeYrENo3Db]{Will-o'-Wisp}, about the missing @JournalEntry[A: Gauntlight Ruins#A17. Ruined Pier]{Osprey club members} the party might be looking for, and about the <strong>Leadbuster Lads</strong> if you plan on using them later. Jack might be the party’s lead to finding their base.</p></li><li><p>In general, it’s nice to have someone from outside of Otari to share news, rumors, and clues.</p></li></ul>"
+			},
+			"_id": "hOMUDNapQMRjV1kQ",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 400000,
+			"ownership": {
+				"default": -1
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": 1730271894113,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_key": "!journal.pages!wIM4Esx8PPnFo7Pt.hOMUDNapQMRjV1kQ"
+		},
+		{
+			"name": "B: Servants' Quarters",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<h2>Wrin's Progression</h2><p>When @JournalEntry[Character Biographies#Wrin Sivinxi]{Wrin} hears about the levels below the surface of the Gauntlight, she is both curious and suspicious.</p><ul><li><p>The next time the party returns to the surface level of the vaults, they will find <strong>Wrin</strong> outside, waiting for them.</p><ul><li><p>The goal of the following encounter is to demonstrate that she wants to help, but her <strong>claustrophobia</strong> prevents her from following them in.</p></li></ul></li><li><p>You can also take this opportunity to show that she is no pushover; maybe she comments on how she soloed a couple of @UUID[Compendium.pf2e.pathfinder-monster-core.tashopA1s2fAbSXA]{Slurks} or some other beast on the way here.</p></li></ul><section class=\"compartment\"><article class=\"full\"><p>Later on in the adventure, Wrin will find a way to overcome her fears and briefly join the PCs to aid them on their journey, but for now the only help she can offer is advice.</p></article></section><h2>Early Signs of CHeer</h2><p>Beginning here in the second level, the party might notice an odd and ominous figure in bright clothes and a smiling mask watching them during tough battles. Just mention this offhand once or twice. It will surely freak them out, but it might be a while before they learn about the <strong>Cheery Man</strong> and the <strong>Red Holiday</strong>.</p>",
+				"markdown": ""
+			},
+			"_id": "LyGMJmON0ZPU7CmT",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 600000,
+			"ownership": {
+				"default": -1
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": 1730272026245,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_key": "!journal.pages!wIM4Esx8PPnFo7Pt.LyGMJmON0ZPU7CmT"
+		},
+		{
+			"name": "B09. Loyal Dog",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><strong>Modifies</strong> @JournalEntry[B: Servants' Quarters#B09. Old Office]</p><section class=\"box-text encounter\"><header><img src=\"modules/pf2e-abomination-vaults/assets/journal-images/icons/encounter/skull.webp\" width=\"100\" /><section><h2>Encounter</h2><h2>moderate 2</h2></section><section><div><p>… and @UUID[Compendium.pf2e.outlaws-of-alkenstar-bestiary.RNvLscZ5sMpYzExB]{Clockwork Hunter}</p></div><p>100 XP</p></section></header><article><p>Add a Clockwork hunter to this encounter to give the @UUID[Compendium.pf2e.abomination-vaults-bestiary.KSFGGxU3qxYJzWpe]{Morlock Scavenger's} something to use their tinkering ability on. If the party is level 3 you can add 2 Clockwork Hunters instead of 1.</p></article></section>"
+			},
+			"_id": "KSCa8Wx2rSKuzHC1",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 725000,
+			"ownership": {
+				"default": -1
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": 1730274583880,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_key": "!journal.pages!wIM4Esx8PPnFo7Pt.KSCa8Wx2rSKuzHC1"
+		},
+		{
+			"name": "B06. Tiger Painting",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><strong>IMPORTANT NOTE</strong> for the future read aloud text like the one below that start with <strong>…</strong> are intended to be combined with their original readaloud text for the area.</p><p><strong>Modifies</strong> @JournalEntry[B: Servants' Quarters#B06. Abandoned Guard Post]{B06. Abandoned Guard Post}</p><p class=\" box-text narrative\"><strong>…</strong> Sitting on the wall above the chairs is a painting of a tiger</p><p>If you <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">ARE NOT</span></span> running the Beginner Box adventure <strong>Menace Under Otari</strong> as a part of your Abomination Vaults campaign the players note the following:</p><p></p><section class=\"box-text investigation\"><header><img src=\"modules/pf2e-abomination-vaults/assets/journal-images/icons/exploration/lens.webp\" width=\"100\" /><h2>Exploration</h2><p>@Compendium[pf2e.actionspf2e.TiNDYUGlMmxzxBYU]{Search}</p></header><article><p>The heroes find the following @UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.GbxI193oCuRmTk31]{letter} on the back of the painting the first of a series of letters from @JournalEntry[AV:E - The Letters of Dr. Zacchaeus Quagmire III]</p></article></section><p></p><section class=\"box-text fvtt\"><header><img src=\"icons/vtt-512.png\" width=\"100\" /><h2>Painting</h2></header><article><p><strong>Note:</strong> These sections will guide the user how to edit their <strong>Abomination Vaults</strong> maps to better reflect <strong>AV: Expanded</strong>.</p><p>Add the <strong>Tiger Painting</strong> as a <strong>tile</strong> in the place shown below. Make sure to hold <strong>shift</strong> while dragging so that it doesn't force it to snap to the grid.</p><p>File path to the tiger painting art is:</p><p><code style=\"font-size:10px\">modules/abomination-vaults-expanded/assets/tiles/framed_painting_wood_dark_leaned_back_c2_1x1.png</code></p><img src=\"modules/abomination-vaults-expanded/assets/guides/b6-tiger-painting-tutorial.webp\" /></article></section>"
+			},
+			"_id": "MY61uS4Lk2va9xoZ",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 700000,
+			"ownership": {
+				"default": -1
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "JournalEntry.sqDBio09umQ6BHei.JournalEntryPage.MY61uS4Lk2va9xoZ",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": 1730275446001,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_key": "!journal.pages!wIM4Esx8PPnFo7Pt.MY61uS4Lk2va9xoZ"
+		},
+		{
+			"name": "B12. His Other Pet",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><strong>Modifies</strong> @JournalEntry[B: Servants' Quarters#B12. Graulgust’s Throne Room]</p><section class=\"box-text encounter\"><header><img src=\"modules/pf2e-abomination-vaults/assets/journal-images/icons/encounter/skull.webp\" width=\"100\" /><section><h2>Encounter</h2><h2>Severe 2</h2></section><section><div><p>… and @UUID[Compendium.pf2e.outlaws-of-alkenstar-bestiary.RNvLscZ5sMpYzExB]{Clockwork Hunter}</p></div><p>140 XP</p></section></header><article><p>Add a Clockwork hunter to this encounter to give the @UUID[Compendium.pf2e.abomination-vaults-bestiary.KSFGGxU3qxYJzWpe]{Morlock Scavenger} something to use their tinkering ability on. If the party is level 3 you can add 2 Clockwork Hunters instead of 1, but just keep in mind this is already a high difficulty encounter.</p></article></section>"
+			},
+			"_id": "CLm67CNpT0gNtor0",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 737500,
+			"ownership": {
+				"default": -1
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": 1730274725677,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_key": "!journal.pages!wIM4Esx8PPnFo7Pt.CLm67CNpT0gNtor0"
+		},
+		{
+			"name": "B02. Magic Mirror",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><strong>Modifies</strong> @JournalEntry[B: Servants' Quarters#B02. Volluk’s Workshop]{B02. Volluk’s Workshop}</p><p>I added a trap in Volluk’s workshop, area B2. It is a magic mirror, which reflects the room but not the players. A perceptive PC might notice that the reflection of the room contains something the real room lacks: <strong>the incomplete soulbound doll</strong>.</p><section class=\"box-text encounter\"><header><img src=\"icons/sundries/survival/mirror-plain.webp\" width=\"100\" /><section><h2>Encounter</h2><h2>Moderate 2</h2></section><section><div><p>Magic Mirror</p></div><p>80 XP</p></section></header><article><p>If a PC <strong>touches the mirror</strong>, their reflection appears in the <strong>‘mirror world’</strong> and is able to grab the doll and bring it back through into reality.</p><h2>Getting the Doll</h2><p>However, this may take a few turns because the doll is locked by chains to a work table. The lock can be picked (3 [[/act pick-a-lock dc=20]]{DC 20 Thievery checks}), or the @Item[Iron Key]{key} can be found in @JournalEntry[D: Belcora's Retreat#D08. Lounge]{Volluk’s chambers}.</p><h2>Complicated Alleigances</h2><p>The problem is that the physical body of the PC who touches the mirror, temporarily empty, <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">becomes possessed</span></span> by the lingering psychic echoes of Volluk’s past victims and <strong>attacks the rest of the party</strong>.</p><ul><li><p>The party will have to restrain the body of their ally or disable it nonlethally.</p></li></ul></article></section><p></p><section class=\"box-text fvtt\"><header><img src=\"icons/vtt-512.png\" width=\"100\" /><section><h2>Mirror</h2></section><section><div><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-macros.Macro.eeLgCBdRfenwHz25]</p></div></section></header><article><p>Add the <strong>Mirror</strong> as a <strong>tile</strong> in the place shown below. Make sure to hold <strong>shift</strong> while dragging so that it doesn't force it to snap to the grid.</p><p>File path to the mirror art is:</p><p><code style=\"font-size:10px\">modules/abomination-vaults-expanded/assets/tiles/mirror_blue_metal_brass_e2_1x1.png</code></p><p>Also add the @Item[Incomplete Soulbound Doll]{Incomplete Soulbound Doll} (@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.8v9hGL0AJioGrA4q]{actor included} that also has the spectral effect on it)</p><h2>Mirror World</h2><p>When a PC enter the mirror world, drag a second copy of their token to the page. If you are using <strong>Dynamic Tokens</strong> you can use the macro above to toggle one of the token copies as the \"Mirror World\" version.</p><img src=\"modules/abomination-vaults-expanded/assets/guides/b2-magic-mirror.webp\" /></article></section>"
+			},
+			"_id": "surluLUD8HprMYIw",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 650000,
+			"ownership": {
+				"default": -1
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": 1730277494491,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_key": "!journal.pages!wIM4Esx8PPnFo7Pt.surluLUD8HprMYIw"
+		},
+		{
+			"name": "B10. Trapped Hall",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<p class=\" box-text narrative\">The north and south walls of this hall have been decorated with a bewildering array of timbers, metal parts, gears, bits of broken weapons, and trash.</p>\n<p>Belcorra’s majordomo used this room for planning and meetings, but the morlocks have dismantled the furniture here, along with several other scavenged items and devices, to build a gauntlet of traps to defend the approach to their king's throne room.</p>\n<section class=\"box-text encounter\"><header><img src=\"modules/pf2e-abomination-vaults/assets/journal-images/icons/encounter/trap.webp\" width=\"100\" />\n<section>\n<h2>Hazards</h2>\n</section>\n<section>\n<div>\n<p>@Actor[6NijRSpkIuQpSxUp]{Spike Launchers (4)}</p>\n</div>\n<p>16 XP</p>\n</section>\n</header>\n<article>\n<p>Four spike launcher traps have been hidden in the walls of this room, activated by nearly invisible trip lines stretching across the room 1 foot off the ground. Morlocks can move through the room without triggering the spike launchers, as they know where the trip lines are. One cord crosses each pair of north-to-south squares.</p>\n</article>\n</section>"
+			},
+			"_id": "MT1JRD5WLtzSsUIv",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 2000000,
+			"ownership": {
+				"default": -1
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"_key": "!journal.pages!wIM4Esx8PPnFo7Pt.MT1JRD5WLtzSsUIv"
+		},
+		{
+			"name": "B22. Clockwork Hunter",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><strong>Modifies</strong> @JournalEntry[B: Servants' Quarters#B22. Workshop]</p><section class=\"box-text encounter\"><header><img src=\"modules/pf2e-abomination-vaults/assets/journal-images/icons/encounter/skull.webp\" width=\"100\" /><section><h2>Encounter</h2><h2>Severe 2</h2></section><section><div><p>… and @UUID[Compendium.pf2e.outlaws-of-alkenstar-bestiary.RNvLscZ5sMpYzExB]{Clockwork Hunter}</p></div><p>140 XP</p></section></header><article><p>Add a Clockwork hunter to this encounter to give the @UUID[Compendium.pf2e.abomination-vaults-bestiary.V73Oqm1EL1KOoXOl]{Morlock Engineer's} something to use their tinkering ability on. If the party is level 3 you can add 2 Clockwork Hunters instead of 1, but just keep in mind this is already a high difficulty encounter.</p></article></section>"
+			},
+			"_id": "3prWqGPJfXW7MXX2",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 750000,
+			"ownership": {
+				"default": -1
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": 1730274594009,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_key": "!journal.pages!wIM4Esx8PPnFo7Pt.3prWqGPJfXW7MXX2"
+		},
+		{
+			"name": "B08. Extra Traps",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><strong>Modifies</strong> @JournalEntry[B: Servants' Quarters#B08. Servants’ Rooms]{B08. Servants’ Rooms}</p><p>I know there’s already a trapped hallway in area B10, but I like traps, so I added another in @JournalEntry[B: Servants' Quarters#B08. Servants’ Rooms]{area B8}. It concerns the region with six empty ten-foot-square rooms.</p><p></p><p>Be sure to ascertain the exact positions of the party when one of these conditions is met to trigger the following trap @UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.2K4r7hi235RkFWZn]{Falling Wall Trap}</p><section class=\"box-text encounter\"><header><img src=\"modules/pf2e-abomination-vaults/assets/journal-images/icons/encounter/skull.webp\" width=\"100\" /><section><h2>Encounter</h2><h2>Severe 2</h2></section><section><div><p>… @UUID[Compendium.pf2e.outlaws-of-alkenstar-bestiary.BbTS7MMkz0Ob7qAF]{6 Clockwork Handlers} and @UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.2K4r7hi235RkFWZn]{Falling Wall Trap}</p></div><p>180 XP</p></section></header><article><p>The 6 rooms are not empty; each contains a clockwork handler that will activate when the trap is triggered. The idea here is that the party will be split into two, possibly three separate groups, each facing two weak enemies in a tightly enclosed space.</p><p>If the <span style=\"text-decoration:underline\">party has been fighting their way through this level</span>, imply that the morloks readied their automatons and armed this trap especially for the party.</p><p>It is possible for the party to meet and make a truce with <strong>Graulgust</strong> before triggering this trap; in that case, it will not go off. Unless you want it to.</p></article></section><p></p><section class=\"box-text fvtt\"><header><img src=\"icons/vtt-512.png\" width=\"100\" /><h2>Trap Stup</h2></header><article><h2>Setup</h2><p>Add each of the @UUID[Compendium.pf2e.outlaws-of-alkenstar-bestiary.BbTS7MMkz0Ob7qAF]{Clockwork Handlers} to their individual rooms.</p><p>Add a @UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.2K4r7hi235RkFWZn]{Falling Wall Trap} that you hide to each intersection where it will fall <em>hold <strong>Shift</strong> to place them not on the grid as indicated below</em> (so we can track health when the party try to break out).</p><p>Add <strong>Secret Doors</strong> to the marked pink line areas and open them.</p><h2>Trap Triggered</h2><p><strong>Lock</strong> the far left <strong>Door</strong> to represent the leftmost <strong>metal panel</strong>.</p><p><strong>Close</strong> the secret doors to represent the other <strong>metal panels.</strong></p><p>Make the <strong>Wall Traps</strong> visible so that the players can target the walls to damage them.</p><p>If they destroy a wall simply:</p><ul><li><p><strong>Open</strong> the corresponding <strong>secret door</strong></p></li><li><p><strong>Hide </strong>the corresponding <strong>Wall Trap</strong>.</p></li></ul><img src=\"modules/abomination-vaults-expanded/assets/guides/b8-trap-map.webp\" /></article></section>"
+			},
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 725000,
+			"ownership": {
+				"default": -1,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-journals.JournalEntry.wIM4Esx8PPnFo7Pt.JournalEntryPage.KSCa8Wx2rSKuzHC1",
+				"duplicateSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-journals.JournalEntry.wIM4Esx8PPnFo7Pt.JournalEntryPage.KSCa8Wx2rSKuzHC1",
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": 1730272574534,
+				"modifiedTime": 1730274515437,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_id": "PATXWXugE62DQT8P",
+			"_key": "!journal.pages!wIM4Esx8PPnFo7Pt.PATXWXugE62DQT8P"
+		}
+	],
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"pf2e-abomination-vaults": {
+			"isAV": true
+		},
+		"scene-packer": {
+			"hash": "3539f55681a7c63d89cf9c68ba9ced74cb9728ad",
+			"sourceId": "JournalEntry.sqDBio09umQ6BHei"
+		},
+		"exportSource": {
+			"world": "pathfinder-test",
+			"system": "pf2e",
+			"coreVersion": "12.331",
+			"systemVersion": "6.5.1"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730264247067,
+		"modifiedTime": 1730264247067,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_id": "wIM4Esx8PPnFo7Pt",
+	"sort": 0,
+	"_key": "!journal!wIM4Esx8PPnFo7Pt",
+	"categories": []
+}

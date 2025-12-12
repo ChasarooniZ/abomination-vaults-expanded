@@ -1,0 +1,101 @@
+{
+	"name": "Fourth Letter of Dr. Zaccheus Quagmire III",
+	"type": "treasure",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "",
+			"value": "<p class=\"message\" style=\"font-size:20px\">Dearest Charlotte and Theodora,</p><p class=\"message\" style=\"font-size:20px\"><br />The Historical Society would be in fits over this place. It just keeps going down! And hardly any indication of such extensive infrastructure on the surface. It was obviously constructed with care, and with a specific purpose and plan in mind. Quite an odd lot of characters around hereabouts, I must say. That cheery fellow, did you know, he managed to beat me at chess! Of course, he cheated. But then again, so did I. Of all the things I expected to find below, a musical group was not among them. They aren’t bad, actually. Perhaps they’ll let you join them, eh, Theodora? Although I didn’t see a pipe organ anywhere, nor even a harpsichord.</p><p class=\"message\" style=\"font-size:20px\"><br />I suppose you noticed the security checkpoint to the west on this level? It leads to the surface! Not that I’m heading that way, mind. I must see what lies at the bottom of all this.</p><p class=\"message\" style=\"font-size:20px\"><br />You’ll find that much of the next level is not at all pleasant, I’m afraid. Torture, experimentation, and even gambling! Well, when you find the torture chamber, you take my advice and check beneath the loose floor tile precisely four paces north and seven west of the ferrous woman.<br />Ever onward!</p><p class=\"message\" style=\"font-size:20px\"><br />Your Exceptional Uncle,</p><p class=\"message\" style=\"font-size:20px\">Dr. Zacchaeus Quagmire III</p>"
+		},
+		"rules": [],
+		"slug": null,
+		"_migration": {
+			"version": 0.933,
+			"lastMigration": null,
+			"previous": {
+				"schema": 0.932,
+				"foundry": "12.331",
+				"system": "6.5.0"
+			}
+		},
+		"traits": {
+			"otherTags": [],
+			"value": [],
+			"rarity": "common"
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 0
+		},
+		"quantity": 1,
+		"baseItem": null,
+		"bulk": {
+			"value": 0
+		},
+		"hp": {
+			"value": 0,
+			"max": 0
+		},
+		"hardness": 0,
+		"price": {
+			"value": {}
+		},
+		"equipped": {
+			"carryType": "worn"
+		},
+		"containerId": null,
+		"size": "med",
+		"material": {
+			"type": null,
+			"grade": null
+		},
+		"identification": {
+			"status": "identified",
+			"unidentified": {
+				"name": "Unusual Treasure",
+				"img": "icons/sundries/documents/paper-plain-white.webp",
+				"data": {
+					"description": {
+						"value": ""
+					}
+				}
+			},
+			"misidentified": {}
+		},
+		"stackGroup": null
+	},
+	"img": "icons/sundries/documents/paper-plain-white.webp",
+	"folder": "G7kV1hCCK6CFH5wa",
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"LocknKey": {
+			"IDKeysFlag": "",
+			"RemoveKeyonUseFlag": false
+		},
+		"scene-packer": {
+			"sourceId": "Item.yd6YERizziVXSAp0",
+			"hash": "daad4aa2ab582b3b561a60d709a2102d83259fcd"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730265436900,
+		"modifiedTime": 1730267087065,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_id": "CGQZePYptRXOvnSB",
+	"sort": 300000,
+	"_key": "!items!CGQZePYptRXOvnSB"
+}

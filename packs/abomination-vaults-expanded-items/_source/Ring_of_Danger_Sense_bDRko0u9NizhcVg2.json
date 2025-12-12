@@ -1,0 +1,98 @@
+{
+	"folder": "l1G9Nf4hDjPaudSR",
+	"name": "Ring of Danger Sense",
+	"type": "equipment",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "<p>When the wearer takes damage this ring loudly cries \"Danger! Danger!\"</p>",
+			"value": "<p>This ring can sense danger to the user.</p>"
+		},
+		"rules": [],
+		"slug": "ring-of-danger-sense",
+		"_migration": {
+			"version": 0.933,
+			"lastMigration": null
+		},
+		"traits": {
+			"otherTags": [],
+			"value": [
+				"magical"
+			],
+			"rarity": "common"
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 0
+		},
+		"quantity": 1,
+		"baseItem": null,
+		"bulk": {
+			"value": 0.1
+		},
+		"hp": {
+			"value": 0,
+			"max": 0
+		},
+		"hardness": 0,
+		"price": {
+			"value": {}
+		},
+		"equipped": {
+			"carryType": "worn",
+			"invested": null
+		},
+		"containerId": null,
+		"size": "med",
+		"material": {
+			"type": null,
+			"grade": null
+		},
+		"identification": {
+			"status": "identified",
+			"unidentified": {
+				"name": "Unusual Object",
+				"img": "icons/equipment/finger/ring-band-studded.webp",
+				"data": {
+					"description": {
+						"value": ""
+					}
+				}
+			},
+			"misidentified": {}
+		},
+		"usage": {
+			"value": "wornring"
+		},
+		"subitems": []
+	},
+	"img": "icons/equipment/finger/ring-band-studded.webp",
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"scene-packer": {
+			"hash": "2d729ddc2f7b7cc60dd874e20b7f4da6eb60bafa",
+			"sourceId": "Item.DtHW0cEIm2VZf29C"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730269159315,
+		"modifiedTime": 1730271420781,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_id": "bDRko0u9NizhcVg2",
+	"sort": 400000,
+	"_key": "!items!bDRko0u9NizhcVg2"
+}

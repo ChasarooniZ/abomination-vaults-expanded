@@ -1,0 +1,105 @@
+{
+	"folder": "l1G9Nf4hDjPaudSR",
+	"name": "Water",
+	"type": "consumable",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "",
+			"value": "<p>This is just a bottle of water</p>"
+		},
+		"rules": [],
+		"slug": "sovereign-sanitation-solution",
+		"_migration": {
+			"version": 0.933,
+			"lastMigration": null
+		},
+		"traits": {
+			"otherTags": [],
+			"value": [
+				"consumable",
+				"potion"
+			],
+			"rarity": "common"
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 0
+		},
+		"quantity": 1,
+		"baseItem": null,
+		"bulk": {
+			"value": 0.1
+		},
+		"hp": {
+			"value": 0,
+			"max": 0
+		},
+		"hardness": 0,
+		"price": {
+			"value": {}
+		},
+		"equipped": {
+			"carryType": "worn"
+		},
+		"containerId": null,
+		"size": "med",
+		"material": {
+			"type": null,
+			"grade": null
+		},
+		"identification": {
+			"status": "unidentified",
+			"unidentified": {
+				"name": "Sovereign Sanitation Solution",
+				"img": "icons/consumables/potions/bottle-round-corked-blue.webp",
+				"data": {
+					"description": {
+						"value": "<p>This solution has the authority to sanitize anything</p>"
+					}
+				}
+			},
+			"misidentified": {}
+		},
+		"category": "other",
+		"uses": {
+			"value": 1,
+			"max": 1,
+			"autoDestroy": true
+		},
+		"damage": null,
+		"usage": {
+			"value": "held-in-one-hand"
+		},
+		"stackGroup": null,
+		"spell": null
+	},
+	"_id": "TjRxpiXtnYE3X15m",
+	"img": "icons/consumables/potions/bottle-round-corked-blue.webp",
+	"sort": 101563,
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"scene-packer": {
+			"hash": "378367589bb79c29ff63e531e7e8037f09ef08d3"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730269370626,
+		"modifiedTime": 1730271423583,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_key": "!items!TjRxpiXtnYE3X15m"
+}

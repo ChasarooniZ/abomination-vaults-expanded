@@ -1,0 +1,26 @@
+{
+	"name": "Zacchaeus Quagmire Letters",
+	"sorting": "a",
+	"folder": null,
+	"type": "Item",
+	"_id": "G7kV1hCCK6CFH5wa",
+	"description": "",
+	"sort": 0,
+	"color": null,
+	"flags": {
+		"scene-packer": {
+			"hash": "bdaf3f56e1daba1e1d60af7e4f195a3528e2d14c"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730264899854,
+		"modifiedTime": 1730264899854,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_key": "!folders!G7kV1hCCK6CFH5wa"
+}

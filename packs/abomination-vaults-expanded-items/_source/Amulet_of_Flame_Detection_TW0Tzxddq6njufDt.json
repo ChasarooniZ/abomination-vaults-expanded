@@ -1,0 +1,98 @@
+{
+	"folder": "l1G9Nf4hDjPaudSR",
+	"name": "Amulet of Flame Detection",
+	"type": "equipment",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "<p>This amulet detects when the wearer is touching flames giving the wearer a mental satisfying ding that repeats as long as the wearer is touching fire.</p>",
+			"value": "<p>This Amulet has the ability to detect flames.</p>"
+		},
+		"rules": [],
+		"slug": "amulet-of-flame-detection",
+		"_migration": {
+			"version": 0.933,
+			"lastMigration": null
+		},
+		"traits": {
+			"otherTags": [],
+			"value": [
+				"fire",
+				"magical"
+			],
+			"rarity": "common"
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 0
+		},
+		"quantity": 1,
+		"baseItem": null,
+		"bulk": {
+			"value": 0.1
+		},
+		"hp": {
+			"value": 0,
+			"max": 0
+		},
+		"hardness": 0,
+		"price": {
+			"value": {}
+		},
+		"equipped": {
+			"carryType": "worn",
+			"invested": null
+		},
+		"containerId": null,
+		"size": "med",
+		"material": {
+			"type": null,
+			"grade": null
+		},
+		"identification": {
+			"status": "identified",
+			"unidentified": {
+				"name": "Unusual Object",
+				"img": "icons/equipment/neck/necklace-jeweled-gold-red.webp",
+				"data": {
+					"description": {
+						"value": ""
+					}
+				}
+			},
+			"misidentified": {}
+		},
+		"usage": {
+			"value": "wornamulet"
+		},
+		"subitems": []
+	},
+	"_id": "TW0Tzxddq6njufDt",
+	"img": "icons/equipment/neck/necklace-jeweled-gold-red.webp",
+	"sort": 100000,
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"scene-packer": {
+			"hash": "9a93b8f5d2367942bb5c0d60f011734a37e999c1"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730269449236,
+		"modifiedTime": 1730271414424,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_key": "!items!TW0Tzxddq6njufDt"
+}

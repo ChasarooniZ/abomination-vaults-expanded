@@ -1,0 +1,26 @@
+{
+	"name": "NPCs",
+	"sorting": "a",
+	"folder": null,
+	"type": "Actor",
+	"_id": "QYm3I4uDchyNBuax",
+	"description": "",
+	"sort": 0,
+	"color": null,
+	"flags": {
+		"scene-packer": {
+			"hash": "06fbf4def12a8c8e7dfa0363d0a621d4c953737d"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730272730466,
+		"modifiedTime": 1730272730466,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_key": "!folders!QYm3I4uDchyNBuax"
+}

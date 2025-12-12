@@ -1,0 +1,304 @@
+{
+	"prototypeToken": {
+		"displayName": 20,
+		"displayBars": 50,
+		"flags": {
+			"barbrawl": {
+				"resourceBars": {
+					"bar1": {
+						"id": "bar1",
+						"order": 0,
+						"attribute": "attributes.hp",
+						"mincolor": "#FF0000",
+						"maxcolor": "#80FF00",
+						"position": "bottom-inner",
+						"gmVisibility": -1,
+						"ownerVisibility": 30,
+						"otherVisibility": 0,
+						"hideFull": false,
+						"hideEmpty": false,
+						"hideCombat": false,
+						"hideNoCombat": false,
+						"hideHud": false,
+						"indentLeft": null,
+						"indentRight": null,
+						"shareHeight": false,
+						"style": "user",
+						"label": "",
+						"invert": false,
+						"invertDirection": false,
+						"subdivisions": null,
+						"subdivisionsOwner": false,
+						"fgImage": "",
+						"bgImage": "",
+						"opacity": null
+					}
+				}
+			},
+			"tagger": {},
+			"monks-combat-marker": {
+				"token-highlight-scale": 1.9,
+				"token-combat-animation": "",
+				"token-highlight": ""
+			},
+			"perceptive": {
+				"canbeSpottedFlag": false,
+				"RevealwhenSpottedFlag": false,
+				"PPDCFlag": -1,
+				"SpottingRangeFlag": -1,
+				"SpottingMessageFlag": "",
+				"resetSpottedbyMoveFlag": false,
+				"StealthEffectsFlag": "",
+				"OverrideWorldSEffectsFlag": false,
+				"MATTTriggerTileFlag": "",
+				"MATTTriggerConditionsFlag": {
+					"NewlySpotted": "never"
+				}
+			},
+			"Rideable": {
+				"issetRideableFlag": true,
+				"MountonEnterFlag": false,
+				"AutoMountBlackListFlag": "",
+				"AutoMountWhiteListFlag": "",
+				"MaxRiderFlag": null,
+				"CustomRidingheightFlag": null,
+				"UseRidingHeightFlag": true,
+				"RidersScaleFlag": 1,
+				"RiderPositioningFlag": "RowPlacement",
+				"RiderOffsetFlag": [
+					0,
+					0
+				],
+				"RiderRotOffsetFlag": 0,
+				"TokenFormFlag": "TokenFormCircle",
+				"InsideMovementFlag": false,
+				"SpawnRidersFlag": "",
+				"MountingEffectsFlag": "",
+				"WorldMEffectOverrideFlag": false,
+				"SelfApplyEffectsFlag": false,
+				"forMountEffectsFlag": "",
+				"canbeGrappledFlag": true,
+				"CanbePilotedFlag": false,
+				"CheckPilotedCollisionFlag": false,
+				"PilotedbyDefaultFlag": false
+			},
+			"pf2e-rpg-numbers": {
+				"rotationOffset": 0,
+				"fireEmblemImg": "",
+				"personaImg": "",
+				"critOffsetX": 0,
+				"critOffsetY": 0,
+				"critScale": 100,
+				"critRotation": 0,
+				"critSFX": ""
+			}
+		},
+		"prependAdjective": true,
+		"height": 1,
+		"width": 1,
+		"name": "Incomplete Soulbound Doll (Actor Only)",
+		"actorLink": true,
+		"appendNumber": false,
+		"texture": {
+			"src": "icons/commodities/treasure/doll-voodoo.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"hexagonalShape": 0,
+		"lockRotation": false,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": true,
+			"colors": {
+				"ring": null,
+				"background": null
+			},
+			"effects": 17,
+			"subject": {
+				"scale": 1,
+				"texture": null
+			}
+		},
+		"randomImg": false
+	},
+	"folder": "dxehwsT6Pa9R1VxJ",
+	"name": "Incomplete Soulbound Doll (Actor Only)",
+	"type": "npc",
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"effects": [],
+	"system": {
+		"attributes": {
+			"hp": {
+				"value": 10,
+				"temp": 0,
+				"max": 10,
+				"details": ""
+			},
+			"speed": {
+				"value": 25,
+				"otherSpeeds": [],
+				"details": ""
+			},
+			"ac": {
+				"value": 10,
+				"details": ""
+			},
+			"allSaves": {
+				"value": ""
+			}
+		},
+		"initiative": {
+			"statistic": "perception"
+		},
+		"details": {
+			"languages": {
+				"value": [],
+				"details": ""
+			},
+			"level": {
+				"value": 1
+			},
+			"blurb": "",
+			"publicNotes": "",
+			"privateNotes": "",
+			"publication": {
+				"title": "",
+				"authors": "",
+				"license": "OGL",
+				"remaster": false
+			}
+		},
+		"resources": {},
+		"_migration": {
+			"version": 0.933,
+			"previous": null
+		},
+		"abilities": {
+			"str": {
+				"mod": 0
+			},
+			"dex": {
+				"mod": 0
+			},
+			"con": {
+				"mod": 0
+			},
+			"int": {
+				"mod": 0
+			},
+			"wis": {
+				"mod": 0
+			},
+			"cha": {
+				"mod": 0
+			}
+		},
+		"perception": {
+			"details": "",
+			"mod": 0,
+			"senses": [],
+			"vision": true
+		},
+		"saves": {
+			"fortitude": {
+				"value": 0,
+				"saveDetail": ""
+			},
+			"reflex": {
+				"value": 0,
+				"saveDetail": ""
+			},
+			"will": {
+				"value": 0,
+				"saveDetail": ""
+			}
+		},
+		"skills": {},
+		"traits": {
+			"value": [],
+			"rarity": "common",
+			"size": {
+				"value": "med"
+			}
+		}
+	},
+	"_id": "8v9hGL0AJioGrA4q",
+	"img": "icons/commodities/treasure/doll-voodoo.webp",
+	"items": [],
+	"sort": 0,
+	"flags": {
+		"scene-packer": {
+			"hash": "8941209d542516dc9a40d971b5aeb26a35420f63"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730276939239,
+		"modifiedTime": 1730276980054,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_key": "!actors!8v9hGL0AJioGrA4q"
+}

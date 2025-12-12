@@ -1,0 +1,154 @@
+{
+	"pages": [
+		{
+			"name": "The Letters of Dr. Zacchaeus Quagmire III",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>In <strong>The Menace Under Otari</strong>, one piece of loot is only described as a <strong>‘treasure map.’</strong> Obviously, this is intended to provide GMs with a plot hook leading into further adventures. This chapter of <strong>The Abomination Vaults: Expanded</strong> is my effort to elaborate upon this treasure map idea and connect it to the vaults.</p><p>I have changed it from a treasure map to a treasure hunt. The map becomes a letter from an enigmatic character, the first in a series of letters hidden throughout the levels of the Abomination Vaults.</p><section class=\"compartment\"><article class=\"full\"><h3>Dr. Zacchaeus Quagmire III</h3><p>Dr. Zacchaeus Quagmire III is a respected archaeologist and member of the <strong>Inner Sea Historical Society</strong>, based in <strong>Absalom</strong>. Several months ago, he ventured to the @UUID[Compendium.pf2e.equipment-srd.Item.Y12bRscT79LCpz4k]{Gauntlight} to take a look around, and he ended up discovering the vaults below.</p><p>This was not a problem for him, as he is curious, loves exploring, and is quite capable of taking care of himself. However, because a fortune telling he got from @JournalEntry[Character Biographies#Wrin Sivinxi]{Wrin}, he suspects that his nieces <strong>Theodora</strong> and <strong>Charlotte</strong>, also members of the Historical Society, will be following after him.</p><p>To this end, he has left a series of clues and helpful notes throughout the Vaults. Dr. Quagmire himself can be found and rescued in @JournalEntry[I: Hunting Grounds]{the ninth level}.</p><p>The first note has ended up in the kobolds’ treasure hoard beneath @JournalEntry[Campaign Background#Otari Gazetteer]{Otari} from the <strong>Menace Under Otari</strong>.</p><ul><li><p>If you aren’t running the beginner box adventure, you can have your party find it behind the painting of a tiger in area @JournalEntry[AV:E - Changes to the Vaults#B06. Tiger Painting]{B6} in @JournalEntry[B: Servants' Quarters]{the second level} of the vaults.</p></li></ul><figure class=\"right\"><img src=\"modules/abomination-vaults-expanded/assets/characters/dr._quagmire.avatar.webp\" width=\"220\" /><figcaption><strong>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.2UzvkuwZaWinkwWv]{Dr. Zacchaeus Quagmire III}</strong></figcaption></figure><p>• Each letter is difficult to find without the clues from the previous letter, and each is accompanied by a handful of useful alchemical items or other consumables. More importantly, each letter contains some cryptic clues and hints about what lies further below.</p><p>• @JournalEntry[Otari Locations#Wrin's Wonders]{Wrin} can describe <strong>Dr. Quagmire</strong> as halfling archaeologist who dropped by her place several months ago. At this time she already harbored suspicions about the Gauntlight, but he did not heed her warnings. Part of his fortune told that his nieces would come looking for him.</p><p>• @JournalEntry[Otari Locations#Odd Stories]{James Morlibint} can also be of assistance. He can identify the tome mentioned in the first letter, and he also knows the name of <strong>Dr. Zacchaeus Quagmire III</strong>. In fact, <strong>Morlibint</strong> has one of Dr. Quagmire’s books, <em>Tombs and Temples</em>, which reveals a bit about the adventurous nature of this old archaeologist.</p></article></section>",
+				"markdown": ""
+			},
+			"_id": "OmLsmbwPtNMw7csF",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 200000,
+			"ownership": {
+				"default": -1
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": 1730284618262,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_key": "!journal.pages!6jMFCIti4rR7goXl.OmLsmbwPtNMw7csF"
+		},
+		{
+			"name": "Letters and Loot",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Here is a list of all the letters and their location and extra loot.</p><p></p><table><thead><tr><th><p>Letter</p></th><th><p>Found in Area</p></th><th><p>Extra Loot</p></th></tr></thead><tbody><tr><td><figure><figcaption>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.GbxI193oCuRmTk31]{1st Letter}</figcaption></figure></td><td><p>Found as loot in area 18 of <strong>The Menace Under Otari</strong>, or in @JournalEntry[B: Servants' Quarters#B06. Abandoned Guard Post]{area B6} behind the Tiger painting if not running the <strong>Beginner Box</strong>.</p></td><td><p style=\"text-align:center\"><span style=\"font-family:Roboto, Arial, sans-serif\">—</span></p></td></tr><tr><td><figure><figcaption>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.QPGYlpZaIrE3qrB9]{2nd Letter}</figcaption></figure></td><td><p>Inside the book @UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.NVu3j8kxOfsfDIpc]{Descriptions of Natural Phenomena}, by Jan Dreli Kolai the Sage, @JournalEntry[C: Library#C36. Scriptorium]{area C36}</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.ZAtwiAPkk1zwCf82]{4 Fear Gem}</p><p>@UUID[Compendium.pf2e.equipment-srd.AJ1dC7EtTIfBey0M]{3 Antidote (Moderate)}</p></td></tr><tr><td><figure><figcaption>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.DVbU5NLPWDa7PVPW]{3rd Letter}</figcaption></figure></td><td><p>Inside an empty wine bottle in the back of the wine cellar, @JournalEntry[D: Belcora's Retreat#D04. Wine Cellar]{area D4}</p><p><strong>Note: </strong>@Check[type:perception|dc:26|traits:secret,seek] to notice if the PCs aren’t looking for it</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.wIQjJGLZOKCY1es9]{4 Bottled Sunlight (Moderate)}</p><p>@UUID[Compendium.pf2e.equipment-srd.5ftFTiKY0BMvhzL9]{3 Stone Body Mutagen (Lesser)}</p></td></tr><tr><td><figure><figcaption>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.CGQZePYptRXOvnSB]{4th Letter}</figcaption></figure></td><td><p>Beneath the mattress in the second-southmost of the gladiator’s quarters, @JournalEntry[E: Arena#E23. Empty Gladiators’ Quarters]{area E23}.</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.MIP28AmODXgyF2D2]{3 Ghost Oil}</p><p></p></td></tr><tr><td><figure><figcaption>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.f0IwksIOCwvh2krl]{5th Letter}</figcaption></figure></td><td><p>In the torture chamber, @JournalEntry[F: Laboratory#F24. Torture Chamber]{area F24}, beneath a loose floor tile.</p><p><strong>Note: </strong>If the PCs are unaware that Dr. Quagmire is a halfling, they may have difficulty locating the correct tile!)</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.F4WcgJ3NB1kiF7OL]{2 Ghostly Portal Paint}</p><p>@UUID[Compendium.pf2e.equipment-srd.xGmX6Vuuhivyal8v]{3 Skeptic's Elixir (Moderate)}</p></td></tr><tr><td><figure><figcaption>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.JMsig88FKTT80tOc]{6th Letter}</figcaption></figure></td><td><p>Fastened to the underside of the suspended disc in @JournalEntry[G: Prison#G07. Summoning Chamber]{area G7}.</p><p>It may require a bit of problem-solving to retrieve it, as it is suspended several feet over a pit of lava!</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.OCAwJ6CAqS0YkHCU]{4 Stormfeather}</p><p>@UUID[Compendium.pf2e.equipment-srd.Eb4dEuV22QVlMumS]{3 Potion of Swimming}</p></td></tr><tr style=\"height:162px\"><td style=\"width:27.6265%;height:162px\"><figure><figcaption>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.FwOd4uHt64f95GFf]{7th Letter}</figcaption></figure></td><td style=\"width:32.8424%;height:162px\"><p>Within a large mushroom in @JournalEntry[H: Farm#H34. Eastern Wilds]{area H34}, near the ladder down. It is marked with a torch and book symbol.</p></td><td style=\"width:33.3875%;height:162px\"><p>@UUID[Compendium.pf2e.equipment-srd.Item.ezSqiHhz2OYTzoF2]{3 Potion of Shared Life}</p><p>@UUID[Compendium.pf2e.equipment-srd.kORpovlPYicysr2g]{3 Potion of Quickness}</p></td></tr></tbody></table><p>Loot objects to drag into your world</p><ul><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.bHhzeB3xYqh74nS1]{2 - Descriptions of Natural Phenomena}</p><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.CX2sUMCt61Vg0qgY]{3 - Empty Wine Bottle}</p></li><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.cwsqpcdQ0v0dio6E]{4 - Under Mattress}</p></li><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.ASEGePitz3BZBitx]{5 - Under Loose Floor Tile}</p></li><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.XM08JLJzCOatjJyu]{6 - Under the Disk}</p></li><li><p>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.83WzhyGTLHHSStwH]{7 - Mushroom}</p></li></ul>"
+			},
+			"_id": "hOMUDNapQMRjV1kQ",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 400000,
+			"ownership": {
+				"default": -1
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": 1730282139097,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_key": "!journal.pages!6jMFCIti4rR7goXl.hOMUDNapQMRjV1kQ"
+		},
+		{
+			"name": "Dr. Quagmire, I Presume?",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 2
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><strong>@UUID[Compendium.abomination-vaults-expanded.abomination-vaults-expanded-actors.Actor.2UzvkuwZaWinkwWv]{Dr. Zacchaeus Quagmire III}</strong> can be found in @JournalEntry[I: Hunting Grounds#I26. Galudu’s Room]{area I26}, conversing with @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.3Ll0LCZcmQmb7aV3]{Galudu}.</p><h2>Caligini Situation</h2><p>He is being kept prisoner, and although he is able to escape if he wants to, he has been enjoying a time of rest and education. He has even been using his remarkable skills in both infiltration and alchemy to aid the caligni community. His usefulness, wit, and irrepressibly jovial spirit have endeared him to the <strong>caligni</strong> of this area, some of whom have even come to view him as a friend in the few weeks he has stayed with them.</p><h2>Consequences of Native Relations</h2><p>The PCs might not be aware that <strong>Dr. Quagmire</strong> is here, and for his part, <strong>Dr. Quagmire</strong> doesn’t even know the PCs exist!</p><ul><li><p>If <em>the PCs take a <strong>violent approach</strong> to dealing with the caligni in this area</em>, play things out as usual, except that <strong>Dr. Quagmire</strong> is hiding in @JournalEntry[I: Hunting Grounds#I26. Galudu’s Room]{area I26}, and starts with a negative and suspicious attitude towards the PCs.</p></li><li><p>If <em>the PCs take a <strong>peaceful approach</strong> with the caligni,</em> they will meet <strong>Dr. Quagmire</strong> with <strong>Galudu</strong>. If the PCs specifically ask about <strong>Dr. Quagmire</strong>, the caligni will @UUID[Compendium.pf2e.actionspf2e.ewwCglB7XOPLUz72]{Lie} about his presence (PCs can @UUID[Compendium.pf2e.actionspf2e.1xRFPTFtWtGJ9ELw]{Sense Motive}) in an effort to protect him. <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">They might change their minds if the PCs produce his letters.</span></span></p></li></ul><h2>Services</h2><p>Most likely, <strong>Dr. Quagmire</strong> is happy to meet the PCs and compare notes. As in his letters, his personality is <strong>enthusiastic</strong>, <strong>adventurous</strong>, and <strong>curious</strong>. However, he will be distressed to hear that all his letters for his nieces have been intercepted!</p><p>He is able to <strong>sell</strong> a variety of alchemical items up to level 12, and if the PCs are friendly, <strong>Dr. Quagmire</strong> will happily offer them discounts.</p><p>If <strong>the PCs attack</strong>, he will drink a potion to become ethereal and escape into the caverns, never to be seen again.</p>",
+				"markdown": ""
+			},
+			"_id": "LyGMJmON0ZPU7CmT",
+			"image": {},
+			"video": {
+				"controls": true,
+				"volume": 0.5
+			},
+			"src": null,
+			"system": {},
+			"sort": 600000,
+			"ownership": {
+				"default": -1
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": 1730284609751,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"_key": "!journal.pages!6jMFCIti4rR7goXl.LyGMJmON0ZPU7CmT"
+		}
+	],
+	"name": "AV:E - The Letters of Dr. Zacchaeus Quagmire III",
+	"folder": "th0qSnAO4S5C23Fh",
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3,
+		"xOsB85wXI0jTccyw": 3,
+		"bQE3EQasbR1qnHLr": 3,
+		"tdxabnG2Ci6AQRkt": 3,
+		"hmjIqZTiWsabmwxL": 3,
+		"0ELuUZXAOmCg7f0N": 3
+	},
+	"flags": {
+		"pf2e-abomination-vaults": {
+			"isAV": true
+		},
+		"scene-packer": {
+			"hash": "04c9d46d21b55e34806116160cb8604f20a7a48c",
+			"sourceId": "JournalEntry.3dNQCvcANkMSsK5i"
+		},
+		"exportSource": {
+			"world": "pathfinder-test",
+			"system": "pf2e",
+			"coreVersion": "12.331",
+			"systemVersion": "6.5.1"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730265629201,
+		"modifiedTime": 1730265638597,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_id": "6jMFCIti4rR7goXl",
+	"sort": 100000,
+	"_key": "!journal!6jMFCIti4rR7goXl",
+	"categories": []
+}

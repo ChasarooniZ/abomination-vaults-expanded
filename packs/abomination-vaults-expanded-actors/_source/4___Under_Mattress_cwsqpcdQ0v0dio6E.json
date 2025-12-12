@@ -1,0 +1,360 @@
+{
+	"prototypeToken": {
+		"displayName": 20,
+		"displayBars": 50,
+		"flags": {
+			"barbrawl": {
+				"resourceBars": {
+					"bar1": {
+						"id": "bar1",
+						"order": 0,
+						"attribute": "attributes.hp",
+						"mincolor": "#FF0000",
+						"maxcolor": "#80FF00",
+						"position": "bottom-inner",
+						"gmVisibility": -1,
+						"ownerVisibility": 30,
+						"otherVisibility": 0
+					}
+				}
+			}
+		},
+		"prependAdjective": true,
+		"height": 1,
+		"width": 1,
+		"actorLink": true,
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"name": "4 - Under Mattress",
+		"appendNumber": false,
+		"texture": {
+			"src": "icons/commodities/wood/lumber-stack-brown3.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"hexagonalShape": 0,
+		"lockRotation": false,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": false,
+			"colors": {
+				"ring": null,
+				"background": null
+			},
+			"effects": 1,
+			"subject": {
+				"scale": 1,
+				"texture": null
+			}
+		},
+		"randomImg": false
+	},
+	"folder": "YRJl4WFZ0bqxPILs",
+	"name": "4 - Under Mattress",
+	"type": "loot",
+	"ownership": {
+		"default": 1,
+		"J3oConv1eQRLao6j": 3
+	},
+	"effects": [],
+	"system": {
+		"attributes": {},
+		"details": {
+			"description": "",
+			"level": {
+				"value": 0
+			}
+		},
+		"lootSheetType": "Loot",
+		"hiddenWhenEmpty": false,
+		"_migration": {
+			"version": 0.933,
+			"previous": null
+		}
+	},
+	"_id": "cwsqpcdQ0v0dio6E",
+	"img": "icons/commodities/wood/lumber-stack-brown3.webp",
+	"items": [
+		{
+			"name": "Fourth Letter of Dr. Zaccheus Quagmire III",
+			"type": "treasure",
+			"effects": [],
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p class=\"message\" style=\"font-size:20px\">Dearest Charlotte and Theodora,</p><p class=\"message\" style=\"font-size:20px\"><br />The Historical Society would be in fits over this place. It just keeps going down! And hardly any indication of such extensive infrastructure on the surface. It was obviously constructed with care, and with a specific purpose and plan in mind. Quite an odd lot of characters around hereabouts, I must say. That cheery fellow, did you know, he managed to beat me at chess! Of course, he cheated. But then again, so did I. Of all the things I expected to find below, a musical group was not among them. They aren’t bad, actually. Perhaps they’ll let you join them, eh, Theodora? Although I didn’t see a pipe organ anywhere, nor even a harpsichord.</p><p class=\"message\" style=\"font-size:20px\"><br />I suppose you noticed the security checkpoint to the west on this level? It leads to the surface! Not that I’m heading that way, mind. I must see what lies at the bottom of all this.</p><p class=\"message\" style=\"font-size:20px\"><br />You’ll find that much of the next level is not at all pleasant, I’m afraid. Torture, experimentation, and even gambling! Well, when you find the torture chamber, you take my advice and check beneath the loose floor tile precisely four paces north and seven west of the ferrous woman.<br />Ever onward!</p><p class=\"message\" style=\"font-size:20px\"><br />Your Exceptional Uncle,</p><p class=\"message\" style=\"font-size:20px\">Dr. Zacchaeus Quagmire III</p>"
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.932,
+						"foundry": "12.331",
+						"system": "6.5.0"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 0
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "Unusual Treasure",
+						"img": "icons/sundries/documents/paper-plain-white.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"stackGroup": null
+			},
+			"img": "icons/sundries/documents/paper-plain-white.webp",
+			"folder": "G7kV1hCCK6CFH5wa",
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false
+				},
+				"scene-packer": {
+					"sourceId": "Item.yd6YERizziVXSAp0",
+					"hash": "377975bfe16799c695a1add6e95aac05cd84275d"
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.CGQZePYptRXOvnSB",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": 1730281540283,
+				"modifiedTime": 1730281540283,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"sort": 300000,
+			"_id": "tdAzQGqwyomgQVrN",
+			"_key": "!actors.items!cwsqpcdQ0v0dio6E.tdAzQGqwyomgQVrN"
+		},
+		{
+			"img": "systems/pf2e/icons/equipment/consumables/oils/ghost-oil.webp",
+			"name": "Ghost Oil",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>The vials containing this translucent, unsubstantial oil are always cold to the touch. Applying <em>ghost oil</em> to a melee weapon you're wielding or carrying causes it to become semitransparent and gain the effects of a <em>@UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch}</em> rune, but it also makes the weapon unable to harm corporeal creatures. The oil has no effect when applied to another creature's weapon. The effect of the oil lasts for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.sk5LgfXestDKxCnK]{Effect: Ghost Oil}</p>"
+				},
+				"rules": [],
+				"slug": "ghost-oil",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"consumable",
+						"magical",
+						"oil"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder Lost Omens: Knights of Lastwall",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 4
+				},
+				"quantity": 4,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"gp": 18
+					}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "systems/pf2e/icons/equipment/consumables/oils/ghost-oil.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "oil",
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"autoDestroy": true
+				},
+				"damage": null,
+				"usage": {
+					"value": "held-in-one-hand"
+				},
+				"stackGroup": null,
+				"spell": null
+			},
+			"type": "consumable",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.MIP28AmODXgyF2D2",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": 1730281784029,
+				"modifiedTime": 1730281787295,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"hash": "3acf10014f6562a4b7c8129879804d97a24b89ab"
+				}
+			},
+			"_id": "sEmTywTbKqoteGuI",
+			"_key": "!actors.items!cwsqpcdQ0v0dio6E.sEmTywTbKqoteGuI"
+		}
+	],
+	"sort": 0,
+	"flags": {
+		"scene-packer": {
+			"hash": "107f8484f3c5c00b61291c5b890f1749c453a1b3"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730281463998,
+		"modifiedTime": 1730281532954,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_key": "!actors!cwsqpcdQ0v0dio6E"
+}

@@ -1,54 +1,23 @@
-2025/06/06-09:00:32.594 505c Recovering log #655
-2025/06/06-09:00:32.596 505c Level-0 table #657: started
-2025/06/06-09:00:32.711 505c Level-0 table #657: 310889 bytes OK
-2025/06/06-09:00:32.897 505c Delete type=0 #12
-2025/06/06-09:00:32.897 505c Delete type=2 #14
-2025/06/06-09:00:32.897 505c Delete type=2 #23
-2025/06/06-09:00:32.897 505c Delete type=0 #149
-2025/06/06-09:00:32.897 505c Delete type=0 #153
-2025/06/06-09:00:32.897 505c Delete type=2 #156
-2025/06/06-09:00:32.898 505c Delete type=0 #158
-2025/06/06-09:00:32.898 505c Delete type=2 #171
-2025/06/06-09:00:32.898 505c Delete type=0 #177
-2025/06/06-09:00:32.898 505c Delete type=2 #180
-2025/06/06-09:00:32.898 505c Delete type=0 #186
-2025/06/06-09:00:32.898 505c Delete type=0 #187
-2025/06/06-09:00:32.914 505c Delete type=2 #188
-2025/06/06-09:00:32.914 505c Delete type=2 #195
-2025/06/06-09:00:32.914 505c Delete type=0 #237
-2025/06/06-09:00:32.915 505c Delete type=2 #239
-2025/06/06-09:00:32.926 505c Delete type=0 #240
-2025/06/06-09:00:32.926 505c Delete type=2 #247
-2025/06/06-09:00:32.926 505c Delete type=0 #289
-2025/06/06-09:00:32.926 505c Delete type=2 #291
-2025/06/06-09:00:32.926 505c Delete type=0 #292
-2025/06/06-09:00:32.926 505c Delete type=2 #299
-2025/06/06-09:00:32.926 505c Delete type=0 #317
-2025/06/06-09:00:32.926 505c Delete type=2 #324
-2025/06/06-09:00:32.927 505c Delete type=0 #406
-2025/06/06-09:00:32.927 505c Delete type=2 #409
-2025/06/06-09:00:32.964 505c Delete type=0 #451
-2025/06/06-09:00:32.964 505c Delete type=2 #458
-2025/06/06-09:00:32.964 505c Delete type=0 #536
-2025/06/06-09:00:32.970 505c Delete type=2 #543
-2025/06/06-09:00:32.970 505c Delete type=0 #565
-2025/06/06-09:00:32.970 505c Delete type=2 #572
-2025/06/06-09:00:33.015 505c Delete type=0 #582
-2025/06/06-09:00:33.015 505c Delete type=0 #655
-2025/06/06-09:00:33.015 505c Delete type=3 #10
-2025/06/06-09:00:33.015 505c Delete type=3 #148
-2025/06/06-09:00:33.015 505c Delete type=3 #150
-2025/06/06-09:00:33.016 505c Delete type=3 #157
-2025/06/06-09:00:33.016 505c Delete type=3 #176
-2025/06/06-09:00:33.016 505c Delete type=3 #185
-2025/06/06-09:00:33.016 505c Delete type=3 #236
-2025/06/06-09:00:33.016 505c Delete type=3 #238
-2025/06/06-09:00:33.016 505c Delete type=3 #288
-2025/06/06-09:00:33.016 505c Delete type=3 #290
-2025/06/06-09:00:33.017 505c Delete type=3 #316
-2025/06/06-09:00:33.017 505c Delete type=3 #405
-2025/06/06-09:00:33.017 505c Delete type=3 #450
-2025/06/06-09:00:33.017 505c Delete type=3 #535
-2025/06/06-09:00:33.017 505c Delete type=3 #564
-2025/06/06-09:00:33.017 505c Delete type=3 #581
-2025/06/06-09:00:33.017 505c Delete type=3 #654
+2025/12/12-09:36:16.252 9a54 Recovering log #661
+2025/12/12-09:36:17.099 9a54 Delete type=0 #661
+2025/12/12-09:36:17.099 9a54 Delete type=3 #659
+2025/12/12-09:36:17.166 9cc8 Level-0 table #665: started
+2025/12/12-09:36:17.234 9cc8 Level-0 table #665: 303875 bytes OK
+2025/12/12-09:36:17.297 9cc8 Delete type=0 #663
+2025/12/12-09:36:17.298 9cc8 Manual compaction at level-0 from '!adventures!WF3IiFzVvRwfZnF7' @ 72057594037927935 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at '!adventures!WF3IiFzVvRwfZnF7' @ 34 : 1
+2025/12/12-09:36:17.298 9cc8 Compacting 3@0 + 0@1 files
+2025/12/12-09:36:17.373 9cc8 Generated table #666@0: 1 keys, 303875 bytes
+2025/12/12-09:36:17.373 9cc8 Compacted 3@0 + 0@1 files => 303875 bytes
+2025/12/12-09:36:17.430 9cc8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/12-09:36:17.430 9cc8 Delete type=2 #657
+2025/12/12-09:36:17.436 9cc8 Delete type=2 #660
+2025/12/12-09:36:17.436 9cc8 Delete type=2 #665
+2025/12/12-09:36:17.436 9cc8 Manual compaction at level-0 from '!adventures!WF3IiFzVvRwfZnF7' @ 34 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at (end)
+2025/12/12-09:36:17.436 9cc8 Manual compaction at level-1 from '!adventures!WF3IiFzVvRwfZnF7' @ 72057594037927935 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at '!adventures!WF3IiFzVvRwfZnF7' @ 37 : 1
+2025/12/12-09:36:17.436 9cc8 Compacting 1@1 + 1@2 files
+2025/12/12-09:36:17.522 9cc8 Generated table #667@1: 1 keys, 303875 bytes
+2025/12/12-09:36:17.522 9cc8 Compacted 1@1 + 1@2 files => 303875 bytes
+2025/12/12-09:36:17.540 9cc8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/12-09:36:17.541 9cc8 Delete type=2 #589
+2025/12/12-09:36:17.544 9cc8 Delete type=2 #666
+2025/12/12-09:36:17.544 9cc8 Manual compaction at level-1 from '!adventures!WF3IiFzVvRwfZnF7' @ 37 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at (end)

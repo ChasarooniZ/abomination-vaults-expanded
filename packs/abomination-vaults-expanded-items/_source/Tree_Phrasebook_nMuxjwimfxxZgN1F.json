@@ -1,0 +1,96 @@
+{
+	"folder": "l1G9Nf4hDjPaudSR",
+	"name": "Tree Phrasebook",
+	"type": "equipment",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "<p>Speak to trees! No guarantee they will understand, or care, or react favorably. But you never know…</p>",
+			"value": "<p>A book containing  a guide to common tree phrases.</p>"
+		},
+		"rules": [],
+		"slug": "tree-phrasebook",
+		"_migration": {
+			"version": 0.933,
+			"lastMigration": null
+		},
+		"traits": {
+			"otherTags": [],
+			"value": [],
+			"rarity": "common"
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 0
+		},
+		"quantity": 1,
+		"baseItem": null,
+		"bulk": {
+			"value": 0.1
+		},
+		"hp": {
+			"value": 0,
+			"max": 0
+		},
+		"hardness": 0,
+		"price": {
+			"value": {}
+		},
+		"equipped": {
+			"carryType": "worn",
+			"invested": null
+		},
+		"containerId": null,
+		"size": "med",
+		"material": {
+			"type": null,
+			"grade": null
+		},
+		"identification": {
+			"status": "identified",
+			"unidentified": {
+				"name": "Unusual Object",
+				"img": "icons/sundries/books/book-leaves-circle.webp",
+				"data": {
+					"description": {
+						"value": ""
+					}
+				}
+			},
+			"misidentified": {}
+		},
+		"usage": {
+			"value": "held-in-one-hand"
+		},
+		"subitems": []
+	},
+	"img": "icons/sundries/books/book-leaves-circle.webp",
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"scene-packer": {
+			"hash": "d4b72e15d9584934efeb2f6b9ac3ecd04f2f04f1",
+			"sourceId": "Item.5kyG4qMDa58lGygT"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730269256557,
+		"modifiedTime": 1730271422585,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_id": "nMuxjwimfxxZgN1F",
+	"sort": 500000,
+	"_key": "!items!nMuxjwimfxxZgN1F"
+}

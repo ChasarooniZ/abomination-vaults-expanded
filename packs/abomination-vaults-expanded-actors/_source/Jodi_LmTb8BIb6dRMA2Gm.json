@@ -1,0 +1,1865 @@
+{
+	"prototypeToken": {
+		"displayName": 30,
+		"displayBars": 50,
+		"flags": {
+			"barbrawl": {
+				"resourceBars": {
+					"bar1": {
+						"id": "bar1",
+						"order": 0,
+						"attribute": "attributes.hp",
+						"mincolor": "#FF0000",
+						"maxcolor": "#80FF00",
+						"position": "bottom-inner",
+						"gmVisibility": -1,
+						"ownerVisibility": 0,
+						"otherVisibility": 0,
+						"hideFull": false,
+						"hideEmpty": false,
+						"hideCombat": false,
+						"hideNoCombat": false,
+						"hideHud": false,
+						"indentLeft": null,
+						"indentRight": null,
+						"shareHeight": false,
+						"style": "user",
+						"label": "",
+						"invert": false,
+						"invertDirection": false,
+						"subdivisions": null,
+						"subdivisionsOwner": false,
+						"fgImage": "",
+						"bgImage": "",
+						"opacity": null
+					}
+				}
+			},
+			"tagger": {},
+			"monks-combat-marker": {
+				"token-highlight-scale": 1.9,
+				"token-combat-animation": "",
+				"token-highlight": ""
+			},
+			"perceptive": {
+				"canbeSpottedFlag": false,
+				"RevealwhenSpottedFlag": false,
+				"PPDCFlag": -1,
+				"SpottingRangeFlag": -1,
+				"SpottingMessageFlag": "",
+				"resetSpottedbyMoveFlag": false,
+				"StealthEffectsFlag": "",
+				"OverrideWorldSEffectsFlag": false,
+				"MATTTriggerTileFlag": "",
+				"MATTTriggerConditionsFlag": {
+					"NewlySpotted": "never"
+				}
+			},
+			"Rideable": {
+				"issetRideableFlag": true,
+				"MountonEnterFlag": false,
+				"AutoMountBlackListFlag": "",
+				"AutoMountWhiteListFlag": "",
+				"MaxRiderFlag": null,
+				"CustomRidingheightFlag": null,
+				"UseRidingHeightFlag": true,
+				"RidersScaleFlag": 1,
+				"RiderPositioningFlag": "RowPlacement",
+				"RiderOffsetFlag": [
+					0,
+					0
+				],
+				"RiderRotOffsetFlag": 0,
+				"TokenFormFlag": "TokenFormCircle",
+				"InsideMovementFlag": false,
+				"SpawnRidersFlag": "",
+				"MountingEffectsFlag": "",
+				"WorldMEffectOverrideFlag": false,
+				"SelfApplyEffectsFlag": false,
+				"forMountEffectsFlag": "",
+				"canbeGrappledFlag": true,
+				"CanbePilotedFlag": false,
+				"CheckPilotedCollisionFlag": false,
+				"PilotedbyDefaultFlag": false
+			},
+			"pf2e-rpg-numbers": {
+				"rotationOffset": 0,
+				"fireEmblemImg": "",
+				"personaImg": "",
+				"critOffsetX": 0,
+				"critOffsetY": 0,
+				"critScale": 100,
+				"critRotation": 0,
+				"critSFX": ""
+			}
+		},
+		"prependAdjective": false,
+		"name": "Jodi",
+		"actorLink": true,
+		"appendNumber": false,
+		"width": 1,
+		"height": 1,
+		"texture": {
+			"src": "modules/pf2e-tokens-bestiaries/tokens/humanoid/giant/wood-giant.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"hexagonalShape": 0,
+		"lockRotation": false,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": true,
+			"colors": {
+				"ring": null,
+				"background": null
+			},
+			"effects": 1,
+			"subject": {
+				"scale": 1,
+				"texture": "modules/pf2e-tokens-bestiaries/subjects/humanoid/giant/wood-giant.webp"
+			}
+		},
+		"randomImg": true
+	},
+	"img": "modules/pf2e-tokens-bestiaries/portraits/humanoid/giant/wood-giant.webp",
+	"items": [
+		{
+			"_id": "4Ot5qt44391NJqRn",
+			"img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+			"name": "Primal Innate Spells",
+			"sort": 100000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": ""
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": []
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"ability": {
+					"value": "cha"
+				},
+				"spelldc": {
+					"value": 15,
+					"dc": 23,
+					"mod": 0
+				},
+				"tradition": {
+					"value": "primal"
+				},
+				"prepared": {
+					"value": "innate",
+					"flexible": false
+				},
+				"showSlotlessLevels": {
+					"value": true
+				},
+				"proficiency": {
+					"value": 0
+				},
+				"slots": {
+					"slot0": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot1": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot2": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot3": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot4": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot5": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot6": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot7": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot8": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot9": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot10": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					},
+					"slot11": {
+						"prepared": [],
+						"value": 0,
+						"max": 0
+					}
+				},
+				"autoHeightenLevel": {
+					"value": null
+				}
+			},
+			"type": "spellcastingEntry",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.4Ot5qt44391NJqRn"
+		},
+		{
+			"_id": "K29g9I6f5w79LOvu",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"img": "icons/magic/nature/plant-poison-spit-green.webp",
+			"name": "Speak with Plants",
+			"sort": 200000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You can ask questions of and receive answers from plants, but the spell doesn't make them more friendly or intelligent than normal. Most normal plants have a distinctive view of the world around them, so they don't recognize details about creatures or know anything about the world beyond their immediate vicinity. Cunning plant monsters are likely to be terse and evasive, while less intelligent ones often make inane comments.</p>"
+				},
+				"rules": [],
+				"slug": "speak-with-plants",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"manipulate",
+						"plant"
+					],
+					"rarity": "common",
+					"traditions": [
+						"primal"
+					]
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 4
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": ""
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "10 minutes",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "4Ot5qt44391NJqRn"
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.K29g9I6f5w79LOvu"
+		},
+		{
+			"_id": "T2TYGYcf3BVAv0fc",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
+			"name": "Earthbind",
+			"sort": 300000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>Using the weight of earth, you hamper a target's flight, with effects based on its Fortitude save. If the creature reaches the ground safely, it doesn't take falling damage.</p>\n<hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target falls safely up to 120 feet.</p>\n<p><strong>Failure</strong> The target falls safely up to 120 feet. If it hits the ground, it can't Fly, levitate, or otherwise leave the ground for 1 round.</p>\n<p><strong>Critical Failure</strong> The target falls safely up to 120 feet. If it hits the ground, it can't Fly, levitate, or otherwise leave the ground for 1 minute.</p>"
+				},
+				"rules": [],
+				"slug": "earthbind",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"manipulate"
+					],
+					"rarity": "common",
+					"traditions": [
+						"arcane",
+						"primal"
+					]
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 3
+				},
+				"requirements": "",
+				"target": {
+					"value": "1 flying creature"
+				},
+				"range": {
+					"value": "120 feet"
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "varies",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": {
+					"save": {
+						"basic": false,
+						"statistic": "fortitude"
+					}
+				},
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "4Ot5qt44391NJqRn"
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.T2TYGYcf3BVAv0fc"
+		},
+		{
+			"_id": "yqMvEricfnvNAmRG",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.spells-srd.Item.J6vNvrUT3b1hx2iA",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"img": "icons/magic/nature/root-vines-grow-brown.webp",
+			"name": "Entangle",
+			"sort": 400000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>Plants in the area entangle creatures. The area counts as difficult terrain. Each round that a creature starts its turn in the area, it must attempt a Reflex save. On a failure, it takes a -10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure, it is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round. Creatures can attempt to Escape at entangle's DC to remove these effects.</p>"
+				},
+				"rules": [],
+				"slug": "entangle",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"manipulate",
+						"plant"
+					],
+					"rarity": "common",
+					"traditions": [
+						"primal"
+					]
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 2
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": "120 feet"
+				},
+				"area": {
+					"details": "all squares in a 20-foot-radius burst that contain plants",
+					"type": "burst",
+					"value": 20
+				},
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "1 minute",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": {
+					"save": {
+						"basic": false,
+						"statistic": "reflex"
+					}
+				},
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "4Ot5qt44391NJqRn"
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.yqMvEricfnvNAmRG"
+		},
+		{
+			"_id": "rEHDvZqglITeLKYB",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.spells-srd.Item.zlnXpME1T2uvn8Lr",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"img": "icons/magic/nature/stealth-hide-eyes-green.webp",
+			"name": "Pass Without Trace (Constant)",
+			"sort": 500000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You obscure the tracks you leave behind and make it harder for others to find you. The DC of checks to Track you gains a +4 status bonus or is equal to your spell DC, whichever results in a higher DC. You can benefit from only one pass without trace spell at a time.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The duration increases to 8 hours.</p>\n<p><strong>Heightened (4th)</strong> The duration increases to 8 hours. The spell has a range of 20 feet and an area of a 20-foot-emanation, affecting up to 10 creatures of your choice within that area.</p>"
+				},
+				"rules": [],
+				"slug": "pass-without-trace",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"manipulate"
+					],
+					"rarity": "common",
+					"traditions": [
+						"primal"
+					]
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 2
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": ""
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "1 hour",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "4Ot5qt44391NJqRn"
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.rEHDvZqglITeLKYB"
+		},
+		{
+			"_id": "IV7eERHkT9RjZVgM",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"img": "icons/creatures/mammals/ox-buffalo-horned-green.webp",
+			"name": "Speak with Animals (Constant)",
+			"sort": 600000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You can ask questions of, receive answers from, and use the Diplomacy skill with animals. The spell doesn't make them more friendly than normal. Cunning animals are likely to be terse and evasive, while less intelligent ones often make inane comments.</p>"
+				},
+				"rules": [],
+				"slug": "speak-with-animals",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"manipulate"
+					],
+					"rarity": "common",
+					"traditions": [
+						"primal"
+					]
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 2
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": ""
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "10 minutes",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "4Ot5qt44391NJqRn"
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.IV7eERHkT9RjZVgM"
+		},
+		{
+			"_id": "gYzif4wQAb0GX6SV",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"img": "icons/magic/nature/tree-twisted-glow-yellow.webp",
+			"name": "Tree Shape",
+			"sort": 700000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>You transform into a Large tree. Perception checks don't reveal your true nature, but a successful Nature or Survival check against your spell DC reveals that you appear to be a tree that is strangely new to the area. While in tree form, you can observe everything around you, but you can't act other than to end the spell, and your turn, by using a single action, which has the concentrate trait. As a tree, your AC is 20, and only status bonuses, status penalties, circumstance bonuses, and circumstance penalties affect you. Any successes and critical successes you roll on Reflex saves are failures.</p>"
+				},
+				"rules": [],
+				"slug": "tree-shape",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"concentrate",
+						"manipulate",
+						"plant",
+						"polymorph"
+					],
+					"rarity": "common",
+					"traditions": [
+						"primal"
+					]
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 2
+				},
+				"requirements": "",
+				"target": {
+					"value": ""
+				},
+				"range": {
+					"value": ""
+				},
+				"area": null,
+				"time": {
+					"value": "2"
+				},
+				"duration": {
+					"value": "8 hours",
+					"sustained": false
+				},
+				"damage": {},
+				"defense": null,
+				"cost": {
+					"value": ""
+				},
+				"location": {
+					"value": "4Ot5qt44391NJqRn"
+				},
+				"counteraction": false
+			},
+			"type": "spell",
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.gYzif4wQAb0GX6SV"
+		},
+		{
+			"_id": "5b4HNF0LotCdB3Bv",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.dUC8Fsa6FZtVikS3",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"img": "systems/pf2e/icons/equipment/weapons/composite-longbow.webp",
+			"name": "+1 Composite Longbow",
+			"sort": 800000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>This projectile weapon is made from horn, wood, and sinew laminated together to increase the power of its pull and the force of its projectile. Like all longbows, its great size also increases the bow's range and power. You must use two hands to fire it, and it cannot be used while mounted. Any time an ability is specifically restricted to a longbow, such as Erastil's favored weapon, it also applies to composite longbows unless otherwise stated.</p>"
+				},
+				"rules": [],
+				"slug": "composite-longbow",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"deadly-d10",
+						"propulsive",
+						"volley-30"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": "composite-longbow",
+				"bulk": {
+					"value": 2
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"gp": 20
+					}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null,
+					"handsHeld": 0
+				},
+				"containerId": null,
+				"size": "lg",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"usage": {
+					"value": "held-in-one-plus-hands"
+				},
+				"category": "martial",
+				"group": "bow",
+				"bonus": {
+					"value": 0
+				},
+				"damage": {
+					"dice": 1,
+					"die": "d8",
+					"damageType": "piercing",
+					"persistent": null
+				},
+				"bonusDamage": {
+					"value": 0
+				},
+				"splashDamage": {
+					"value": 0
+				},
+				"range": 100,
+				"reload": {
+					"value": "0"
+				},
+				"runes": {
+					"potency": 1,
+					"striking": 0,
+					"property": []
+				},
+				"specific": null,
+				"subitems": [],
+				"property1": {
+					"value": "",
+					"dice": 0,
+					"die": "",
+					"damageType": "",
+					"critDice": 0,
+					"critDie": "",
+					"critDamage": "",
+					"critDamageType": ""
+				}
+			},
+			"type": "weapon",
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.5b4HNF0LotCdB3Bv"
+		},
+		{
+			"_id": "ehkSYzB2HyKwd9xA",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.AnwzlOs0njF9Jqnr",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"img": "icons/equipment/chest/vest-leather-tattered-white.webp",
+			"name": "Hide",
+			"sort": 900000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>A mix of furs, sturdy hide, and sometimes molded boiled leather, this armor provides protection due to its layers of leather, though its bulkiness slows the wearer down and decreases mobility.</p>"
+				},
+				"rules": [],
+				"slug": "hide-armor",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": "hide-armor",
+				"bulk": {
+					"value": 2
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"gp": 2
+					}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null,
+					"inSlot": true
+				},
+				"containerId": null,
+				"size": "lg",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "medium",
+				"group": "leather",
+				"acBonus": 3,
+				"strength": 2,
+				"dexCap": 2,
+				"checkPenalty": -2,
+				"speedPenalty": -5,
+				"runes": {
+					"potency": 0,
+					"resilient": 0,
+					"property": []
+				},
+				"subitems": []
+			},
+			"type": "armor",
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.ehkSYzB2HyKwd9xA"
+		},
+		{
+			"_id": "B5NY3w5CxQzXA0u1",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.w2ENw2VMPcsbif8g",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"img": "systems/pf2e/icons/equipment/weapons/arrows.webp",
+			"name": "Arrows",
+			"sort": 1000000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>These projectiles are the ammunition for bows. The shaft of an arrow is made of wood. It is stabilized in flight by fletching at one end and bears a metal head on the other.</p>"
+				},
+				"rules": [],
+				"slug": "arrows",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 20,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"sp": 1
+					},
+					"per": 10
+				},
+				"equipped": {
+					"carryType": "worn",
+					"handsHeld": 0
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "ammo",
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"autoDestroy": true
+				},
+				"damage": null,
+				"usage": {
+					"value": "held-in-one-hand"
+				},
+				"stackGroup": "arrows",
+				"spell": null
+			},
+			"type": "consumable",
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.B5NY3w5CxQzXA0u1"
+		},
+		{
+			"_id": "J0PFKoQWakUEDyIJ",
+			"img": "systems/pf2e/icons/default-icons/melee.svg",
+			"name": "Shortsword",
+			"sort": 1100000,
+			"system": {
+				"attackEffects": {
+					"value": []
+				},
+				"bonus": {
+					"value": 17
+				},
+				"damageRolls": {
+					"0": {
+						"damage": "1d8+11",
+						"damageType": "piercing",
+						"category": null
+					}
+				},
+				"description": {
+					"value": "",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [
+						"agile",
+						"reach-10",
+						"versatile-s"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.933,
+					"previous": null
+				}
+			},
+			"type": "melee",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.J0PFKoQWakUEDyIJ"
+		},
+		{
+			"_id": "Rp0zPvS2PAgfYdfn",
+			"img": "systems/pf2e/icons/default-icons/melee.svg",
+			"name": "Fist",
+			"sort": 1200000,
+			"system": {
+				"attackEffects": {
+					"value": []
+				},
+				"bonus": {
+					"value": 17
+				},
+				"damageRolls": {
+					"0": {
+						"damage": "1d6+11",
+						"damageType": "bludgeoning",
+						"category": null
+					}
+				},
+				"description": {
+					"value": "",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [
+						"agile",
+						"reach-10"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.933,
+					"previous": null
+				}
+			},
+			"type": "melee",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.Rp0zPvS2PAgfYdfn"
+		},
+		{
+			"_id": "GwBXsOeV4FFdxDzQ",
+			"flags": {
+				"pf2e": {
+					"linkedWeapon": "5b4HNF0LotCdB3Bv"
+				}
+			},
+			"img": "systems/pf2e/icons/default-icons/melee.svg",
+			"name": "Composite Longbow",
+			"sort": 1300000,
+			"system": {
+				"attackEffects": {
+					"value": []
+				},
+				"bonus": {
+					"value": 18
+				},
+				"damageRolls": {
+					"0": {
+						"damage": "1d8+8",
+						"damageType": "piercing",
+						"category": null
+					}
+				},
+				"description": {
+					"value": "",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [
+						"deadly-d10",
+						"range-increment-100",
+						"reload-0",
+						"volley-30"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.933,
+					"previous": null
+				}
+			},
+			"type": "melee",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.GwBXsOeV4FFdxDzQ"
+		},
+		{
+			"_id": "s0ekhcyN4jpM6jLQ",
+			"img": "systems/pf2e/icons/default-icons/melee.svg",
+			"name": "Rock",
+			"sort": 1400000,
+			"system": {
+				"attackEffects": {
+					"value": []
+				},
+				"bonus": {
+					"value": 17
+				},
+				"damageRolls": {
+					"0": {
+						"damage": "2d6+11",
+						"damageType": "bludgeoning",
+						"category": null
+					}
+				},
+				"description": {
+					"value": "",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [
+						"brutal",
+						"range-increment-120"
+					],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.933,
+					"previous": null
+				}
+			},
+			"type": "melee",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.s0ekhcyN4jpM6jLQ"
+		},
+		{
+			"_id": "HqwhBLhYDbCBbv8f",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kakyXBG5WA8c6Zfd",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"img": "systems/pf2e/icons/actions/Passive.webp",
+			"name": "Constant Spells",
+			"sort": 1500000,
+			"system": {
+				"actionType": {
+					"value": "passive"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "interaction",
+				"description": {
+					"value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "Pathfinder Bestiary",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "constant-spells",
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.933,
+					"previous": null
+				}
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.HqwhBLhYDbCBbv8f"
+		},
+		{
+			"_id": "ot1RNObQMdnpWSrb",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.uG0Z8PsyZtsYuvGR",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"img": "systems/pf2e/icons/actions/Reaction.webp",
+			"name": "Catch Rock",
+			"sort": 1600000,
+			"system": {
+				"actionType": {
+					"value": "reaction"
+				},
+				"actions": {
+					"value": null
+				},
+				"category": "defensive",
+				"description": {
+					"value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.CatchRock]</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "Pathfinder Bestiary",
+					"authors": ""
+				},
+				"rules": [
+					{
+						"domain": "all",
+						"key": "RollOption",
+						"option": "catch-rock",
+						"toggleable": true
+					},
+					{
+						"key": "FlatModifier",
+						"predicate": [
+							"catch-rock"
+						],
+						"selector": [
+							"ac",
+							"saving-throw"
+						],
+						"type": "circumstance",
+						"value": 4
+					}
+				],
+				"slug": "catch-rock",
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.933,
+					"previous": null
+				}
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.ot1RNObQMdnpWSrb"
+		},
+		{
+			"_id": "pvidfrziJK8Olr4p",
+			"img": "systems/pf2e/icons/actions/OneAction.webp",
+			"name": "Piercing Shot",
+			"sort": 1700000,
+			"system": {
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 1
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p>The wood giant shoots an arrow at a target so that it glances off the first target to strike another target behind the first one. The wood giant chooses two targets in a direct line, one of which must be giving lesser cover to the other, then makes a single ranged Strike with its longbow against both targets. This attack ignores the lesser cover the first target provides to the second. The wood giant rolls damage only once, and applies it to each creature it hits. Piercing Shot counts as two attacks for the wood giant's multiple attack penalty.</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": null,
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.933,
+					"previous": null
+				}
+			},
+			"type": "action",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.pvidfrziJK8Olr4p"
+		},
+		{
+			"_id": "7i3BZvYdZOVTki7v",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.a0tx6exmB9v9CUsj",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"img": "systems/pf2e/icons/actions/OneAction.webp",
+			"name": "Throw Rock",
+			"sort": 1800000,
+			"system": {
+				"actionType": {
+					"value": "action"
+				},
+				"actions": {
+					"value": 1
+				},
+				"category": "offensive",
+				"description": {
+					"value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ThrowRock]</p>",
+					"gm": ""
+				},
+				"publication": {
+					"license": "OGL",
+					"remaster": false,
+					"title": "Pathfinder Bestiary",
+					"authors": ""
+				},
+				"rules": [],
+				"slug": "throw-rock",
+				"traits": {
+					"value": [],
+					"otherTags": []
+				},
+				"_migration": {
+					"version": 0.933,
+					"previous": null
+				}
+			},
+			"type": "action",
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.7i3BZvYdZOVTki7v"
+		},
+		{
+			"_id": "nm9xf6FWIfjkblnF",
+			"img": "systems/pf2e/icons/default-icons/lore.svg",
+			"name": "Forest Lore",
+			"sort": 1900000,
+			"system": {
+				"description": {
+					"gm": "",
+					"value": ""
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": []
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"mod": {
+					"value": 14
+				},
+				"proficient": {
+					"value": 0
+				}
+			},
+			"type": "lore",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {},
+			"_key": "!actors.items!LmTb8BIb6dRMA2Gm.nm9xf6FWIfjkblnF"
+		}
+	],
+	"name": "Jodi",
+	"system": {
+		"attributes": {
+			"hp": {
+				"value": 120,
+				"temp": 0,
+				"max": 120,
+				"details": ""
+			},
+			"speed": {
+				"value": 35,
+				"otherSpeeds": [],
+				"details": ""
+			},
+			"ac": {
+				"value": 24,
+				"details": ""
+			},
+			"allSaves": {
+				"value": ""
+			},
+			"adjustment": null
+		},
+		"initiative": {
+			"statistic": "perception"
+		},
+		"details": {
+			"languages": {
+				"value": [
+					"common",
+					"fey",
+					"jotun"
+				],
+				"details": "speak with animals"
+			},
+			"level": {
+				"value": 6
+			},
+			"blurb": "",
+			"publicNotes": "<p>Wood giants are the denizens and protectors of the deepest, most primeval forests in the world. They dedicate their entire lives to the preservation of nature-a role that they believe nature itself has selected them to carry out. Wood giants are patient and kind to those who show respect and care for wild places. Although most wood giants consider civilization as simply another part of the world, they value places untouched by permanent structures and dense humanoid settlements.</p>\n<p>Wood giants have long, drooping ears and more slender builds than most giants. Despite their size, they are graceful and agile, able to move through dense forests and brush with little sound. They have been known to work closely with druids and others who share their respect for the sanctity of wilderness regions. Wood giants spend their days patrolling vast swaths of territory, foraging, and keeping an eye out for any who would despoil their lands. While they respect the connection to nature they share with many fey creatures and remain on good terms with them, wood giants see most fey as far too flighty to take part in any long-term plans.</p>\n<p>An average wood giant stands 14 feet tall and weighs 1,200 pounds.</p>",
+			"privateNotes": "",
+			"publication": {
+				"title": "Pathfinder Bestiary 2",
+				"authors": "",
+				"license": "OGL",
+				"remaster": false
+			}
+		},
+		"resources": {
+			"focus": {
+				"max": 1,
+				"value": 1
+			}
+		},
+		"_migration": {
+			"version": 0.933,
+			"previous": null
+		},
+		"abilities": {
+			"str": {
+				"mod": 5
+			},
+			"dex": {
+				"mod": 5
+			},
+			"con": {
+				"mod": 4
+			},
+			"int": {
+				"mod": 2
+			},
+			"wis": {
+				"mod": 3
+			},
+			"cha": {
+				"mod": 1
+			}
+		},
+		"perception": {
+			"details": "",
+			"mod": 15,
+			"senses": [
+				{
+					"type": "low-light-vision"
+				}
+			],
+			"vision": true
+		},
+		"saves": {
+			"fortitude": {
+				"value": 17,
+				"saveDetail": ""
+			},
+			"reflex": {
+				"value": 14,
+				"saveDetail": ""
+			},
+			"will": {
+				"value": 13,
+				"saveDetail": ""
+			}
+		},
+		"skills": {
+			"acrobatics": {
+				"base": 13
+			},
+			"athletics": {
+				"base": 15
+			},
+			"nature": {
+				"base": 14
+			},
+			"stealth": {
+				"base": 13,
+				"special": [
+					{
+						"base": 15,
+						"label": "in forests",
+						"predicate": [
+							"terrain:forest"
+						]
+					}
+				]
+			},
+			"survival": {
+				"base": 13
+			}
+		},
+		"traits": {
+			"value": [
+				"chaotic",
+				"giant",
+				"good",
+				"humanoid"
+			],
+			"rarity": "common",
+			"size": {
+				"value": "lg"
+			}
+		}
+	},
+	"type": "npc",
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730271548928,
+		"modifiedTime": 1730272732207,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"effects": [],
+	"folder": "QYm3I4uDchyNBuax",
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"scene-packer": {
+			"sourceId": "Compendium.pf2e.pathfinder-bestiary-2.Actor.5l0b80kz53Ie26gq",
+			"hash": "81765675e1ded1ff0eef6e897ed1d2ba85b71897"
+		}
+	},
+	"_id": "LmTb8BIb6dRMA2Gm",
+	"sort": 100000,
+	"_key": "!actors!LmTb8BIb6dRMA2Gm"
+}

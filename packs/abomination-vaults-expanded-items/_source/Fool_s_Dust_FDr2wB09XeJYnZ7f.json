@@ -1,0 +1,104 @@
+{
+	"folder": "l1G9Nf4hDjPaudSR",
+	"name": "Fool's Dust",
+	"type": "consumable",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "<p>This dust causes sneezing and poor decisions</p>",
+			"value": "<p>The dust of fools, smells slightly woody.</p>"
+		},
+		"rules": [],
+		"slug": null,
+		"_migration": {
+			"version": 0.933,
+			"lastMigration": null
+		},
+		"traits": {
+			"otherTags": [],
+			"value": [
+				"consumable"
+			],
+			"rarity": "common"
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 0
+		},
+		"quantity": 1,
+		"baseItem": null,
+		"bulk": {
+			"value": 0.1
+		},
+		"hp": {
+			"value": 0,
+			"max": 0
+		},
+		"hardness": 0,
+		"price": {
+			"value": {}
+		},
+		"equipped": {
+			"carryType": "worn"
+		},
+		"containerId": null,
+		"size": "med",
+		"material": {
+			"type": null,
+			"grade": null
+		},
+		"identification": {
+			"status": "identified",
+			"unidentified": {
+				"name": "Unusual Object",
+				"img": "icons/commodities/materials/powder-teal.webp",
+				"data": {
+					"description": {
+						"value": ""
+					}
+				}
+			},
+			"misidentified": {}
+		},
+		"category": "other",
+		"uses": {
+			"value": 1,
+			"max": 1,
+			"autoDestroy": true
+		},
+		"damage": null,
+		"usage": {
+			"value": "held-in-one-hand"
+		},
+		"stackGroup": null,
+		"spell": null
+	},
+	"_id": "FDr2wB09XeJYnZ7f",
+	"img": "icons/commodities/materials/powder-teal.webp",
+	"sort": 106250,
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"scene-packer": {
+			"hash": "0416b33d491c3b2234ceef183cba3871660fc360"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730270742173,
+		"modifiedTime": 1730271419810,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_key": "!items!FDr2wB09XeJYnZ7f"
+}

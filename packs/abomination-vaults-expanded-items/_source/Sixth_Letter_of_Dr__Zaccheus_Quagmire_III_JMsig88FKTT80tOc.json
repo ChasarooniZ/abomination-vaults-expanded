@@ -1,0 +1,104 @@
+{
+	"name": "Sixth Letter of Dr. Zaccheus Quagmire III",
+	"type": "treasure",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "",
+			"value": "<p class=\"parchment-note-1 message\" style=\"font-size:20px\">Dearest Charlotte and Theodora,<br /><br />My dears, we shall be the envy of the Historical Society when we report back with these findings! I can’t wait to see the look on Professor Carlisle’s bloated face. That indestructible central column – just how far down does it go? To the center of the earth? The noticeable increase in necromantic energy within it is cause for concern, without doubt.<br /><br />I hope you are prepared for a change in scenery, but I won’t spoil the surprise. I will only say that my next letter will be concealed within a very large specimen of basidiomycota. It will be near the ladder (you’ll know the ladder when you see it), and very likely the only such specimen to be marked with the symbol of our good and honorable society.<br /><br />Many and diverse are the dangers below. I suggest you keep particular watch for A.O.U.S., which, as I’m sure you remember from your lessons, means Amphibians Of Unusual Size. Be wary of the water. Be wary of the shadows overhead. Be wary, in fact, of everything.<br /><br />Ever onward!<br /><br />Your Increasingly Cautious Uncle,</p><p class=\"parchment-note-1 message\" style=\"font-size:20px\">Dr. Zacchaeus Quagmire</p>"
+		},
+		"rules": [],
+		"slug": null,
+		"_migration": {
+			"version": 0.933,
+			"lastMigration": null,
+			"previous": {
+				"schema": 0.932,
+				"foundry": "12.331",
+				"system": "6.5.0"
+			}
+		},
+		"traits": {
+			"otherTags": [],
+			"value": [],
+			"rarity": "common"
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 0
+		},
+		"quantity": 1,
+		"baseItem": null,
+		"bulk": {
+			"value": 0
+		},
+		"hp": {
+			"value": 0,
+			"max": 0
+		},
+		"hardness": 0,
+		"price": {
+			"value": {}
+		},
+		"equipped": {
+			"carryType": "worn"
+		},
+		"containerId": null,
+		"size": "med",
+		"material": {
+			"type": null,
+			"grade": null
+		},
+		"identification": {
+			"status": "identified",
+			"unidentified": {
+				"name": "Unusual Treasure",
+				"img": "icons/sundries/documents/paper-plain-white.webp",
+				"data": {
+					"description": {
+						"value": ""
+					}
+				}
+			},
+			"misidentified": {}
+		},
+		"stackGroup": null
+	},
+	"img": "icons/sundries/documents/paper-plain-white.webp",
+	"folder": "G7kV1hCCK6CFH5wa",
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"LocknKey": {
+			"IDKeysFlag": "",
+			"RemoveKeyonUseFlag": false
+		},
+		"scene-packer": {
+			"hash": "b92a332d584b6f7f9efd0c35bde8ee628a7d7d7e",
+			"sourceId": "Item.rvM9MQB8qAiE7PF3"
+		},
+		"core": {
+			"sourceId": "Item.CKEbkb5kdEy6LH5A"
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Item.CKEbkb5kdEy6LH5A",
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730265029266,
+		"modifiedTime": 1730267087065,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_id": "JMsig88FKTT80tOc",
+	"sort": 100000,
+	"_key": "!items!JMsig88FKTT80tOc"
+}

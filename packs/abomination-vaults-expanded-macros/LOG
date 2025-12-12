@@ -1,7 +1,14 @@
-2024/10/31-20:34:51.184268 ffffa4b22160 Recovering log #12
-2024/10/31-20:34:51.189043 ffffa4b22160 Delete type=0 #12
-2024/10/31-20:34:51.189068 ffffa4b22160 Delete type=3 #10
-2024/10/31-20:59:54.107105 fffd76be6160 Level-0 table #17: started
-2024/10/31-20:59:54.107123 fffd76be6160 Level-0 table #17: 0 bytes OK
-2024/10/31-20:59:54.109008 fffd76be6160 Delete type=0 #15
-2024/10/31-20:59:54.111175 fffd76be6160 Manual compaction at level-0 from '!macros!eeLgCBdRfenwHz25' @ 72057594037927935 : 1 .. '!macros!eeLgCBdRfenwHz25' @ 0 : 0; will stop at (end)
+2025/12/12-09:36:18.870 9a54 Recovering log #19
+2025/12/12-09:36:19.023 9a54 Delete type=0 #19
+2025/12/12-09:36:19.023 9a54 Delete type=3 #18
+2025/12/12-09:36:19.066 9cc8 Level-0 table #23: started
+2025/12/12-09:36:19.097 9cc8 Level-0 table #23: 942 bytes OK
+2025/12/12-09:36:19.154 9cc8 Delete type=0 #21
+2025/12/12-09:36:19.154 9cc8 Manual compaction at level-0 from '!macros!eeLgCBdRfenwHz25' @ 72057594037927935 : 1 .. '!macros!eeLgCBdRfenwHz25' @ 0 : 0; will stop at '!macros!eeLgCBdRfenwHz25' @ 3 : 1
+2025/12/12-09:36:19.155 9cc8 Compacting 1@0 + 1@1 files
+2025/12/12-09:36:19.190 9cc8 Generated table #24@0: 1 keys, 942 bytes
+2025/12/12-09:36:19.190 9cc8 Compacted 1@0 + 1@1 files => 942 bytes
+2025/12/12-09:36:19.253 9cc8 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/12/12-09:36:19.254 9cc8 Delete type=2 #9
+2025/12/12-09:36:19.254 9cc8 Delete type=2 #23
+2025/12/12-09:36:19.254 9cc8 Manual compaction at level-0 from '!macros!eeLgCBdRfenwHz25' @ 3 : 1 .. '!macros!eeLgCBdRfenwHz25' @ 0 : 0; will stop at (end)

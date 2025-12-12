@@ -1,0 +1,104 @@
+{
+	"name": "Seventh Letter of Dr. Zaccheus Quagmire III",
+	"type": "treasure",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "",
+			"value": "<p class=\"parchment-note-1 message\" style=\"font-size:20px\">Dearest Charlotte and Theodora,<br /><br />I am afraid I may be in a spot of bother, here. I am hastily writing this letter, but my pursuers may be closing in even as I do so. I hate to admit it, but it may have been a bit reckless of me to come down this far without waiting for you.<br /><br />Never fear, however! I have come out of worse scrapes than this, I am sure. There is an old hunting lodge down below, you see, and I seem to have inadvertently disturbed a group of caligni warriors.<br /><br />It seems we have reached an upper region of the Darklands. All structures nearby seem built intentionally around the central column. I have reason to believe that it does indeed have a base, and that this base is not far below. One can only speculate what secrets, what mysteries it may contain!<br /><br />A bit of advice if you descend to the lower level: the drow can be reasoned with; the urdefhan can not. As usual, beware of monsters, but they are particularly fierce below. As well, a ghostly spirit of extraordinary power prowls these caverns. You may have noticed. She is rather angry about something.<br />Ah, it seems that my time is running out. Charlotte and Theodora, I love you both dearly.</p><p class=\"parchment-note-1 message\" style=\"font-size:20px\"><br />Ever onward!<br /><br />Your Increasingly Cautious Uncle,</p><p class=\"parchment-note-1 message\" style=\"font-size:20px\">Dr. Zacchaeus Quagmire</p>"
+		},
+		"rules": [],
+		"slug": null,
+		"_migration": {
+			"version": 0.933,
+			"lastMigration": null,
+			"previous": {
+				"schema": 0.932,
+				"foundry": "12.331",
+				"system": "6.5.0"
+			}
+		},
+		"traits": {
+			"otherTags": [],
+			"value": [],
+			"rarity": "common"
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 0
+		},
+		"quantity": 1,
+		"baseItem": null,
+		"bulk": {
+			"value": 0
+		},
+		"hp": {
+			"value": 0,
+			"max": 0
+		},
+		"hardness": 0,
+		"price": {
+			"value": {}
+		},
+		"equipped": {
+			"carryType": "worn"
+		},
+		"containerId": null,
+		"size": "med",
+		"material": {
+			"type": null,
+			"grade": null
+		},
+		"identification": {
+			"status": "identified",
+			"unidentified": {
+				"name": "Unusual Treasure",
+				"img": "icons/sundries/documents/paper-plain-white.webp",
+				"data": {
+					"description": {
+						"value": ""
+					}
+				}
+			},
+			"misidentified": {}
+		},
+		"stackGroup": null
+	},
+	"img": "icons/sundries/documents/paper-plain-white.webp",
+	"folder": "G7kV1hCCK6CFH5wa",
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"LocknKey": {
+			"IDKeysFlag": "",
+			"RemoveKeyonUseFlag": false
+		},
+		"scene-packer": {
+			"hash": "c256df39d676a860c9369d3688d9a5048dc16e66",
+			"sourceId": "Item.OATzwuh1XKfB7rDE"
+		},
+		"core": {
+			"sourceId": "Item.CKEbkb5kdEy6LH5A"
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Item.CKEbkb5kdEy6LH5A",
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730267086917,
+		"modifiedTime": 1730267111059,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_id": "FwOd4uHt64f95GFf",
+	"sort": 400000,
+	"_key": "!items!FwOd4uHt64f95GFf"
+}

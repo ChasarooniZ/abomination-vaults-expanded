@@ -1,0 +1,120 @@
+{
+	"img": "icons/tools/instruments/horn-white-gray.webp",
+	"name": "Bagpipes of Invisibility",
+	"system": {
+		"description": {
+			"gm": "<p>While the user is @UUID[Compendium.pf2e.actionspf2e.EEDElIyin4z60PXx]{Performing} by playing these bagpipes they are @UUID[Compendium.pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible}.</p>",
+			"value": "<p>These bagpipes makes the user invisible.</p>"
+		},
+		"rules": [
+			{
+				"domain": "all",
+				"key": "RollOption",
+				"label": "PF2E.SpecificRule.PlayingItem",
+				"option": "playing",
+				"toggleable": true
+			},
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML",
+				"predicate": [
+					"playing"
+				],
+				"inMemoryOnly": true,
+				"onDeleteActions": {
+					"grantee": "restrict"
+				},
+				"allowDuplicate": false,
+				"reevaluateOnUpdate": true
+			}
+		],
+		"slug": "bagpipes-of-invisibility",
+		"_migration": {
+			"version": 0.933,
+			"lastMigration": null,
+			"previous": null
+		},
+		"traits": {
+			"otherTags": [],
+			"value": [
+				"magical"
+			],
+			"rarity": "common"
+		},
+		"publication": {
+			"title": "Pathfinder Treasure Vault",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"level": {
+			"value": 0
+		},
+		"quantity": 1,
+		"baseItem": null,
+		"bulk": {
+			"value": 1
+		},
+		"hp": {
+			"value": 0,
+			"max": 0
+		},
+		"hardness": 0,
+		"price": {
+			"value": {}
+		},
+		"equipped": {
+			"carryType": "worn",
+			"invested": null
+		},
+		"containerId": null,
+		"size": "med",
+		"material": {
+			"type": null,
+			"grade": null
+		},
+		"identification": {
+			"status": "identified",
+			"unidentified": {
+				"name": "Unusual Object",
+				"img": "icons/tools/instruments/horn-white-gray.webp",
+				"data": {
+					"description": {
+						"value": ""
+					}
+				}
+			},
+			"misidentified": {}
+		},
+		"usage": {
+			"value": "held-in-two-hands"
+		},
+		"subitems": []
+	},
+	"type": "equipment",
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730269585523,
+		"modifiedTime": 1730271416248,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"effects": [],
+	"folder": "l1G9Nf4hDjPaudSR",
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"scene-packer": {
+			"sourceId": "Compendium.pf2e.equipment-srd.Item.y8nPmHXIdt4KhMQU",
+			"hash": "c03a9f7dc8b6f2a76ae479f6182fddba6429f12c"
+		}
+	},
+	"_id": "OpoChqbFTMknlslN",
+	"sort": 150000,
+	"_key": "!items!OpoChqbFTMknlslN"
+}

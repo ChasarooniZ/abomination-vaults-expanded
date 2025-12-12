@@ -1,0 +1,1359 @@
+{
+	"prototypeToken": {
+		"displayName": 20,
+		"displayBars": 50,
+		"flags": {
+			"tagger": {
+				"tags": ""
+			},
+			"Rideable": {
+				"issetRideableFlag": true,
+				"MaxRiderFlag": null,
+				"CustomRidingheightFlag": null,
+				"RiderPositioningFlag": "RowPlacement",
+				"TokenFormFlag": "TokenFormCircle",
+				"InsideMovementFlag": false,
+				"SpawnRidersFlag": "",
+				"MountingEffectsFlag": "",
+				"WorldMEffectOverrideFlag": false,
+				"SelfApplyEffectsFlag": false,
+				"forMountEffectsFlag": "",
+				"canbeGrappledFlag": true,
+				"CanbePilotedFlag": false,
+				"MountonEnterFlag": false,
+				"AutoMountBlackListFlag": "",
+				"AutoMountWhiteListFlag": "",
+				"UseRidingHeightFlag": true,
+				"RidersScaleFlag": 1,
+				"RiderOffsetFlag": [
+					0,
+					0
+				],
+				"RiderRotOffsetFlag": 0,
+				"PilotedbyDefaultFlag": false,
+				"CheckPilotedCollisionFlag": false
+			},
+			"pf2e-rpg-numbers": {
+				"rotationOffset": 0,
+				"fireEmblemImg": "",
+				"personaImg": "",
+				"critOffsetX": 0,
+				"critOffsetY": 0,
+				"critScale": 100,
+				"critRotation": 0,
+				"critSFX": ""
+			},
+			"barbrawl": {
+				"resourceBars": {}
+			},
+			"monks-combat-marker": {
+				"token-highlight-scale": 1.9,
+				"token-combat-animation": "",
+				"token-highlight": ""
+			},
+			"perceptive": {
+				"canbeSpottedFlag": false,
+				"RevealwhenSpottedFlag": false,
+				"PPDCFlag": -1,
+				"APDCFlag": null,
+				"SpottingRangeFlag": -1,
+				"SpottingMessageFlag": "",
+				"resetSpottedbyMoveFlag": false,
+				"StealthEffectsFlag": "",
+				"OverrideWorldSEffectsFlag": false,
+				"MATTTriggerTileFlag": "",
+				"MATTTriggerConditionsFlag": {
+					"NewlySpotted": "never"
+				}
+			},
+			"pf2e": {
+				"linkToActorSize": false,
+				"autoscale": false
+			}
+		},
+		"prependAdjective": true,
+		"height": 1,
+		"width": 1,
+		"actorLink": true,
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"name": "Legitimate Jack",
+		"appendNumber": false,
+		"texture": {
+			"src": "modules/abomination-vaults-expanded/assets/characters/legitimate_jack.token.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 0.8,
+			"scaleY": 0.8,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"hexagonalShape": 0,
+		"lockRotation": false,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"bar1": {
+			"attribute": null
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": true,
+			"colors": {
+				"ring": null,
+				"background": null
+			},
+			"effects": 1,
+			"subject": {
+				"scale": 1,
+				"texture": "modules/abomination-vaults-expanded/assets/characters/legitimate_jack.token.dynamic.webp"
+			}
+		},
+		"randomImg": false
+	},
+	"folder": "QYm3I4uDchyNBuax",
+	"name": "Legitimate Jack",
+	"type": "loot",
+	"ownership": {
+		"default": 1,
+		"J3oConv1eQRLao6j": 3
+	},
+	"effects": [],
+	"system": {
+		"attributes": {},
+		"details": {
+			"description": "",
+			"level": {
+				"value": 0
+			}
+		},
+		"lootSheetType": "Merchant",
+		"hiddenWhenEmpty": false,
+		"_migration": {
+			"version": 0.933,
+			"previous": null
+		}
+	},
+	"img": "modules/abomination-vaults-expanded/assets/characters/legitimate_jack.avatar.webp",
+	"items": [
+		{
+			"img": "systems/pf2e/icons/equipment/held-items/bag-of-holding.webp",
+			"name": "Bag of Weasels",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>This item appears to be and functions as a <em>@UUID[Compendium.pf2e.equipment-srd.Item.jaEEvuQ32GjAa8jy]{Spacious Pouch (Type I)}</em>, until you try to retrieve an item from the bag. Whenever you retrieve an item from the <em>bag of weasels</em>, roll a @Check[flat|dc:11]. On a success, you retrieve the item as normal. On a failure, the item you retrieve is transformed into a weasel; this doesn't affect artifacts, cursed items, or other hard-to-destroy items.</p>\n<p>This weasel uses either the weasel statistics or a giant rat statistics and exudes an aura of magic. The weasel has no loyalty to you and typically attempts to escape as quickly as possible. If the weasel is counteracted, it transforms back into the original item that was taken from the <em>bag of weasels</em>. If it dies or is slain, the weasel disappears and the item is permanently destroyed. Because the weasel is a transformed item, you don't gain any benefit you would receive from attacking a creature, defeating one, damaging one, or the like, but you do gain any benefit you would gain from destroying an item.</p>"
+				},
+				"rules": [],
+				"slug": "bag-of-weasels",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"cursed",
+						"extradimensional",
+						"magical"
+					],
+					"rarity": "rare"
+				},
+				"publication": {
+					"title": "Pathfinder GM Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 4
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 1,
+					"heldOrStowed": 1,
+					"capacity": 25,
+					"ignored": 25
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "unidentified",
+					"unidentified": {
+						"name": "Spacious Pouch (Type I)",
+						"img": "systems/pf2e/icons/equipment/held-items/bag-of-holding.webp",
+						"data": {
+							"description": {
+								"value": "<p data-pm-slice=\"0 0 []\">Though it appears to be a cloth bag decorated with panels of richly colored silk or stylish embroidery, a <em>spacious pouch</em> opens into a magical space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>spacious pouch</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>spacious pouch</em> to stow items in it or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<hr>\n<p><strong>Capacity</strong> 25 Bulk</p>"
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"collapsed": false,
+				"stowing": true,
+				"usage": {
+					"value": "held-in-two-hands"
+				}
+			},
+			"type": "backpack",
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.EGQVEqH3i1oeD3sW",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": "2hqBWtVwXNTt9ujP",
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"sourceId": "Compendium.pf2e.equipment-srd.Item.W5znRDeklmWEGzFY",
+					"hash": "dcba2a886b931fb1b88b479f42001c999fac75cf"
+				}
+			},
+			"sort": 300000,
+			"_id": "JnkBZN1vmy8WqInU",
+			"_key": "!actors.items!eXTCpxlFp5TQvHWA.JnkBZN1vmy8WqInU"
+		},
+		{
+			"folder": "2hqBWtVwXNTt9ujP",
+			"name": "Ring of Danger Sense",
+			"type": "equipment",
+			"effects": [],
+			"system": {
+				"description": {
+					"gm": "<p>When the wearer takes damage this ring loudly cries \"Danger! Danger!\"</p>",
+					"value": "<p>This ring can sense danger to the user.</p>"
+				},
+				"rules": [],
+				"slug": "ring-of-danger-sense",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"magical"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "Unusual Object",
+						"img": "icons/equipment/finger/ring-band-studded.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"usage": {
+					"value": "wornring"
+				},
+				"subitems": []
+			},
+			"img": "icons/equipment/finger/ring-band-studded.webp",
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"hash": "f06a5f8685dd1ea97a79d7ffd380585194c1fdf1",
+					"sourceId": "Item.DtHW0cEIm2VZf29C"
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.bDRko0u9NizhcVg2",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"sort": 200000,
+			"_id": "PPAUJCuzGiwwcEja",
+			"_key": "!actors.items!eXTCpxlFp5TQvHWA.PPAUJCuzGiwwcEja"
+		},
+		{
+			"folder": "2hqBWtVwXNTt9ujP",
+			"name": "Tree Phrasebook",
+			"type": "equipment",
+			"effects": [],
+			"system": {
+				"description": {
+					"gm": "<p>Speak to trees! No guarantee they will understand, or care, or react favorably. But you never know…</p>",
+					"value": "<p>A book containing  a guide to common tree phrases.</p>"
+				},
+				"rules": [],
+				"slug": "tree-phrasebook",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "Unusual Object",
+						"img": "icons/sundries/books/book-leaves-circle.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"usage": {
+					"value": "held-in-one-hand"
+				},
+				"subitems": []
+			},
+			"img": "icons/sundries/books/book-leaves-circle.webp",
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"hash": "eb37693fd720f05e22836930f05bf126211d5dea",
+					"sourceId": "Item.5kyG4qMDa58lGygT"
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.nMuxjwimfxxZgN1F",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"sort": 400000,
+			"_id": "xafJPyscRam3GDpN",
+			"_key": "!actors.items!eXTCpxlFp5TQvHWA.xafJPyscRam3GDpN"
+		},
+		{
+			"folder": "2hqBWtVwXNTt9ujP",
+			"name": "Amulet of Flame Detection",
+			"type": "equipment",
+			"effects": [],
+			"system": {
+				"description": {
+					"gm": "<p>This amulet detects when the wearer is touching flames giving the wearer a mental satisfying ding that repeats as long as the wearer is touching fire.</p>",
+					"value": "<p>This Amulet has the ability to detect flames.</p>"
+				},
+				"rules": [],
+				"slug": "amulet-of-flame-detection",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"fire",
+						"magical"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "Unusual Object",
+						"img": "icons/equipment/neck/necklace-jeweled-gold-red.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"usage": {
+					"value": "wornamulet"
+				},
+				"subitems": []
+			},
+			"img": "icons/equipment/neck/necklace-jeweled-gold-red.webp",
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"hash": "d14148821ff357cff383c83f04e7759b1ac08974"
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.TW0Tzxddq6njufDt",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"_id": "IRIVmK7kdSfXSukn",
+			"_key": "!actors.items!eXTCpxlFp5TQvHWA.IRIVmK7kdSfXSukn"
+		},
+		{
+			"folder": "2hqBWtVwXNTt9ujP",
+			"name": "Water",
+			"type": "consumable",
+			"effects": [],
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>This is just a bottle of water</p>"
+				},
+				"rules": [],
+				"slug": "sovereign-sanitation-solution",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"consumable",
+						"potion"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "unidentified",
+					"unidentified": {
+						"name": "Sovereign Sanitation Solution",
+						"img": "icons/consumables/potions/bottle-round-corked-blue.webp",
+						"data": {
+							"description": {
+								"value": "<p>This solution has the authority to sanitize anything</p>"
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "other",
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"autoDestroy": true
+				},
+				"damage": null,
+				"usage": {
+					"value": "held-in-one-hand"
+				},
+				"stackGroup": null,
+				"spell": null
+			},
+			"img": "icons/consumables/potions/bottle-round-corked-blue.webp",
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"hash": "5cd31f1c7eef0ed0ce34fbb15da4fca292b78ed0"
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.TjRxpiXtnYE3X15m",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"_id": "9j5AVq7Fe7ypoh9a",
+			"_key": "!actors.items!eXTCpxlFp5TQvHWA.9j5AVq7Fe7ypoh9a"
+		},
+		{
+			"img": "icons/equipment/back/cloak-collared-feathers-green.webp",
+			"name": "Cloak of Billowing",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>This cloak flows as if billowing in the wind when worn.</p><p><strong>Activate—Billow</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p><strong>Effect</strong> You strike a dramatic pose which causes the cloak to billow dramatically behind you.</p>"
+				},
+				"rules": [],
+				"slug": "cloak-of-billowing",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"magical"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder GM Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "Unusual Cloak",
+						"img": "icons/equipment/back/cloak-collared-feathers-green.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"usage": {
+					"value": "worncloak"
+				},
+				"subitems": []
+			},
+			"type": "equipment",
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.evmumCPP6j0JAaEe",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": "2hqBWtVwXNTt9ujP",
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"sourceId": "Compendium.pf2e.equipment-srd.Item.0HvjITehMdaFYUkb",
+					"hash": "824efd7fd0a3f188185707d893c6e92fc8f6d011"
+				}
+			},
+			"sort": 0,
+			"_id": "dDlpuMgXLH1aYOht",
+			"_key": "!actors.items!eXTCpxlFp5TQvHWA.dDlpuMgXLH1aYOht"
+		},
+		{
+			"img": "icons/tools/instruments/horn-white-gray.webp",
+			"name": "Bagpipes of Invisibility",
+			"system": {
+				"description": {
+					"gm": "<p>While the user is @UUID[Compendium.pf2e.actionspf2e.EEDElIyin4z60PXx]{Performing} by playing these bagpipes they are @UUID[Compendium.pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible}.</p>",
+					"value": "<p>These bagpipes makes the user invisible.</p>"
+				},
+				"rules": [
+					{
+						"domain": "all",
+						"key": "RollOption",
+						"label": "PF2E.SpecificRule.PlayingItem",
+						"option": "playing",
+						"toggleable": true
+					},
+					{
+						"key": "GrantItem",
+						"uuid": "Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML",
+						"predicate": [
+							"playing"
+						],
+						"inMemoryOnly": true,
+						"onDeleteActions": {
+							"grantee": "restrict"
+						},
+						"allowDuplicate": false,
+						"reevaluateOnUpdate": true
+					}
+				],
+				"slug": "bagpipes-of-invisibility",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"magical"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder Treasure Vault",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn",
+					"invested": null
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "Unusual Object",
+						"img": "icons/tools/instruments/horn-white-gray.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"usage": {
+					"value": "held-in-two-hands"
+				},
+				"subitems": []
+			},
+			"type": "equipment",
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.OpoChqbFTMknlslN",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": "2hqBWtVwXNTt9ujP",
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"sourceId": "Compendium.pf2e.equipment-srd.Item.y8nPmHXIdt4KhMQU",
+					"hash": "e8f14c69647150f9c9df9abfbf9ae715f808fe44"
+				}
+			},
+			"sort": 0,
+			"_id": "XAFJiFY8PSPBqVQb",
+			"_key": "!actors.items!eXTCpxlFp5TQvHWA.XAFJiFY8PSPBqVQb"
+		},
+		{
+			"folder": "2hqBWtVwXNTt9ujP",
+			"name": "Trapfinding Chicken",
+			"type": "consumable",
+			"effects": [],
+			"system": {
+				"description": {
+					"gm": "<p>A regular chicken, good for detecting traps, single use</p>",
+					"value": "<p>This chicken is good for detecting traps.</p>"
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"consumable"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "Unusual Object",
+						"img": "icons/creatures/birds/chicken-hen-white.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "other",
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"autoDestroy": true
+				},
+				"damage": null,
+				"usage": {
+					"value": "held-in-two-hands"
+				},
+				"stackGroup": null,
+				"spell": null
+			},
+			"img": "icons/creatures/birds/chicken-hen-white.webp",
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"hash": "2e10590c8dc37eb9720ce2530ee6c5143a115c55"
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.Ctb1eVhtX1ASQ1ku",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"_id": "gBg5mcs86uM0XDcc",
+			"_key": "!actors.items!eXTCpxlFp5TQvHWA.gBg5mcs86uM0XDcc"
+		},
+		{
+			"img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+			"name": "Faulty Healing Potion (Lesser)",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>Faulty</em> <em>healing potion</em> roll a [[/r d10]]<br /></p><table><tbody><tr><td><p>[[/r 1d10]]</p></td><td><p><strong>Result</strong></p></td></tr><tr><td><p>1 - 3</p></td><td><p>You take @Damage[(1d8)[poison]] damage</p></td></tr><tr><td><p>4 - 6</p></td><td><p>Nothing Happens</p></td></tr><tr><td><p>7 - 10</p></td><td><p>You regain @Damage[(2d8+5)[healing]] Hit Points.</p></td></tr></tbody></table><p><br /><br /><br /></p>"
+				},
+				"rules": [],
+				"slug": "faulty-healing-potion-lesser",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"consumable",
+						"healing",
+						"magical",
+						"poison",
+						"potion",
+						"vitality"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder GM Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 3
+				},
+				"quantity": 8,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "unidentified",
+					"unidentified": {
+						"name": "Healing Potion (Lesser)",
+						"img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+						"data": {
+							"description": {
+								"value": "<p data-pm-slice=\"0 0 []\"><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr>\n<p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain @Damage[(2d8+5)[healing]] Hit Points.</p>"
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "potion",
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"autoDestroy": true
+				},
+				"damage": {
+					"formula": "2d8+5",
+					"kind": "healing",
+					"type": "vitality"
+				},
+				"usage": {
+					"value": "held-in-one-hand"
+				},
+				"stackGroup": null,
+				"spell": null
+			},
+			"type": "consumable",
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.y8h1xw1ASHOvPhZR",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": "2hqBWtVwXNTt9ujP",
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"sourceId": "Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD",
+					"hash": "8d54997eafaef94e23e4a019ee188d139fb53755"
+				}
+			},
+			"sort": 0,
+			"_id": "HNyeCmhz5wwV1aZ5",
+			"_key": "!actors.items!eXTCpxlFp5TQvHWA.HNyeCmhz5wwV1aZ5"
+		},
+		{
+			"img": "icons/consumables/drinks/alcohol-spirits-bottle-blue.webp",
+			"name": "Shiver",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p>A compound produced from the hallucinogenic venom of certain spiders, shiver is common in black markets. The addiction to shiver has the virulent trait.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Ingested)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Maximum Duration</strong> 4 hours</p>\n<p><strong>Stage 1</strong> whenever you become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened}, reduce that condition's value by 1 (10 minutes)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} (1 hour)</p>\n<p><strong>Stage 3</strong> asleep (1 hour)</p>"
+				},
+				"rules": [],
+				"slug": "shiver",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"alchemical",
+						"consumable",
+						"drug",
+						"ingested",
+						"poison"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder Gamemastery Guide",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 3
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"gp": 10
+					}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "icons/consumables/drinks/alcohol-spirits-bottle-blue.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "drug",
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"autoDestroy": true
+				},
+				"damage": null,
+				"usage": {
+					"value": "held-in-one-hand"
+				},
+				"stackGroup": null,
+				"spell": null
+			},
+			"type": "consumable",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.UfoaNXFA7AWZiXxI",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"hash": "2fbdb98648d5b7eba0585035345121f7b241f59f"
+				}
+			},
+			"_id": "fMgrSOu1ymggS9Zo",
+			"_key": "!actors.items!eXTCpxlFp5TQvHWA.fMgrSOu1ymggS9Zo"
+		},
+		{
+			"folder": "2hqBWtVwXNTt9ujP",
+			"name": "Fool's Dust",
+			"type": "consumable",
+			"effects": [],
+			"system": {
+				"description": {
+					"gm": "<p>This dust causes sneezing and poor decisions</p>",
+					"value": "<p>The dust of fools, smells slightly woody.</p>"
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"consumable"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "Unusual Object",
+						"img": "icons/commodities/materials/powder-teal.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "other",
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"autoDestroy": true
+				},
+				"damage": null,
+				"usage": {
+					"value": "held-in-one-hand"
+				},
+				"stackGroup": null,
+				"spell": null
+			},
+			"img": "icons/commodities/materials/powder-teal.webp",
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"hash": "e5c8516e6eac53040d75312a44384355ff9fe89a"
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.FDr2wB09XeJYnZ7f",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": null,
+				"modifiedTime": null,
+				"lastModifiedBy": null
+			},
+			"_id": "WX5ufwocPUTfuBEy",
+			"_key": "!actors.items!eXTCpxlFp5TQvHWA.WX5ufwocPUTfuBEy"
+		}
+	],
+	"flags": {
+		"scene-packer": {
+			"hash": "53e61d43c28b89950994d824ec3ffad62c707a96",
+			"sourceId": "Actor.hg9DXgFh1oaQfzln",
+			"defaultPermission": 1
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730271144428,
+		"modifiedTime": 1730272733122,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_id": "eXTCpxlFp5TQvHWA",
+	"sort": 200000,
+	"_key": "!actors!eXTCpxlFp5TQvHWA"
+}

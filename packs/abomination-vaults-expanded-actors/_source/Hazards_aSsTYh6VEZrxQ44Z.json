@@ -1,0 +1,26 @@
+{
+	"name": "Hazards",
+	"sorting": "a",
+	"folder": null,
+	"type": "Actor",
+	"_id": "aSsTYh6VEZrxQ44Z",
+	"description": "",
+	"sort": 0,
+	"color": null,
+	"flags": {
+		"scene-packer": {
+			"hash": "3752007c003cf397b0709fe1023aedc845176530"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730272737001,
+		"modifiedTime": 1730272744023,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_key": "!folders!aSsTYh6VEZrxQ44Z"
+}

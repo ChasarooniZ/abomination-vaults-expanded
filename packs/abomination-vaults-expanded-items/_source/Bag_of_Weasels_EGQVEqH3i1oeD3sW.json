@@ -1,0 +1,105 @@
+{
+	"img": "systems/pf2e/icons/equipment/held-items/bag-of-holding.webp",
+	"name": "Bag of Weasels",
+	"system": {
+		"description": {
+			"gm": "",
+			"value": "<p>This item appears to be and functions as a <em>@UUID[Compendium.pf2e.equipment-srd.Item.jaEEvuQ32GjAa8jy]{Spacious Pouch (Type I)}</em>, until you try to retrieve an item from the bag. Whenever you retrieve an item from the <em>bag of weasels</em>, roll a @Check[flat|dc:11]. On a success, you retrieve the item as normal. On a failure, the item you retrieve is transformed into a weasel; this doesn't affect artifacts, cursed items, or other hard-to-destroy items.</p>\n<p>This weasel uses either the weasel statistics or a giant rat statistics and exudes an aura of magic. The weasel has no loyalty to you and typically attempts to escape as quickly as possible. If the weasel is counteracted, it transforms back into the original item that was taken from the <em>bag of weasels</em>. If it dies or is slain, the weasel disappears and the item is permanently destroyed. Because the weasel is a transformed item, you don't gain any benefit you would receive from attacking a creature, defeating one, damaging one, or the like, but you do gain any benefit you would gain from destroying an item.</p>"
+		},
+		"rules": [],
+		"slug": "bag-of-weasels",
+		"_migration": {
+			"version": 0.933,
+			"lastMigration": null,
+			"previous": null
+		},
+		"traits": {
+			"otherTags": [],
+			"value": [
+				"cursed",
+				"extradimensional",
+				"magical"
+			],
+			"rarity": "rare"
+		},
+		"publication": {
+			"title": "Pathfinder GM Core",
+			"authors": "",
+			"license": "ORC",
+			"remaster": true
+		},
+		"level": {
+			"value": 4
+		},
+		"quantity": 1,
+		"baseItem": null,
+		"bulk": {
+			"value": 1,
+			"heldOrStowed": 1,
+			"capacity": 25,
+			"ignored": 25
+		},
+		"hp": {
+			"value": 0,
+			"max": 0
+		},
+		"hardness": 0,
+		"price": {
+			"value": {}
+		},
+		"equipped": {
+			"carryType": "worn",
+			"invested": null
+		},
+		"containerId": null,
+		"size": "med",
+		"material": {
+			"type": null,
+			"grade": null
+		},
+		"identification": {
+			"status": "unidentified",
+			"unidentified": {
+				"name": "Spacious Pouch (Type I)",
+				"img": "systems/pf2e/icons/equipment/held-items/bag-of-holding.webp",
+				"data": {
+					"description": {
+						"value": "<p data-pm-slice=\"0 0 []\">Though it appears to be a cloth bag decorated with panels of richly colored silk or stylish embroidery, a <em>spacious pouch</em> opens into a magical space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>spacious pouch</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>spacious pouch</em> to stow items in it or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<hr>\n<p><strong>Capacity</strong> 25 Bulk</p>"
+					}
+				}
+			},
+			"misidentified": {}
+		},
+		"collapsed": false,
+		"stowing": true,
+		"usage": {
+			"value": "held-in-two-hands"
+		}
+	},
+	"type": "backpack",
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730269272180,
+		"modifiedTime": 1730271415406,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"effects": [],
+	"folder": "l1G9Nf4hDjPaudSR",
+	"ownership": {
+		"default": 0,
+		"J3oConv1eQRLao6j": 3
+	},
+	"flags": {
+		"scene-packer": {
+			"sourceId": "Compendium.pf2e.equipment-srd.Item.W5znRDeklmWEGzFY",
+			"hash": "bad88c990f68097ea3845d4f8d35d89fd2465780"
+		}
+	},
+	"_id": "EGQVEqH3i1oeD3sW",
+	"sort": 200000,
+	"_key": "!items!EGQVEqH3i1oeD3sW"
+}

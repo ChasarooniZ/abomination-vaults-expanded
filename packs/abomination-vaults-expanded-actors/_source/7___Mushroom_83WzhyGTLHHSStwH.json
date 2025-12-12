@@ -1,0 +1,472 @@
+{
+	"prototypeToken": {
+		"displayName": 20,
+		"displayBars": 50,
+		"flags": {
+			"barbrawl": {
+				"resourceBars": {
+					"bar1": {
+						"id": "bar1",
+						"order": 0,
+						"attribute": "attributes.hp",
+						"mincolor": "#FF0000",
+						"maxcolor": "#80FF00",
+						"position": "bottom-inner",
+						"gmVisibility": -1,
+						"ownerVisibility": 30,
+						"otherVisibility": 0
+					}
+				}
+			}
+		},
+		"prependAdjective": true,
+		"height": 1,
+		"width": 1,
+		"actorLink": true,
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"color": null,
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"name": "7 - Mushroom",
+		"appendNumber": false,
+		"texture": {
+			"src": "icons/consumables/mushrooms/umbontae-blue.webp",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"offsetX": 0,
+			"offsetY": 0,
+			"fit": "contain",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"alphaThreshold": 0.75
+		},
+		"hexagonalShape": 0,
+		"lockRotation": false,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": -1,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": null
+		},
+		"light": {
+			"negative": false,
+			"priority": 0,
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"color": null,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"detectionModes": [],
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": false,
+			"colors": {
+				"ring": null,
+				"background": null
+			},
+			"effects": 1,
+			"subject": {
+				"scale": 1,
+				"texture": null
+			}
+		},
+		"randomImg": false
+	},
+	"folder": "YRJl4WFZ0bqxPILs",
+	"name": "7 - Mushroom",
+	"type": "loot",
+	"ownership": {
+		"default": 1,
+		"J3oConv1eQRLao6j": 3
+	},
+	"effects": [],
+	"system": {
+		"attributes": {},
+		"details": {
+			"description": "",
+			"level": {
+				"value": 0
+			}
+		},
+		"lootSheetType": "Loot",
+		"hiddenWhenEmpty": false,
+		"_migration": {
+			"version": 0.933,
+			"previous": null
+		}
+	},
+	"_id": "83WzhyGTLHHSStwH",
+	"img": "icons/consumables/mushrooms/umbontae-blue.webp",
+	"items": [
+		{
+			"name": "Seventh Letter of Dr. Zaccheus Quagmire III",
+			"type": "treasure",
+			"effects": [],
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p class=\"parchment-note-1 message\" style=\"font-size:20px\">Dearest Charlotte and Theodora,<br /><br />I am afraid I may be in a spot of bother, here. I am hastily writing this letter, but my pursuers may be closing in even as I do so. I hate to admit it, but it may have been a bit reckless of me to come down this far without waiting for you.<br /><br />Never fear, however! I have come out of worse scrapes than this, I am sure. There is an old hunting lodge down below, you see, and I seem to have inadvertently disturbed a group of caligni warriors.<br /><br />It seems we have reached an upper region of the Darklands. All structures nearby seem built intentionally around the central column. I have reason to believe that it does indeed have a base, and that this base is not far below. One can only speculate what secrets, what mysteries it may contain!<br /><br />A bit of advice if you descend to the lower level: the drow can be reasoned with; the urdefhan can not. As usual, beware of monsters, but they are particularly fierce below. As well, a ghostly spirit of extraordinary power prowls these caverns. You may have noticed. She is rather angry about something.<br />Ah, it seems that my time is running out. Charlotte and Theodora, I love you both dearly.</p><p class=\"parchment-note-1 message\" style=\"font-size:20px\"><br />Ever onward!<br /><br />Your Increasingly Cautious Uncle,</p><p class=\"parchment-note-1 message\" style=\"font-size:20px\">Dr. Zacchaeus Quagmire</p>"
+				},
+				"rules": [],
+				"slug": null,
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": {
+						"schema": 0.932,
+						"foundry": "12.331",
+						"system": "6.5.0"
+					}
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 0
+				},
+				"quantity": 1,
+				"baseItem": null,
+				"bulk": {
+					"value": 0
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "Unusual Treasure",
+						"img": "icons/sundries/documents/paper-plain-white.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"stackGroup": null
+			},
+			"img": "icons/sundries/documents/paper-plain-white.webp",
+			"folder": "G7kV1hCCK6CFH5wa",
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"LocknKey": {
+					"IDKeysFlag": "",
+					"RemoveKeyonUseFlag": false
+				},
+				"scene-packer": {
+					"hash": "e4fc79e0888e9150d15bc5e6880d1b5ddc789602",
+					"sourceId": "Item.OATzwuh1XKfB7rDE"
+				},
+				"core": {
+					"sourceId": "Item.CKEbkb5kdEy6LH5A"
+				}
+			},
+			"_stats": {
+				"compendiumSource": "Compendium.abomination-vaults-expanded.abomination-vaults-expanded-items.Item.FwOd4uHt64f95GFf",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": 1730282075308,
+				"modifiedTime": 1730282075308,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"sort": 400000,
+			"_id": "mJHkd02XvIUgFRJ5",
+			"_key": "!actors.items!83WzhyGTLHHSStwH.mJHkd02XvIUgFRJ5"
+		},
+		{
+			"img": "systems/pf2e/icons/equipment/consumables/potions/potion-of-shared-life.webp",
+			"name": "Potion of Shared Life",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>Two swirling liquids fill this flask, each slightly distinct in color and brightness from the other. When you drink this potion, you consume only half of the contents. If another willing creature consumes the remainder of the contents within 1 minute, your vitalities become linked for 1 minute from the moment the second one of you drinks. The two of you share breath, so as long as you're within 60 feet of one another, neither of you can begin suffocating unless you're both suffocating. You both gain the @UUID[Compendium.pf2e.actionspf2e.Item.MY6z2b4GPhAD2Eoa]{Share Life} reaction.</p>"
+				},
+				"rules": [],
+				"slug": "potion-of-shared-life",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"consumable",
+						"magical",
+						"potion"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder Secrets of Magic",
+					"authors": "",
+					"license": "OGL",
+					"remaster": false
+				},
+				"level": {
+					"value": 8
+				},
+				"quantity": 3,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"gp": 95
+					}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "systems/pf2e/icons/equipment/consumables/potions/potion-of-shared-life.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "potion",
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"autoDestroy": true
+				},
+				"damage": null,
+				"usage": {
+					"value": "held-in-one-hand"
+				},
+				"stackGroup": null,
+				"spell": null
+			},
+			"type": "consumable",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.ezSqiHhz2OYTzoF2",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": 1730282076399,
+				"modifiedTime": 1730282079269,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"hash": "1e39d13d22280ea1cbdb3e3076f9a12db989e462"
+				}
+			},
+			"_id": "tyP1hCnbW9RPW616",
+			"_key": "!actors.items!83WzhyGTLHHSStwH.tyP1hCnbW9RPW616"
+		},
+		{
+			"img": "systems/pf2e/icons/equipment/consumables/potions/potion-of-quickness.webp",
+			"name": "Potion of Quickness",
+			"system": {
+				"description": {
+					"gm": "",
+					"value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>Drinking this silver potion grants you the effects of @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Haste} for 1 minute.</p>"
+				},
+				"rules": [],
+				"slug": "potion-of-quickness",
+				"_migration": {
+					"version": 0.933,
+					"lastMigration": null,
+					"previous": null
+				},
+				"traits": {
+					"otherTags": [],
+					"value": [
+						"consumable",
+						"magical",
+						"potion"
+					],
+					"rarity": "common"
+				},
+				"publication": {
+					"title": "Pathfinder GM Core",
+					"authors": "",
+					"license": "ORC",
+					"remaster": true
+				},
+				"level": {
+					"value": 8
+				},
+				"quantity": 3,
+				"baseItem": null,
+				"bulk": {
+					"value": 0.1
+				},
+				"hp": {
+					"value": 0,
+					"max": 0
+				},
+				"hardness": 0,
+				"price": {
+					"value": {
+						"gp": 90
+					}
+				},
+				"equipped": {
+					"carryType": "worn"
+				},
+				"containerId": null,
+				"size": "med",
+				"material": {
+					"type": null,
+					"grade": null
+				},
+				"identification": {
+					"status": "identified",
+					"unidentified": {
+						"name": "",
+						"img": "systems/pf2e/icons/equipment/consumables/potions/potion-of-quickness.webp",
+						"data": {
+							"description": {
+								"value": ""
+							}
+						}
+					},
+					"misidentified": {}
+				},
+				"category": "potion",
+				"uses": {
+					"value": 1,
+					"max": 1,
+					"autoDestroy": true
+				},
+				"damage": null,
+				"usage": {
+					"value": "held-in-one-hand"
+				},
+				"stackGroup": null,
+				"spell": null
+			},
+			"type": "consumable",
+			"_stats": {
+				"compendiumSource": "Compendium.pf2e.equipment-srd.Item.kORpovlPYicysr2g",
+				"duplicateSource": null,
+				"coreVersion": "12.331",
+				"systemId": "pf2e",
+				"systemVersion": "6.5.1",
+				"createdTime": 1730282077861,
+				"modifiedTime": 1730282080043,
+				"lastModifiedBy": "J3oConv1eQRLao6j"
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"J3oConv1eQRLao6j": 3
+			},
+			"flags": {
+				"scene-packer": {
+					"hash": "4fce454f5aff01b2d3c5dc4049618d98bc55ce98"
+				}
+			},
+			"_id": "vmaa6MndNZYhhnDH",
+			"_key": "!actors.items!83WzhyGTLHHSStwH.vmaa6MndNZYhhnDH"
+		}
+	],
+	"sort": 0,
+	"flags": {
+		"scene-packer": {
+			"hash": "33396e0042024fa437ca5f0e335bdcdf16450e28"
+		}
+	},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"coreVersion": "12.331",
+		"systemId": "pf2e",
+		"systemVersion": "6.5.1",
+		"createdTime": 1730282053955,
+		"modifiedTime": 1730282069148,
+		"lastModifiedBy": "J3oConv1eQRLao6j"
+	},
+	"_key": "!actors!83WzhyGTLHHSStwH"
+}
