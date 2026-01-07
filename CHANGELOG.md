@@ -1,3 +1,7 @@
+## 2.0.3
+
+- Fixed issue with `Aesphena's Wrath` journal localization
+
 ## 2.0.2
 
 - Fixed issue with `Aesphena's Wrath` journal localization (@VitamiinaC☭)
