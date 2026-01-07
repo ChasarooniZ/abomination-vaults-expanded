@@ -1,73 +1,73 @@
 {
-  "id": "abomination-vaults-expanded",
-  "title": "Abomination Vaults: Expanded",
-  "description": "Adds the Abomination Vaults Expanded content to foundry",
-  "version": "#{VERSION}#",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  },
-  "authors": [
-    {
-      "name": "chasarooniZ",
-      "url": "https://chasarooniz.github.io/",
-      "flags": {}
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ],
-    "recommends": [
-      {
-        "id": "pf2e-abomination-vaults",
-        "type": "module",
-        "compatibility": {}
-      }
-    ]
-  },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json",
-      "flags": {}
-    }
-  ],
-  "packs": [
-    {
-      "name": "abomination-vaults-expanded",
-      "label": "Abomination Vaults: Expanded",
-      "path": "packs/abomination-vaults-expanded",
-      "type": "Adventure",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
-  ],
-   "download": "#{DOWNLOAD}#",
-  "manifest": "#{MANIFEST}#",
-  "url": "#{URL}#",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4",
-      "loop": false,
-      "flags": {}
-    }
-  ]
+	"id": "abomination-vaults-expanded",
+	"title": "Abomination Vaults: Expanded",
+	"description": "Adds the Abomination Vaults Expanded content to foundry",
+	"version": "#{VERSION}#",
+	"compatibility": {
+		"minimum": "13",
+		"verified": "13"
+	},
+	"authors": [
+		{
+			"name": "chasarooniZ",
+			"url": "https://chasarooniz.github.io/",
+			"flags": {}
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "pf2e",
+				"type": "system",
+				"compatibility": {}
+			}
+		],
+		"recommends": [
+			{
+				"id": "pf2e-abomination-vaults",
+				"type": "module",
+				"compatibility": {}
+			}
+		]
+	},
+	"esmodules": [
+		"scripts/module.js"
+	],
+	"styles": [
+		"styles/module.css"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json",
+			"flags": {}
+		}
+	],
+	"packs": [
+		{
+			"name": "abomination-vaults-expanded",
+			"label": "Abomination Vaults: Expanded",
+			"path": "packs/abomination-vaults-expanded",
+			"type": "Adventure",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		}
+	],
+	"download": "#{DOWNLOAD}#",
+	"manifest": "#{MANIFEST}#",
+	"url": "#{URL}#",
+	"license": "LICENSE",
+	"readme": "README.md",
+	"media": [
+		{
+			"type": "icon",
+			"url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4",
+			"loop": false,
+			"flags": {}
+		}
+	]
 }

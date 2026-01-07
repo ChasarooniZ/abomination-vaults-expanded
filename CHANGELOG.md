@@ -1,3 +1,7 @@
+## 2.0.4
+
+- Spelling fixes :S (🐛 @Zenja)
+
 ## 2.0.3
 
 - Fixed issue with `Aesphena's Wrath` journal localization

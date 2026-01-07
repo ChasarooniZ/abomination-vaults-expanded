@@ -34627,7 +34627,7 @@
 					"_id": "0uygLCeueB53NZ0B"
 				}
 			],
-			"name": "Aesphena's Wrath (Lvl 6)",
+			"name": "Aesephena's Wrath (Lvl 6)",
 			"system": {
 				"attributes": {
 					"hp": {
@@ -34913,7 +34913,7 @@
 					}
 				},
 				"prependAdjective": false,
-				"name": "Aesphena's Wrath",
+				"name": "Aesephena's Wrath",
 				"actorLink": false,
 				"appendNumber": false,
 				"width": 1,
@@ -35774,7 +35774,7 @@
 					"_id": "U72olUbOTn2SqK5b"
 				}
 			],
-			"name": "Aesphena's Wrath (Lvl 7)",
+			"name": "Aesephena's Wrath (Lvl 7)",
 			"system": {
 				"attributes": {
 					"hp": {
@@ -36061,7 +36061,7 @@
 					}
 				},
 				"prependAdjective": false,
-				"name": "Aesphena's Wrath",
+				"name": "Aesephena's Wrath",
 				"actorLink": false,
 				"appendNumber": false,
 				"width": 2,
@@ -37096,7 +37096,7 @@
 					"_id": "V0YdNrRdg4TrMOjZ"
 				}
 			],
-			"name": "Aesphena's Wrath (Lvl 8)",
+			"name": "Aesephena's Wrath (Lvl 8)",
 			"system": {
 				"attributes": {
 					"hp": {
@@ -49973,7 +49973,7 @@
 					"category": null
 				},
 				{
-					"name": "Aesphena's Wrath",
+					"name": "Aesephena's Wrath",
 					"type": "text",
 					"title": {
 						"show": true,
@@ -49981,7 +49981,7 @@
 					},
 					"text": {
 						"format": 1,
-						"content": "<p>@Localize[abomination-vaults-expanded.journals.side-content.av-e-the-roseguard.aesphenas-wrath.content]</p>"
+						"content": "<p>@Localize[abomination-vaults-expanded.journals.side-content.av-e-the-roseguard.aesephenas-wrath.content]</p>"
 					},
 					"image": {},
 					"video": {
@@ -50473,7 +50473,7 @@
 		{
 			"pages": [
 				{
-					"name": "Aesphena's Wrath",
+					"name": "Aesephena's Wrath",
 					"type": "text",
 					"title": {
 						"show": true,
