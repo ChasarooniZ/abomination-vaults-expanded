@@ -1,3 +1,7 @@
+## 2.0.5
+
+- Added a link to the journal on the lenses for `Aesphena's` Item upgrades (🧠 @VitamiinaC☭)
+
 ## 2.0.4
 
 - Spelling fixes :S (🐛 @Zenja)
