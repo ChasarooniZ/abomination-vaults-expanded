@@ -1,3 +1,7 @@
+## 2.0.6
+
+- Updated some links to certain journals/items (@rein864)
+
 ## 2.0.5
 
 - Added a link to the journal on the lenses for `Aesphena's` Item upgrades (🧠 @VitamiinaC☭)
