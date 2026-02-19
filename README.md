@@ -46,6 +46,9 @@ You can see everyone else who contributed to the module [here](CONTRIBUTORS.md)
 ## Sources
 
 ### Pictures
+
+- Cheery Man
+  - Made by me (Chasarooni) can be used under [CC-BY](https://creativecommons.org/licenses/by/4.0/)
 - Tiger Painting
   - FA Free Map Making Packs https://www.forgotten-adventures.net/live-gallery/
 - Mirrors

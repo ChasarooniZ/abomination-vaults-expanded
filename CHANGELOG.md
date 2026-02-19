@@ -1,3 +1,8 @@
+## 2.1.0
+
+- **New**
+  - Added some homegrown art for the `Cheery Man` (@ChasarooniZ)
+
 ## 2.0.6
 
 - Updated some links to certain journals/items (@rein864)
