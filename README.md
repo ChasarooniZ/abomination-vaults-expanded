@@ -45,8 +45,6 @@ You can see everyone else who contributed to the module [here](CONTRIBUTORS.md)
 
 ## Sources
 
-**Note** some of the character art will be placed with AI generated art as that is currently the only copyright free art I have access to. I will happily replace it with real human art when it materializes, but till then : S
-
 ### Pictures
 - Tiger Painting
   - FA Free Map Making Packs https://www.forgotten-adventures.net/live-gallery/
