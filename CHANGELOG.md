@@ -1,3 +1,7 @@
+## 3.0.0
+
+- Updated to support `Pathfinder 2e: Abomination Vaults` version `4.0.1`
+
 ## 2.1.0
 
 - **New**

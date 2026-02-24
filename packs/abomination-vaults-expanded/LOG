@@ -1,15 +1,15 @@
-2026/01/16-13:55:53.523 8f4c Recovering log #670
-2026/01/16-13:55:53.696 8f4c Delete type=0 #670
-2026/01/16-13:55:53.696 8f4c Delete type=3 #668
-2026/01/16-13:55:53.817 59b4 Level-0 table #676: started
-2026/01/16-13:55:53.894 59b4 Level-0 table #676: 303875 bytes OK
-2026/01/16-13:55:53.948 59b4 Delete type=0 #674
-2026/01/16-13:55:53.949 59b4 Manual compaction at level-0 from '!adventures!WF3IiFzVvRwfZnF7' @ 72057594037927935 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at (end)
-2026/01/16-13:55:53.949 59b4 Manual compaction at level-1 from '!adventures!WF3IiFzVvRwfZnF7' @ 72057594037927935 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at '!adventures!WF3IiFzVvRwfZnF7' @ 39 : 1
-2026/01/16-13:55:53.949 59b4 Compacting 1@1 + 1@2 files
-2026/01/16-13:55:54.019 59b4 Generated table #677@1: 1 keys, 303875 bytes
-2026/01/16-13:55:54.019 59b4 Compacted 1@1 + 1@2 files => 303875 bytes
-2026/01/16-13:55:54.081 59b4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/01/16-13:55:54.081 59b4 Delete type=2 #672
-2026/01/16-13:55:54.082 59b4 Delete type=2 #676
-2026/01/16-13:55:54.082 59b4 Manual compaction at level-1 from '!adventures!WF3IiFzVvRwfZnF7' @ 39 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at (end)
+2026/02/24-11:04:23.368 4a10 Recovering log #697
+2026/02/24-11:04:23.943 4a10 Delete type=0 #697
+2026/02/24-11:04:23.943 4a10 Delete type=3 #696
+2026/02/24-11:04:24.015 14ed8 Level-0 table #701: started
+2026/02/24-11:04:24.105 14ed8 Level-0 table #701: 313413 bytes OK
+2026/02/24-11:04:24.162 14ed8 Delete type=0 #699
+2026/02/24-11:04:24.163 14ed8 Manual compaction at level-0 from '!adventures!WF3IiFzVvRwfZnF7' @ 72057594037927935 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at '!adventures!WF3IiFzVvRwfZnF7' @ 40 : 1
+2026/02/24-11:04:24.163 14ed8 Compacting 2@0 + 1@1 files
+2026/02/24-11:04:24.237 14ed8 Generated table #702@0: 1 keys, 313413 bytes
+2026/02/24-11:04:24.237 14ed8 Compacted 2@0 + 1@1 files => 313413 bytes
+2026/02/24-11:04:24.295 14ed8 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/02/24-11:04:24.295 14ed8 Delete type=2 #682
+2026/02/24-11:04:24.295 14ed8 Delete type=2 #694
+2026/02/24-11:04:24.295 14ed8 Delete type=2 #701
+2026/02/24-11:04:24.295 14ed8 Manual compaction at level-0 from '!adventures!WF3IiFzVvRwfZnF7' @ 40 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at (end)
