@@ -42,10 +42,10 @@
     "key": "abomination-vaults-expanded_vol_rajani",
     "source": "abomination-vaults-expanded",
     "art": {
-      "portrait": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.avatar.webp",
-      "thumb": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.thumb.webp",
-      "token": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.token.webp",
-      "subject": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.subject.webp",
+      "portrait": "modules/abomination-vaults-expanded/assets/characters/vol-rajani.avatar.webp",
+      "thumb": "modules/abomination-vaults-expanded/assets/characters/vol-rajani.thumb.webp",
+      "token": "modules/abomination-vaults-expanded/assets/characters/vol-rajani.token.webp",
+      "subject": "modules/abomination-vaults-expanded/assets/characters/vol-rajani.subject.webp",
       "scale": 1.5
     },
     "tags": {
@@ -61,10 +61,10 @@
     "key": "abomination-vaults-expanded_vol_rajani_nidalese",
     "source": "abomination-vaults-expanded",
     "art": {
-      "portrait": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.nidalese.avatar.webp",
-      "thumb": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.nidalese.thumb.webp",
-      "token": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.nidalese.token.webp",
-      "subject": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.nidalese.subject.webp",
+      "portrait": "modules/abomination-vaults-expanded/assets/characters/vol-rajani.nidalese-edit.avatar.webp",
+      "thumb": "modules/abomination-vaults-expanded/assets/characters/vol-rajani.nidalese-edit.thumb.webp",
+      "token": "modules/abomination-vaults-expanded/assets/characters/vol-rajani.nidalese-edit.token.webp",
+      "subject": "modules/abomination-vaults-expanded/assets/characters/vol-rajani.nidalese-edit.subject.webp",
       "scale": 1.5
     },
     "tags": {

@@ -1,3 +1,7 @@
+## 3.1.2
+
+- More fixes for Character Gallery support
+
 ## 3.1.1
 
 - Fixed Character Gallery Support
