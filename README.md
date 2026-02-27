@@ -15,6 +15,7 @@ This is an adaptation of the expansion written by **Taylor Hodgskiss** for abomi
 [Please support them here by buying the pdf](https://www.drivethrurpg.com/en/product/418672/the-abomination-vaults-expanded)
 
 <img width="1080" height="482" alt="image" src="https://github.com/user-attachments/assets/dca23163-349c-467a-a907-cefd9fe7220e" />
+
 *Art by **Liam Cuthbert***
 
 
