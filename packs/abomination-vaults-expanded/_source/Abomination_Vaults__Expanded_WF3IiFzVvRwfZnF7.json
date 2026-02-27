@@ -31291,6 +31291,9 @@
 					},
 					"LocknKey": {
 						"PickPocketDCFlag": null
+					},
+					"pf2e": {
+						"autoscale": false
 					}
 				},
 				"prependAdjective": false,
@@ -31306,8 +31309,8 @@
 					"offsetX": 0,
 					"offsetY": 0,
 					"fit": "contain",
-					"scaleX": 1,
-					"scaleY": 1,
+					"scaleX": 1.5,
+					"scaleY": 1.5,
 					"rotation": 0,
 					"tint": "#ffffff",
 					"alphaThreshold": 0.75
@@ -31365,12 +31368,12 @@
 				"ring": {
 					"enabled": true,
 					"colors": {
-						"ring": "#f2f2f2",
+						"ring": "#feca10",
 						"background": null
 					},
 					"effects": 17,
 					"subject": {
-						"scale": 1,
+						"scale": 1.5,
 						"texture": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.token.webp"
 					}
 				},
@@ -31735,17 +31738,26 @@
 								"key": "TokenImage",
 								"value": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.token.webp",
 								"predicate": [
-									"parent:badge:value:1"
+									"parent:badge:value:2"
 								],
 								"ring": {
 									"subject": {
-										"texture": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.token.webp"
+										"texture": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.token.webp",
+										"scale": 1.5
 									},
 									"colors": {
-										"ring": "#f2f2f2"
+										"ring": "#feca10"
 									},
 									"effects": 29
-								}
+								},
+								"scale": 1.5
+							},
+							{
+								"key": "TokenEffectIcon",
+								"value": "icons/weapons/bows/shortbow-recurve-yellow.webp",
+								"predicate": [
+									"parent:badge:value:1"
+								]
 							}
 						],
 						"slug": "roseguard-activation-available",
@@ -31790,7 +31802,9 @@
 								"Available",
 								"Used"
 							],
-							"loop": true
+							"loop": true,
+							"min": null,
+							"max": null
 						},
 						"context": null,
 						"unidentified": false,
@@ -31812,11 +31826,11 @@
 					"_stats": {
 						"compendiumSource": "Item.4Nwh8gsObZp9FYNn",
 						"duplicateSource": null,
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
-						"systemVersion": "6.10.2",
+						"systemVersion": "7.10.1",
 						"createdTime": 1741981468359,
-						"modifiedTime": 1741981555415,
+						"modifiedTime": 1772212387975,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -31851,13 +31865,13 @@
 				}
 			},
 			"_stats": {
-				"compendiumSource": null,
+				"compendiumSource": "Actor.BxcGaa7xzZM0lbHA",
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.10.1",
 				"createdTime": 1739958360322,
-				"modifiedTime": 1771870290479,
+				"modifiedTime": 1772210489832,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -31936,6 +31950,9 @@
 					},
 					"LocknKey": {
 						"PickPocketDCFlag": null
+					},
+					"pf2e": {
+						"autoscale": false
 					}
 				},
 				"prependAdjective": false,
@@ -31951,8 +31968,8 @@
 					"offsetX": 0,
 					"offsetY": 0,
 					"fit": "contain",
-					"scaleX": 1,
-					"scaleY": 1,
+					"scaleX": 1.5,
+					"scaleY": 1.5,
 					"rotation": 0,
 					"tint": "#ffffff",
 					"alphaThreshold": 0.75
@@ -32015,7 +32032,7 @@
 					},
 					"effects": 17,
 					"subject": {
-						"scale": 1,
+						"scale": 1.5,
 						"texture": "modules/abomination-vaults-expanded/assets/characters/vol_rajani.token.webp"
 					}
 				},
@@ -32448,20 +32465,107 @@
 						},
 						"rules": [
 							{
+								"domain": "all",
+								"key": "RollOption",
+								"option": "version",
+								"label": "Choose Art",
+								"suboptions": [
+									{
+										"label": "Nidalese Edit",
+										"value": "nidalese-edit"
+									},
+									{
+										"label": "Original",
+										"value": "original"
+									}
+								],
+								"toggleable": true,
+								"alwaysActive": true,
+								"value": true,
+								"selection": "nidalese-edit"
+							},
+							{
 								"key": "TokenImage",
 								"value": "modules/abomination-vaults-expanded/assets/characters/vol_rajani.token.webp",
 								"predicate": [
-									"parent:badge:value:1"
+									"parent:badge:value:2",
+									"version:original"
 								],
 								"ring": {
 									"subject": {
-										"texture": "modules/abomination-vaults-expanded/assets/characters/vol_rajani.token.webp"
+										"texture": "modules/abomination-vaults-expanded/assets/characters/vol_rajani.token.webp",
+										"scale": 1.5
 									},
 									"effects": 29,
 									"colors": {
 										"ring": "#df264b"
 									}
-								}
+								},
+								"scale": 1.5
+							},
+							{
+								"key": "TokenImage",
+								"value": "modules/abomination-vaults-expanded/assets/characters/vol_rajani.token.webp",
+								"predicate": [
+									"parent:badge:value:1",
+									"version:original"
+								],
+								"ring": {
+									"subject": {
+										"texture": "modules/abomination-vaults-expanded/assets/characters/vol_rajani.token.webp",
+										"scale": 1.5
+									},
+									"effects": 17,
+									"colors": {
+										"ring": "#df264b"
+									}
+								},
+								"scale": 1.5
+							},
+							{
+								"key": "TokenImage",
+								"value": "modules/abomination-vaults-expanded/assets/characters/vol_rajani.nidalese-edit.token.webp",
+								"predicate": [
+									"parent:badge:value:2",
+									"version:nidalese-edit"
+								],
+								"ring": {
+									"subject": {
+										"texture": "modules/abomination-vaults-expanded/assets/characters/vol_rajani.nidalese-edit.subject.webp",
+										"scale": 1.5
+									},
+									"effects": 29,
+									"colors": {
+										"ring": "#df264b"
+									}
+								},
+								"scale": 1.5
+							},
+							{
+								"key": "TokenImage",
+								"value": "modules/abomination-vaults-expanded/assets/characters/vol_rajani.nidalese-edit.token.webp",
+								"predicate": [
+									"parent:badge:value:1",
+									"version:nidalese-edit"
+								],
+								"ring": {
+									"subject": {
+										"texture": "modules/abomination-vaults-expanded/assets/characters/vol_rajani.nidalese-edit.subject.webp",
+										"scale": 1.5
+									},
+									"effects": 17,
+									"colors": {
+										"ring": "#df264b"
+									}
+								},
+								"scale": 1.5
+							},
+							{
+								"key": "TokenEffectIcon",
+								"value": "systems/pf2e/icons/spells/roses-thorns.webp",
+								"predicate": [
+									"parent:badge:value:1"
+								]
 							}
 						],
 						"slug": "roseguard-activation-available",
@@ -32506,7 +32610,9 @@
 								"Available",
 								"Used"
 							],
-							"loop": true
+							"loop": true,
+							"min": null,
+							"max": null
 						},
 						"context": null,
 						"unidentified": false,
@@ -32528,11 +32634,11 @@
 					"_stats": {
 						"compendiumSource": "Item.4Nwh8gsObZp9FYNn",
 						"duplicateSource": null,
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
-						"systemVersion": "6.10.2",
+						"systemVersion": "7.10.1",
 						"createdTime": 1741977409540,
-						"modifiedTime": 1741977699873,
+						"modifiedTime": 1772212409903,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -32567,13 +32673,13 @@
 				}
 			},
 			"_stats": {
-				"compendiumSource": null,
+				"compendiumSource": "Actor.yRPDvR7sstEiOOwA",
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.10.1",
 				"createdTime": 1739956727068,
-				"modifiedTime": 1771870280359,
+				"modifiedTime": 1772160314903,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -32726,7 +32832,7 @@
 				"ring": {
 					"enabled": true,
 					"colors": {
-						"ring": "#ffec1f",
+						"ring": "#e3aae7",
 						"background": null
 					},
 					"effects": 17,
@@ -33095,17 +33201,24 @@
 								"key": "TokenImage",
 								"value": "modules/abomination-vaults-expanded/assets/characters/zarmavdian.token.webp",
 								"predicate": [
-									"parent:badge:value:1"
+									"parent:badge:value:2"
 								],
 								"ring": {
 									"subject": {
 										"texture": "modules/abomination-vaults-expanded/assets/characters/zarmavdian.token.webp"
 									},
 									"colors": {
-										"ring": "#ffec1f"
+										"ring": "#e3aae7"
 									},
 									"effects": 29
 								}
+							},
+							{
+								"key": "TokenEffectIcon",
+								"value": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
+								"predicate": [
+									"parent:badge:value:1"
+								]
 							}
 						],
 						"slug": "roseguard-activation-available",
@@ -33150,7 +33263,9 @@
 								"Available",
 								"Used"
 							],
-							"loop": true
+							"loop": true,
+							"min": null,
+							"max": null
 						},
 						"context": null,
 						"unidentified": false,
@@ -33172,11 +33287,11 @@
 					"_stats": {
 						"compendiumSource": "Item.4Nwh8gsObZp9FYNn",
 						"duplicateSource": null,
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
-						"systemVersion": "6.10.2",
+						"systemVersion": "7.10.1",
 						"createdTime": 1741977184369,
-						"modifiedTime": 1741977909302,
+						"modifiedTime": 1772212500594,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -33211,13 +33326,13 @@
 				}
 			},
 			"_stats": {
-				"compendiumSource": null,
+				"compendiumSource": "Actor.4RW76kOs6Ihhlgq8",
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.10.1",
 				"createdTime": 1739957648615,
-				"modifiedTime": 1771870280359,
+				"modifiedTime": 1772211965677,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -33305,7 +33420,7 @@
 				"actorLink": false,
 				"appendNumber": false,
 				"texture": {
-					"src": "modules/pf2e-abomination-vaults/assets/bestiary-tokens/ch-04/otari-ilvashti.webp",
+					"src": "modules/abomination-vaults-expanded/assets/characters/otari.portrait.webp",
 					"anchorX": 0.5,
 					"anchorY": 0.5,
 					"offsetX": 0,
@@ -33376,7 +33491,7 @@
 					"effects": 17,
 					"subject": {
 						"scale": 1,
-						"texture": "modules/pf2e-abomination-vaults/assets/bestiary-subjects/ch-04/otari-ilvashti.webp"
+						"texture": "modules/abomination-vaults-expanded/assets/characters/otari.token.webp"
 					}
 				},
 				"randomImg": false,
@@ -33493,7 +33608,7 @@
 				}
 			},
 			"_id": "SJ3kJHgYKWwltbjX",
-			"img": "modules/pf2e-abomination-vaults/assets/bestiary-portraits/ch-04/otari-ilvashti.webp",
+			"img": "modules/abomination-vaults-expanded/assets/characters/otari.avatar.webp",
 			"items": [
 				{
 					"folder": "4e6aLyI6AzNfnulL",
@@ -33745,19 +33860,26 @@
 						"rules": [
 							{
 								"key": "TokenImage",
-								"value": "modules/pf2e-abomination-vaults/assets/bestiary-tokens/ch-04/otari-ilvashti.webp",
+								"value": "modules/abomination-vaults-expanded/assets/characters/otari.portrait.webp",
 								"predicate": [
-									"parent:badge:value:1"
+									"parent:badge:value:2"
 								],
 								"ring": {
 									"subject": {
-										"texture": "modules/pf2e-abomination-vaults/assets/bestiary-subjects/ch-04/otari-ilvashti.webp"
+										"texture": "modules/abomination-vaults-expanded/assets/characters/otari.token.webp"
 									},
 									"colors": {
 										"ring": "#24c8ff"
 									},
 									"effects": 29
 								}
+							},
+							{
+								"key": "TokenEffectIcon",
+								"value": "icons/creatures/birds/raptor-hawk-flying.webp",
+								"predicate": [
+									"parent:badge:value:1"
+								]
 							}
 						],
 						"slug": "roseguard-activation-available",
@@ -33802,7 +33924,9 @@
 								"Available",
 								"Used"
 							],
-							"loop": true
+							"loop": true,
+							"min": null,
+							"max": null
 						},
 						"context": null,
 						"unidentified": false,
@@ -33824,11 +33948,11 @@
 					"_stats": {
 						"compendiumSource": "Item.4Nwh8gsObZp9FYNn",
 						"duplicateSource": null,
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
-						"systemVersion": "6.10.2",
+						"systemVersion": "7.10.1",
 						"createdTime": 1741977179764,
-						"modifiedTime": 1741981512976,
+						"modifiedTime": 1772212394443,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -33863,13 +33987,13 @@
 				}
 			},
 			"_stats": {
-				"compendiumSource": null,
+				"compendiumSource": "Actor.SJ3kJHgYKWwltbjX",
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
 				"systemVersion": "7.10.1",
 				"createdTime": 1739984817256,
-				"modifiedTime": 1771870282281,
+				"modifiedTime": 1772159894771,
 				"lastModifiedBy": "J3oConv1eQRLao6j",
 				"exportSource": null
 			},
@@ -50296,7 +50420,7 @@
 					},
 					"text": {
 						"format": 1,
-						"content": "<p>@Localize[abomination-vaults-expanded.journals.side-content.av-e-the-roseguard.aesphenas-wrath.content]</p>"
+						"content": "<p>@Localize[abomination-vaults-expanded.journals.side-content.av-e-the-roseguard.aesephenas-wrath.content]</p>"
 					},
 					"image": {},
 					"video": {
@@ -50310,11 +50434,11 @@
 					"_stats": {
 						"compendiumSource": "JournalEntry.U9xg2M50ySiflh6O.JournalEntryPage.hOMUDNapQMRjV1kQ",
 						"duplicateSource": null,
-						"coreVersion": "13.345",
+						"coreVersion": "13.351",
 						"systemId": "pf2e",
 						"systemVersion": "6.7.2",
 						"createdTime": 1733340904868,
-						"modifiedTime": 1741707103062,
+						"modifiedTime": 1772160758025,
 						"lastModifiedBy": "J3oConv1eQRLao6j",
 						"exportSource": null
 					},
@@ -56402,7 +56526,7 @@
 				}
 			},
 			"_stats": {
-				"compendiumSource": "Folder.r6h4zyxj4QFmNNW3",
+				"compendiumSource": null,
 				"duplicateSource": null,
 				"coreVersion": "13.351",
 				"systemId": "pf2e",
@@ -57509,7 +57633,7 @@
 				}
 			},
 			"_stats": {
-				"compendiumSource": null,
+				"compendiumSource": "Folder.RwvcU3pA2zUVeGWb",
 				"duplicateSource": null,
 				"coreVersion": "13.345",
 				"systemId": "pf2e",
@@ -57530,7 +57654,7 @@
 		"coreVersion": "13.351",
 		"systemId": "pf2e",
 		"systemVersion": "7.1.1",
-		"modifiedTime": 1771952406785,
+		"modifiedTime": 1772212727726,
 		"lastModifiedBy": "J3oConv1eQRLao6j",
 		"exportSource": null
 	},

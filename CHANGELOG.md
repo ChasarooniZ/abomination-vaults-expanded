@@ -1,3 +1,13 @@
+## 3.1.0
+
+= **New**
+
+- Added new art for the Roseguard
+- Massive credit to the artist Liam Cuthbert for letting me use it in this module
+- Added the art to Character Gallery As well
+- **Updated**
+  - Fixed issue caused by gitignore causing some of the data to not get updated
+
 ## 3.0.0
 
 - Updated to support `Pathfinder 2e: Abomination Vaults` version `4.0.1`

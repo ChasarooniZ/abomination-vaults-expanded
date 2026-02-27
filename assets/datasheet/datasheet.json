@@ -1,0 +1,98 @@
+[
+  {
+    "label": "Aesephna Menhemes, The Huntress",
+    "key": "abomination-vaults-expanded_aesphna_menhemes",
+    "source": "abomination-vaults-expanded",
+    "art": {
+      "portrait": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.avatar.webp",
+      "thumb": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.thumb.webp",
+      "token": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.token.webp",
+      "subject": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.subject.webp",
+      "scale": 1.5
+    },
+    "tags": {
+      "category": ["humanoid"],
+      "ancestry": ["human"],
+      "equipment": ["clothing", "bow"],
+      "family": ["warrior"],
+      "special": ["unique"]
+    }
+  },
+  {
+    "label": "Otari Ilvashti, The Seahawk",
+    "key": "abomination-vaults-expanded_otari_ilvashti",
+    "source": "abomination-vaults-expanded",
+    "art": {
+      "portrait": "modules/abomination-vaults-expanded/assets/characters/otari.avatar.webp",
+      "thumb": "modules/abomination-vaults-expanded/assets/characters/otari.thumb.webp",
+      "token": "modules/abomination-vaults-expanded/assets/characters/otari.token.webp",
+      "subject": "modules/abomination-vaults-expanded/assets/characters/otari.subject.webp",
+      "scale": 1
+    },
+    "tags": {
+      "category": ["humanoid"],
+      "ancestry": ["human"],
+      "equipment": ["clothing", "knife"],
+      "family": ["warrior", "seafarer"],
+      "special": ["unique"]
+    }
+  },
+  {
+    "label": "Vol Rajani, The Rose Knight",
+    "key": "abomination-vaults-expanded_vol_rajani",
+    "source": "abomination-vaults-expanded",
+    "art": {
+      "portrait": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.avatar.webp",
+      "thumb": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.thumb.webp",
+      "token": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.token.webp",
+      "subject": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.subject.webp",
+      "scale": 1.5
+    },
+    "tags": {
+      "category": ["humanoid"],
+      "ancestry": ["human"],
+      "equipment": ["sword", "shield", "heavy"],
+      "family": ["warrior"],
+      "special": ["unique"]
+    }
+  },
+  {
+    "label": "Vol Rajani, The Rose Knight (Nidalese)",
+    "key": "abomination-vaults-expanded_vol_rajani_nidalese",
+    "source": "abomination-vaults-expanded",
+    "art": {
+      "portrait": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.nidalese.avatar.webp",
+      "thumb": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.nidalese.thumb.webp",
+      "token": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.nidalese.token.webp",
+      "subject": "modules/abomination-vaults-expanded/assets/characters/aesphena_menhemes.nidalese.subject.webp",
+      "scale": 1.5
+    },
+    "tags": {
+      "category": ["humanoid"],
+      "ancestry": ["human"],
+      "equipment": ["sword", "shield", "heavy"],
+      "family": ["warrior"],
+      "special": ["unique"]
+    }
+  },
+  {
+    "label": "Zarmavdian, The Watchful One",
+    "key": "abomination-vaults-expanded_zarmavdian",
+    "source": "abomination-vaults-expanded",
+    "art": {
+      "portrait": "modules/abomination-vaults-expanded/assets/characters/zarmavdian.avatar.webp",
+      "thumb": "modules/abomination-vaults-expanded/assets/characters/zarmavdian.thumb.webp",
+      "token": "modules/abomination-vaults-expanded/assets/characters/zarmavdian.token.webp",
+      "subject": "modules/abomination-vaults-expanded/assets/characters/zarmavdian.subject.webp",
+      "scale": 1
+    },
+    "tags": {
+      "category": ["humanoid"],
+      "ancestry": ["dwarf"],
+      "equipment": ["tome", "light"],
+      "features": ["magic"],
+      "family": ["warrior", "sage"],
+      "special": ["unique"]
+    }
+  }
+]
