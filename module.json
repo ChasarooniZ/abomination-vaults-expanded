@@ -71,7 +71,7 @@
       "abomination-vaults-expanded": {
         "label": "Abomination Vaults: Expanded Artwork",
         "hint": "Artwork from Abomination Vaults: Expanded.",
-        "sheet": "modules/pf2e-summons-assistant/assets/datasheet/datasheet.json"
+        "sheet": "modules/abomination-vaults-expanded/assets/datasheet/datasheet.json"
       }
     }
   }
