@@ -1,15 +1,15 @@
-2026/02/24-11:04:23.368 4a10 Recovering log #697
-2026/02/24-11:04:23.943 4a10 Delete type=0 #697
-2026/02/24-11:04:23.943 4a10 Delete type=3 #696
-2026/02/24-11:04:24.015 14ed8 Level-0 table #701: started
-2026/02/24-11:04:24.105 14ed8 Level-0 table #701: 313413 bytes OK
-2026/02/24-11:04:24.162 14ed8 Delete type=0 #699
-2026/02/24-11:04:24.163 14ed8 Manual compaction at level-0 from '!adventures!WF3IiFzVvRwfZnF7' @ 72057594037927935 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at '!adventures!WF3IiFzVvRwfZnF7' @ 40 : 1
-2026/02/24-11:04:24.163 14ed8 Compacting 2@0 + 1@1 files
-2026/02/24-11:04:24.237 14ed8 Generated table #702@0: 1 keys, 313413 bytes
-2026/02/24-11:04:24.237 14ed8 Compacted 2@0 + 1@1 files => 313413 bytes
-2026/02/24-11:04:24.295 14ed8 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/02/24-11:04:24.295 14ed8 Delete type=2 #682
-2026/02/24-11:04:24.295 14ed8 Delete type=2 #694
-2026/02/24-11:04:24.295 14ed8 Delete type=2 #701
-2026/02/24-11:04:24.295 14ed8 Manual compaction at level-0 from '!adventures!WF3IiFzVvRwfZnF7' @ 40 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at (end)
+2026/02/26-20:57:29.961 1444c Recovering log #702
+2026/02/26-20:57:30.270 1444c Delete type=0 #702
+2026/02/26-20:57:30.270 1444c Delete type=3 #701
+2026/02/26-20:57:30.336 46d8 Level-0 table #706: started
+2026/02/26-20:57:30.370 46d8 Level-0 table #706: 313558 bytes OK
+2026/02/26-20:57:30.435 46d8 Delete type=0 #704
+2026/02/26-20:57:30.435 46d8 Manual compaction at level-0 from '!adventures!WF3IiFzVvRwfZnF7' @ 72057594037927935 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at '!adventures!WF3IiFzVvRwfZnF7' @ 41 : 1
+2026/02/26-20:57:30.435 46d8 Compacting 2@0 + 1@1 files
+2026/02/26-20:57:30.470 46d8 Generated table #707@0: 1 keys, 313558 bytes
+2026/02/26-20:57:30.470 46d8 Compacted 2@0 + 1@1 files => 313558 bytes
+2026/02/26-20:57:30.534 46d8 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/02/26-20:57:30.535 46d8 Delete type=2 #695
+2026/02/26-20:57:30.535 46d8 Delete type=2 #699
+2026/02/26-20:57:30.535 46d8 Delete type=2 #706
+2026/02/26-20:57:30.535 46d8 Manual compaction at level-0 from '!adventures!WF3IiFzVvRwfZnF7' @ 41 : 1 .. '!adventures!WF3IiFzVvRwfZnF7' @ 0 : 0; will stop at (end)
