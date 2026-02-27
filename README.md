@@ -40,6 +40,10 @@ https://github.com/user-attachments/assets/b47445d6-a06f-46aa-bf53-c7e1914fff9b
 
 https://github.com/user-attachments/assets/060b16fb-4e48-4c3e-9fec-720cc2687b72
 
+Character Gallery support for the art here
+
+Adds sounds for the Cheery Man as a new playlist
+
 ## Changelog
 
 You can access the changelog [here](/CHANGELOG.md).
