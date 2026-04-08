@@ -1,3 +1,7 @@
+## 3.1.4
+
+- Added Chinese localization (🌐 @takaqiao)
+
 ## 3.1.3
 
 - Hopefully last fix for Character Gallery
