@@ -38,6 +38,12 @@
       "name": "English",
       "path": "languages/en.json",
       "flags": {}
+    },
+    {
+      "lang": "cn",
+      "name": "Chinese",
+      "path": "languages/cn.json",
+      "flags": {}
     }
   ],
   "packs": [
